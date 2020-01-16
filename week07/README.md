@@ -1,107 +1,77 @@
-# Week 7 · Evolutionary Form 
+# Week 2 · Parametric Rigs
 
-Let'e examine how naive [AI modeled on evolutionary genetic descent](https://en.wikipedia.org/wiki/Evolutionary_algorithm) can be integrated into the design process. Evolutionary modeling allows us to biometically integrate the incredible methods that life itself has used over millenia to optimize itself locally within an environmental system. Designers can model a system as a set of rewards and punishments, and push various effectively random lifeforms (our designs!) through the system to see how each fares. Successful lifeforms can pass their genes on, failures and their genetics go extinct over time, mutation keeps things interesting, and the process repeats until a *local* optimum is discovered.
-
-These sorts of tools have recently been adopted, and increasingly are being used, in [public policy development](https://medium.com/@numanovicamar/https-medium-com-numanovicamar-data-science-the-next-frontier-for-data-driven-policy-making-8abe98159748) and [problem solving](https://ideas.repec.org/a/ssi/jouesi/v4y2017i3p364-379.html) as well as [urban planning discourse](https://www.researchgate.net/publication/32884865_Integrated_Urban_Evolutionary_Modeling) — opening up these disciplines to design methodology and systems thinking. In fact, evolutionary modeling could be easily viewed as the computational version of system modeling and prediction (*hint hint course next semester hint hint*).
-
-Also, very importantly, play with [genetic cars](http://rednuht.org/genetic_cars_2/).
-
------
-
-#### Evolutionary Algorithms
-
-![cladogram](https://biologydictionary.net/wp-content/uploads/2017/01/Cladogram-vertebrata.jpg)
-
-Any design challenge can be tackled through an evolutionary solver. All that is required is that the design challenge have a clear goal to minimize or maximize (the *fitness*), which is the result of the interplay between a set of variables (the *genome*). 
-
-*Fitness* can be complex and synthesized from several factors, and the most productive fitnesses for evolutionary algorithms to solve for are those that implement two oppositional forces (3d volume and material use in a building, height and structural rigidity in a wind turbine, aerodynamics and fuel load in a rocket). In lifeforms the interplay is similar — bigness is great for overpowering and eating other animals, but if you're bigger, you need more calories to move around and maintain your body heat!
-
-The more parameters that define the *genome*, the more varied and successful the outcomes *can* be, at the expense of computing time. Just like in living organisms, a healthy genome is defined by variability, specificity, and a lack of redundency. 
-
-Life has needed to adapt to both a changing *fitness landscape* (climate change, weather patterns, competitive lifeforms over time) as well as remarkably diverse *fitness conditions* (the sea, the air, land...) and as a result our planet offers remarkably diverse outcomes of specific local maxima solutions — which we call *species*.
-
-Design tools don't quite yet offer that amount of control, but perhaps they soon will!
+This week, let's discuss how we as designers can fully *parameterize* a specific opportunity into a set of dimensionable, flexible, understandable, and ultimately manufacturable or implementable aspects. This approach has much in common with traditional design and engineering methods, though differs meaningfully in its intentionality and expression.
 
 -----
 
 ### References for the Week
 
-Some examples of evolutionarily modeled forms and solutions.
+- [Tylko Bookshelves](https://tylko.com)
+- [Article on Tylko with Founder Interview](https://www.curbed.com/2015/6/24/9946872/tylko-furniture-app-augmented-reality)
+- [Floyd](https://floydhome.com/products)
+- [De-Sk](https://de-sk.co/buy)
+- [Radiolaria by Nervous System](https://n-e-r-v-o-u-s.com/projects/albums/radiolaria-2/)
 
-- [Evolving Design by Danil Nagy](https://medium.com/generative-design/evolving-design-b0941a17b759)
-- [Engine Block, Chair, Medical Implants](https://www.wired.com/2015/09/bizarre-bony-looking-future-algorithmic-design/)
-- [Aesthetics of Simple 3D Form](https://agatakycia.com/2011/12/28/aesthetics-and-creativity-in-evolutionary-design/)
-- [Yacht Geometry for Ideal Hydrodynamics and Displacement](http://www.cupinfo.com/en/americas-cup-automated-yacht-design-optimization.php)
-- [Antennas for Unusual Environments](https://en.wikipedia.org/wiki/Evolved_antenna)
-- [Beach Walking Animals](http://www.strandbeest.com)
-- [Stadium Roof Design](https://www.youtube.com/watch?v=RQIXJMmm-0A)
-- [Complex Joint Design](https://www.youtube.com/watch?v=wB-Q4erLMYE)
-- [Shoes](https://vimeo.com/user2852610)
-- [Solar Carve Tower](http://www.archdaily.com/806233/new-images-of-studio-gangs-solar-carve-tower-revealed-as-project-gets-underway)
-- [Minimum Solar Exposure to Save Cooling Expense](https://yazdanistudioresearch.wordpress.com/2015/02/09/building-optimization-tools-the-grasshopper-definition-and-breakdown/)
-- [Max Solar Exposure](https://gonzalesarch.wordpress.com/tag/grasshopper/)
-- [Best Airflow and Heating for Poulty Facility](https://bioarchitecturestudio.com/2011/07/21/organic-farm-yard-pedregal-del-fresno-grasshopper-galapagos/)
-- [College Quad Layout based on Desire Lines](http://isia.ir/semiology/)
-- [Room Arrangement](http://omarohelmy.blogspot.com/2013/01/experiments-in-space-planning-using.html)
-- [Room Arrangment 2](https://www.youtube.com/watch?v=SWyE3V6LKCc)
-- [Awning Design](http://archi-lab.net/form-finding-with-grasshoppergalapagos/)
-- [Building Layout and Window View Optimization](http://designplaygrounds.com/blog/view-optimization-using-galapagos-for-grasshopper/)
-- [Trusses](http://golancourses.net/2013/projects/genetic-algorithm-optimal-trusses/)
-- [Suspension Bridge Spans](https://iq.intel.co.uk/neural-networks-genetic-algorithms-computers-getting-creative/)
-- [Wind Turbine Blade](https://www.youtube.com/watch?v=YZUNRmwoijw)
-- [Learning to Stand](https://www.youtube.com/watch?v=lPQnVEnFTgY)
-- [Learning to Walk](https://vimeo.com/85053197)
-- [Learning to Walk and Survive Impact!](https://www.youtube.com/watch?v=pgaEE27nsQw)
-- [Max Volume : Minimum Area](http://gracefulspoon.com/blog/2011/06/05/bucky-was-right)
-- [Breeding Tables](http://www.kramweisshaar.com/projects/breeding-tables)
-- [Assorted Examples](http://legacy.iaacblog.com/maa2013-2014-designing-associativity/)
-- [Complete Architectural Design from Lot Orientation to Room Details](https://www.youtube.com/watch?v=3sM6qUUJxus)
-- [Better Box Car 2D that Doesn't Require Flash](http://rednuht.org/genetic_cars_2/)
-- [Motor Train](https://bib.irb.hr/datoteka/255484.383.pdf)
-- [Locomotion System](http://www.demo.cs.brandeis.edu/golem/design.html)
+-----
+
+### Parametric Rigs
+
+A critical phase in any generative design approach is the creation of a parametric rig. A parametric rig is the determination of the *designable* and *intentional* aspects of a product, service, or experience. It is important that these aspects all be given names, and have a known degree of flexibility.
+
+When parameters are fully determined, we should then have a skeleton of the product to be. Playing with the parameters should allow a designer to see the full expression of their design — the constellation of all products that might result from their design intent.
+
+![breeding tables](http://www.kramweisshaar.com/media/projects/breeding_tables/KRAM_WEISSHAAR_BREEDINGTABLES_Algorithm_Output_Diversity.jpg)
+
+It is easiest to consider physical products when implementing parametric rigs. For example, the simple parameters of a ceramic cup might be total height, radius/diameter at top, radius/diameter at bottom, foot height, and wall thickness. It is often the case that the simple parameters of a product align with what would be defined in a standard engineering drawing.
+
+![cup simple parameters](cup.png)
+
+More complex parameters might allow for material selection, overall (non-conic) shape, handle shape and size, lip geometry, styling and surface finish, ethical decisions about the  environmental impact of its manufacture and social condition of its fabricators, intended product lifespan...
+
+How might we begin to parameterize something like a subscription service in this way?
+
+-----
+
+### Types of Parameters
+
+- Flexible : The parameter is entirely free (a shoe could be *any* length)
+- Categorical : The parameter is allowed to be any member of a set of fixed values (a table could be a *circle*, a *hexagon*, or a *square*)
+- Fixed : The parameter has a set value that cannot change (a fork must have *four* tines)
+- Dependent : The parameter is algorithmically calculated or determined based on other parameters (the width of a car is *exactly half* its length)
+
+Further, any of the above parameter types may be *optional*, and need not always be numbers!
 
 -----
 
 ### Grasshopper Definition
 
-Let's play god a bit?
+Let's take a look at how a table like [De-Sk](https://de-sk.co/buy) could be parameterized and recreated in Grasshopper.
 
-#### Nesting
+[Download](desk-generator.gh)
 
-Ask Galapagos to rotate and place weirdly shaped pieces into a boundary without overlapping.
+![Grasshopper Definition](grasshopper.png)
 
-![nesting](nesting.png)
+![desks](desks.png)
 
-[nesting](nesting.gh)
-
-![nesting](nesting_gh.png)
-
------
-
-#### Solar Carve
-
-Minimize cast shadow but maximize volume. Take a look at Studio Gang's in construction [Solar Carve Tower](http://www.archdaily.com/806233/new-images-of-studio-gangs-solar-carve-tower-revealed-as-project-gets-underway) to see these techniques applied.
-
-![solar_carve](solar_carve.png)
-
-[solar_carve](solar_carve.gh)
-
-![solar_carve](solar_carve_gh.png)
-
-----
-
-#### Subway Routing
-
-Route a subway through a city to adequately serve population centers.
-
-![subway](subway.png)
-
-[subway](subway.gh)
-
-![subway](subway_gh.png)
+What other parameters could we imagine implementing? 
 
 -----
 
 ### Homework
 
-Week off!
+Grasshopper is complicated, and the only way to get good at it is to practice. We will be doing lots of exercises, learning how the tool can enable new design approaches like [evolutionary modeling](http://www.kramweisshaar.com/projects/breeding-tables), [growing design solutions](http://arandalasch.com), and [data-driven form](https://www.adriensegal.com). Please complete all of these homework bits and pieces before next week, and bring all your work to class.
+
+- Unfortunately, there are not a whole lot of good beginner-level tutorials for Grasshopper. Many web searches will yield answers from the POV of mathematicians and grasshopper experts. One good resource is [Formularch](http://formularch.blogspot.com) — please check out some of their examples to see some exciting stuff that is possible with Grasshopper!
+
+- Create, on paper, *parametric rigs* for these objects and challenges. Definitely begin this work by image searching to see the existing range of design solutions, and attempt to delineate many specific designable parameters.
+	
+	- An *umbrella* that is able to be used in different climates
+	- A simple *wallpaper pattern* that accomodates users with various degrees and sorts of vision impairment
+	- A *stool/chair* for people of various heights and specific postures and movements associated with design tasks.
+
+- To reinforce the Grasshopper tools we covered this week, *recreate* this parametric rig of a simple cup in Grasshopper. Play with the sliders — where and how does the rig break? To view this image larger, click on it, and then click the 'Download' button.
+
+![grasshopper-cup](grasshopper-cup.png)
+![cup](cup-rig.png)
+
+- [Read this recent article on generative art](https://www.artnome.com/news/2018/8/8/why-love-generative-art)! Next week, we'll be talking about algorithmic randomness and data-driven form.

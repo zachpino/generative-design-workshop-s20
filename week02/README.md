@@ -1,77 +1,177 @@
-# Week 2 · Parametric Rigs
+# Week 5 · Data Forms
 
-This week, let's discuss how we as designers can fully *parameterize* a specific opportunity into a set of dimensionable, flexible, understandable, and ultimately manufacturable or implementable aspects. This approach has much in common with traditional design and engineering methods, though differs meaningfully in its intentionality and expression.
+We'll examine this week how contemporary designers are using data — both at an individual and global level — to create uniquely meaningful 3d forms with functional, aesthetic, and public awareness goals.
+
+This particular emerging topic — the creation of a different type of *smart-object* — sits at the nexus of data science and visualization, generative design practice, and communication design.
 
 -----
 
 ### References for the Week
 
-- [Tylko Bookshelves](https://tylko.com)
-- [Article on Tylko with Founder Interview](https://www.curbed.com/2015/6/24/9946872/tylko-furniture-app-augmented-reality)
-- [Floyd](https://floydhome.com/products)
-- [De-Sk](https://de-sk.co/buy)
-- [Radiolaria by Nervous System](https://n-e-r-v-o-u-s.com/projects/albums/radiolaria-2/)
+Some examples of designed data forms.
+
+- [Dataphys List](http://dataphys.org/list/)
+- [Adrian Segal](https://www.adriensegal.com)
+- [Mischer Traxler](http://mischertraxler.com/projects/)
+- [Paul Heinicker](http://paulheinicker.com)
+- [Iohanna Pani](http://iohanna.com/filter/DESIGN)
+- [DNA Glass](https://adage.com/creativity/work/suntory-dna-glass/50254)
+
+Some data visualization references.
+
+- http://www.dear-data.com 
+- www.informationisbeautiful.net
+- www.datapointed.com
+- www.visualnews.com
+- http://nytlabs.com
+- http://flowingdata.com
+- http://fivethirtyeight.com
+- http://infosthetics.com
+- http://www.creativeapplications.net
+- http://www.datavisualization.ch
 
 -----
 
-### Parametric Rigs
+### Tactile Data
 
-A critical phase in any generative design approach is the creation of a parametric rig. A parametric rig is the determination of the *designable* and *intentional* aspects of a product, service, or experience. It is important that these aspects all be given names, and have a known degree of flexibility.
+![form follows data by iohanna pani](https://www.designboom.com/cms/images/-Z84/ff1.jpg)
 
-When parameters are fully determined, we should then have a skeleton of the product to be. Playing with the parameters should allow a designer to see the full expression of their design — the constellation of all products that might result from their design intent.
+Data forms, a new term for an even newer aesthetic archetype, is a very young discipline. As data visualization has become more common in 2D and interactive applications — 3-dimensional artists, architects, and designers have begun to experiment with physicalized 3D data — and have questioned how we can effectively communicate more complex information through 3D form. 
 
-![breeding tables](http://www.kramweisshaar.com/media/projects/breeding_tables/KRAM_WEISSHAAR_BREEDINGTABLES_Algorithm_Output_Diversity.jpg)
+Embedding data in physical 3D rather than 2D form allows for many obvious benefits. Materiality, surface finish, color, scale, texture, volume, enclosedness, placement in the world, weight... these all become meaningful choices in 3D form, and provide additional vectors for data-driven intentionality.  More intriguing, perhaps, these same designers have experimented with creating data forms that replace traditional objects — provoking users to engage them in everyday confrontations — constant and unavoidable reminders of the embedded data with the goal of both awareness and behavioral change. 
 
-It is easiest to consider physical products when implementing parametric rigs. For example, the simple parameters of a ceramic cup might be total height, radius/diameter at top, radius/diameter at bottom, foot height, and wall thickness. It is often the case that the simple parameters of a product align with what would be defined in a standard engineering drawing.
-
-![cup simple parameters](cup.png)
-
-More complex parameters might allow for material selection, overall (non-conic) shape, handle shape and size, lip geometry, styling and surface finish, ethical decisions about the  environmental impact of its manufacture and social condition of its fabricators, intended product lifespan...
-
-How might we begin to parameterize something like a subscription service in this way?
+Would you eat differently if your tableware reminded you of the world's obesity epidemic? Would you use your computer differently if its palmrest was shaped with data of your region's energy usage? Would you spend your days differently if your couch was cushioned with the data of the time you and your friend group spend on Facebook and Netflix?
 
 -----
 
-### Types of Parameters
+### Open Data Sources
 
-- Flexible : The parameter is entirely free (a shoe could be *any* length)
-- Categorical : The parameter is allowed to be any member of a set of fixed values (a table could be a *circle*, a *hexagon*, or a *square*)
-- Fixed : The parameter has a set value that cannot change (a fork must have *four* tines)
-- Dependent : The parameter is algorithmically calculated or determined based on other parameters (the width of a car is *exactly half* its length)
+##### Data Search Engines and General Directories
+- https://www.data.gov
+- https://www.census.gov/developers/
+- http://www.zanran.com/q/
+- https://www.reddit.com/r/datasets/   (and check out the linked subreddits too!)
+- https://github.com/toddmotto/public-apis
+- https://www.google.com/publicdata/directory
+- https://en.wikipedia.org/wiki/List_of_datasets_for_machine_learning_research
+- https://tinyletter.com/data-is-plural
 
-Further, any of the above parameter types may be *optional*, and need not always be numbers!
+##### Municipal
+- https://data.cityofchicago.org
+- https://nycopendata.socrata.com/
+
+##### Atmospheric and Geologic
+- http://www.ndbc.noaa.gov
+- https://www.ncdc.noaa.gov/cdo-web/
+- http://weather.rap.ucar.edu
+- https://earthquake.usgs.gov/data/
+- http://www.ssec.wisc.edu/data/
+- https://cfpub.epa.gov/surf/locate/index.cfm
+- http://volcano.ssec.wisc.edu
+
+##### Space!
+- https://data.nasa.gov
+- http://chandra.harvard.edu
+- http://sid.stanford.edu/database-browser/
+
+##### Transportation
+- https://github.com/graphhopper/open-traffic-collection
+- http://opentraffic.io
+- https://jblevins.org/notes/airline-data
+- https://www.fra.dot.gov/Page/P0365
+
+##### Social
+- https://meta.wikimedia.org/wiki/Datasets
+- https://developers.facebook.com/docs/graph-api
+- https://www.google.com/trends/explore
+- https://dev.twitter.com/streaming/overview
+- https://www.cia.gov/library/publications/the-world-factbook/
+
+##### Financial
+- https://www.quandl.com
+- http://data.worldbank.org
+- https://www.google.com/finance
+
+##### Animals and Plants
+- https://www.gbif.org
+- https://beeinformed.org
+- https://www.movebank.org
+- http://archive.ics.uci.edu/ml/datasets/zoo
+- http://whale.wheelock.edu/whalenet-stuff/StopBm2016/
+- https://cvml.ist.ac.at/AwA/
+- https://ecologicaldata.org/find-data
 
 -----
 
 ### Grasshopper Definition
 
-Let's take a look at how a table like [De-Sk](https://de-sk.co/buy) could be parameterized and recreated in Grasshopper.
+Let's manipulate outside data in Grasshopper 
 
-[Download](desk-generator.gh)
 
-![Grasshopper Definition](grasshopper.png)
+#### Data Plotting
 
-![desks](desks.png)
+Different ways to plot 3d points based on information (here random numbers) and convert those points into a variety of 3d forms.
 
-What other parameters could we imagine implementing? 
+![dataplot](dataplot.png)
+
+[dataplot](dataplot.gh)
+
+![dataplot](dataplot_gh.png)
+
+-----
+
+#### Data Samples
+
+Draw real data in Grasshopper.
+
+![datasamples](datasamples.png)
+
+[datasamples](datasamples.gh)
 
 -----
 
 ### Homework
 
-Grasshopper is complicated, and the only way to get good at it is to practice. We will be doing lots of exercises, learning how the tool can enable new design approaches like [evolutionary modeling](http://www.kramweisshaar.com/projects/breeding-tables), [growing design solutions](http://arandalasch.com), and [data-driven form](https://www.adriensegal.com). Please complete all of these homework bits and pieces before next week, and bring all your work to class.
+We will be discussing anthropometry next week!
 
-- Unfortunately, there are not a whole lot of good beginner-level tutorials for Grasshopper. Many web searches will yield answers from the POV of mathematicians and grasshopper experts. One good resource is [Formularch](http://formularch.blogspot.com) — please check out some of their examples to see some exciting stuff that is possible with Grasshopper!
+- Read: Download this PDF copy of the original [Measure of Man](MeasureOfMan.pdf) by Henry Dreyfuss (released in 1959) and the revised version [Measure of Man and Woman](MeasureOfManAndWoman.pdf) edited by Alvin Tilley (released in 1993) and Henry Dreyfuss Associates (the company Henry Dreyfuss founded). Please also read about [Henry Dreyfuss](https://en.wikipedia.org/wiki/Henry_Dreyfuss), the original author and one of the first *data-driven designers*.
 
-- Create, on paper, *parametric rigs* for these objects and challenges. Definitely begin this work by image searching to see the existing range of design solutions, and attempt to delineate many specific designable parameters.
-	
-	- An *umbrella* that is able to be used in different climates
-	- A simple *wallpaper pattern* that accomodates users with various degrees and sorts of vision impairment
-	- A *stool/chair* for people of various heights and specific postures and movements associated with design tasks.
+	Browse through the whole books (they're mostly pictures) to get a sense of the contents, and please read pages 7-11, 33, 35, and 36 of *Measure of Man and Woman*. Also prepare to discuss the *motivation* of these texts, and how we should confront them as *inclusive* designers. Are texts like this useful to our design practice? How might different disciplines — like the many social sciences, humanities, and different engineering areas — evaluate our design discipline's reliance on books like this?  
 
-- To reinforce the Grasshopper tools we covered this week, *recreate* this parametric rig of a simple cup in Grasshopper. Play with the sliders — where and how does the rig break? To view this image larger, click on it, and then click the 'Download' button.
+- Investigate: Take a look through the many data sources linked above and bookmark some personally interesting, unexpected, and meaningful datasets. 
 
-![grasshopper-cup](grasshopper-cup.png)
-![cup](cup-rig.png)
+- Model: Please recreate this discursive data form, drawing attention to several countries' respective deforestation activities and policies.
 
-- [Read this recent article on generative art](https://www.artnome.com/news/2018/8/8/why-love-generative-art)! Next week, we'll be talking about algorithmic randomness and data-driven form.
+	![pots rendered](pots_rendered.png)
+
+	Data forms that carry a family similarity to traditional object archetypes are often more effective than the 'data-blobs' that are expected of traditional data visualization. By embedding data in everyday objects, we can easily make data more approachable, legible, and confrontational to audiences. Here, let's create a set of gardening pots, which demonstrate in 3-dimensions the history of the forested area of 5 large countries: Brazil, China, India, Russia, and the United States. The inside volume of the pot will be shaped by the history of the various countries' forested percentage, and the outside volume will make clear the proportional size of the country and its most recent (2015) forest amount. The smaller the remaining forest, the less room will be available for planting, and the easier the pot will be to topple and shatter — embodying the fragility of the remaining ecosystems. All data is from the [World Bank](https://data.worldbank.org/indicator/AG.LND.FRST.ZS?end=2015&locations=CN-RU-US-BR-IN&start=1990).
+
+	![diagram](diagram.png)
+
+	#### Country Areas in Square Kilometers Data (Brazil,China,India,Russia,USA)
+	```
+	8.516
+	9.597
+	3.287
+	17.1
+	9.834
+	```
+
+	#### Forested Area as Percentage of Total Area (Same countries and order as above for 1990,1995,2000,2005,2010,2015)
+	```
+	65.4,63.9,62.4,60.6,59.6,59.0
+	16.7,17.8,18.9,20.6,21.4,22.2
+	21.5,21.7,22.0,22.8,23.5,23.8
+	49.4,49.4,49.4,49.4,49.8,49.8
+	33.0,33.1,33.1,33.0,33.7,33.0
+	```
+
+	![pots](pots.png)
+
+	Also browse through these other complementary datasets. Could you find a way to embed some of these other datapoints in your data form?
+
+	- [Global Deforestation Rates by Country](https://rainforests.mongabay.com/deforestation_country.html)
+	- [Environmental Performance Indicators](https://epi.envirocenter.yale.edu/epi-downloads)
+	- [Global Forest Watch](https://www.globalforestwatch.org)
+	- [Population Change](https://data.worldbank.org/indicator/SP.POP.TOTL?end=2005&name_desc=false&start=1990)	
+	- [Country Area](https://simple.wikipedia.org/wiki/List_of_countries_by_area)

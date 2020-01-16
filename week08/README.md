@@ -1,171 +1,137 @@
-## Growing Forms
+# Week 4 · Algorithmic Randomness
 
-![nervous system](https://www.designboom.com/weblog/images/images_2/anita/hyphae07.jpg)
-
-An emerging approach in contemporary design (one of the newest of the new!) is a desire to bring the intelligence of living and growing organisms into the design process — and is therefore termed *generative* design (otherwise called *biomorphic* or *agent-based* modeling), wherein a designer considers how an agent with defined abilities and constraints would behave without any intervention. They might move as close as possible to something, avoid other things, move horizontally until they must move vertically, advance and then turn 20 degrees, eat nearby things and grow bigger... straightforward rules like these that emulate the natural behaviors of simple, living organisms. When these straightforward rules are followed by many agents over many generations of individual decisions, the results can be shocking in their complexity and emergent intelligence. Commonly, the paths that these agents traverse are traced, and the resulting lines become raw materials for designed outcomes.
-
-This methodology and logic has its roots in (and mostly has supplanted) the superficial [biomimicry](https://en.wikipedia.org/wiki/Biomimetics) that defined cutting edge design through much of the early aughts with proponents like [Janine Benyus](https://www.ted.com/talks/janine_benyus_shares_nature_s_designs?language=en), [Ross Lovegrove](https://www.google.com/search?client=safari&rls=en&q=rosslovegrove&ie=UTF-8&oe=UTF-8), and [Joris Laarman](https://www.jorislaarman.com).
-
-Generative structures are attempts to recreate the intelligence of a living and growing, self-preserving organism at a very simple level. Despite the simplicity of that logic, computers have a very hard time due to the *recursion* required of generative algorithms. Living organisms have the ability to constantly re-evaluate their context and goals. Semi-consistent motivations are applied at each evaluation, and transient decisions are made which are frequently altered and reconsidered. This constant reflexive and iterative analysis is very taxing on computers, which would prefer to just execute instructions in order, and even more taxing on — and often impossible for — functional and declarative programming languages, which cannot reference their own work until that work is completed. As a result, software tools for making use of generative modeling are still in their infancy.
-
-![iterative growth](https://rcrdarch.files.wordpress.com/2012/09/al_04.jpg)
-
-Generative modeling is very much the opposite of the evolutionary modeling explored previously. Evolutionary modeling asks the designer to define the overarching goals of a system, and the components of the system are rearranged to optimize some parameter of the system. Generative modeling inverts this approach‚ and asks designers to define components of the system can do without *any* ability to sculpt a systemic goal. Nevertheless, there is much in common between these two approaches in their justifications and methodologies.
-
-Generative approaches offer so much potential to the contemporary data-driven designer and architect — as both research and solution-finding logics — for hopefully obvious reasons. Follow this space closely, and contribute to it!
-
-![zaha hadid flocking](https://i.pinimg.com/originals/69/44/38/69443839292da57b8178eabc21081f8e.jpg)
+This week, let's discuss how randomness can aid a generative design process, and serve as the foundation for contemporary design opportunities. The focus this week will be on 2D patterns and generative art forms for pedagogical reasons, though the topics covered will serve frequently as both generative tools proper as well as testing and visualization inputs for our parametric rigs.
 
 -----
 
-### Quick Downloads
+### References for the Week
 
-Install into the folder revealed by Grasshopper's File->Special Folders->Components.
+Some generative design works featuring (often procedural) randomness.
 
-- [Shortest Walk GH](https://www.food4rhino.com/app/shortest-walk-gh)
-- [Lunchbox 2017.8.1 ZIP](https://www.food4rhino.com/app/lunchbox)
-
------
-
-### Reference Projects
-
-Generative design is a very new model for architecture and design, having only emerged in the late 1980s and just now finding computational resources of adequate power to realize meaningful outcomes. There are, however, a few notable existing experiments that point to a future of *grown*, adaptive objects and structures.
-
-- [Michael Hansmeyer](http://www.michael-hansmeyer.com/projects/l-systems.html?screenSize=1&color=1#7)
-- [Aranda \ Lasch](http://arandalasch.com)
-- [Nervous System](https://n-e-r-v-o-u-s.com)
-- [National Stadium Beijing](https://www.herzogdemeuron.com/index/projects/complete-works/226-250/226-national-stadium/image.html)
-- [Stuttgart Airport](http://www.gmp-architekten.com/projects/stuttgart-airport-terminal-3.html)
-- [Funicular Structures in Architecture and Jewelery](http://www.grasshopper3d.com/forum/topics/envelop-of-lines-network-mesh-and-funicular-structures?groupUrl=kangaroo&groupId=2985220:Group:120977&id=2985220:Topic:1434822&page=2)
-- [Alba Protein Folding Visualization and Pharmaceutical Development](http://www.ryanhoover.org/rd/alba.php)
-- [Autopoetic Architecture of Patrik Schumacher](http://www.patrikschumacher.com/Texts/Design%20of%20Information%20Rich%20Environments.html)
-- [Philip Beesley Architecture, Objects, Fashion, Environments](http://philipbeesleyarchitect.com)
+- [Fast Company article on Randomness in Design and Architecture](https://www.fastcompany.com/3052333/the-value-of-randomness-in-art-and-design)
+- [Glithero](http://www.glithero.com/work)
+- [Maarten Baas](http://maartenbaas.com)
+- [Spotlight on Generative Artist Manolo Gamboa Naon](https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy)
+- [Mischer Traxler](http://mischertraxler.com/projects/)
+- [Artsy Generative Art Category](https://www.artsy.net/gene/generative-art)
+- [Kadenze Free Generative Art Certificate in 9 Hours(!?)](https://www.kadenze.com/courses/introduction-to-generative-arts-and-computational-creativity/info)
+- [Simon Heijdens](http://www.simonheijdens.com/indexbig.php)
+- [Snarkitechture](http://www.snarkitecture.com/drift/)
+- [Interactive Generative Music Tool](https://teropa.info/loop/#/inc)
+- [Kenny Verbeeck on Randomness as Generative Design Tool](Verbeeck.pdf)
 
 -----
 
-### Example: Lindenmayer Systems
+### Randomness
 
-![l-sys](https://thumbs.gfycat.com/RightSafeBlueshark-size_restricted.gif)
+![dice](https://wherethewindsblow.com/wp-content/uploads/2015/07/White-Six-Sided-Dice.jpg)
 
-[Lindemayer Systems](https://en.wikipedia.org/wiki/L-system), or more commonly *L-Systems*, are a formalized language for modeling agent-based growth — especially for simulating bacterial or floral growth and goal-seeking behaviors. They are used heavily by the cinematic and effects industries for quickly modeling plant- and coral-like beings, and by scientists studying self-similar and recursive systems like fractals, contagion and epidemic spread, and human resource consumption and population growth patterns.
+Computational randomness is a philosophically and technically complicated topic, with much disagreement and confusion amongst experts as well as different academic disciplines.
 
-An agent, often called for unknown reasons a *turtle*, is stationed at an origin point and is allowed to move in any direction defined in a [Euler Angle-based](https://en.wikipedia.org/wiki/Euler_angles) coordinate system (like an airplane -- pitch, yaw, roll).
+To understand randomness for our design purposes, we need to acknowledge that randomness is *inhuman*. We have no ability to produce real randomness, and we can not even prove whether or not *any series of numbers* is random. Likewise, no computational tool we use can be truly random.
 
-The turtle follows an encoded set of directions...
+Yet, though we can't generate randomness, the world exhibits randomness *everywhere*. And, as designers, we often need to confront and probe that randomness as a modelable and definable input into our design research process. Users behave randomly in many situations, they are sized and shaped in random combinations, they live in random locales and have unpredictable reactions to stimuli... We often, fundamental to our design discipline, are tasked with probing this randomness and tamping its complexity down into a set of digestable patterns or categories for our clients, our partners, and ourselves. This is our job! 
 
-```
-F : Move Forward
-+ : Turn Clockwise
-− : Turn Counter-Clockwise
-[ : Remember Turtle Position 
-] : Go Back to Last Remembered Turtle Position
-\ : Roll Left
-/ : Roll Right
-^ : Pitch Up
-& : Pitch Down
-| : Turn Around 180 Degrees
-A/B/C/D.. placeholders, used to nest other symbols
-```
+Because generative design is fundamentally driven by the productive friction between a *controlling* algorithm and an *uncontrollable* set of inputs, fully engaging randomness is a powerful tool. Random data can be used to model the variability of our user group and their behaviors. More importantly, random values can help test if the boundaries of an algorithm are fully considered, and will often reveal startling combinations that we might not otherwise consider. 
 
-The turtle is given a starting pattern (its *axiom*), a set of rules to follow, and a number of replacmement iterations to complete.
-
-```
-Axiom: FA
-Rule 1: A = +F-FA 
-Iterations: 3
-```
-
-The turtle will, for each iteration, follow the rules and replace what it can to expand its path. At the end of the iterations, all replacement symbols are dropped.
-
-```
-Iteration 0 : FA
-Iteration 1 : F+F-FA
-Iteration 2 : F+F-F+F-FA
-Iteration 3 : F+F-F+F-F+F-FA
-Final Pattern : F+F-F+F-F+F-F
-```
-
-We can set `F` equal to `move one unit forward`, `+` to `turn right 90 degrees`, and `-` to `turn left 90 degrees`.
-
-The turtle would now walk in a stair step pattern towards the upper right. Slight tweaks to the ruleset would yield this [Dragon Curve](https://en.wikipedia.org/wiki/Dragon_curve) fractal.
-
-```
-Axiom: FX
-Rule 1: X = X+YF+
-Rule 2: Y = -FX-Y
-```
-
-![walker.gif](walker.gif)
-
-Here is an even more complex rule set and the results at different iteration counts (2,4,6,8).
-
-```
-Axiom  : A
-Rule 1 : A = BF−AF−BF
-Rule 2 : B = AF+BF+AF
-
-+ : Turn Clockwise 60 degrees
-- : Turn Counter-Clockwise 60 Degrees
-F : Move Forward One Unit
-```
-
-![sierpinski triangle](tri.png)
-
-More complex patterns, especially those invoking scale change and randomness, can create beautiful, organic, recursively complex results. These forms and patterns have compelling properties -- their self similarity means that scale change induces linear and predictable performative changes. They often also offer unique, highly structural properties with minimal material use. Complexity builds quickly, however.
-
-Again, from Wikipedia...
-
-```
-Axiom : X
-Rule 1 : X = F[−X][X]F[−X]+FX
-
-+ : Turn Clockwise 25 degrees
-− : Turn Counter-Clockwise 25 degrees
-[ : Remember Turtle Position 
-] : Go Back to Last Remembered Turtle Position
-F : Go Forward (1 / Iteration Count) Units
-```
-
-![plant](plant.png)
-
-L-Systems are super cool!
-
-Here is a [2D Grasshopper implementation](lsys.gh), but [Rabbit for Windows](https://morphocode.com/intro-to-l-systems/) is much better!
+In many ways, a randomness-driven approach may seem fundamentally opposed to contemporarily-elevated *data-driven* approaches, which will be the focus for much of the rest of the course. But, the same tools and logics that allow us to play with randomness also allow us to plug real data directly in, once it is collected and available. So, randomness can be fundamentally generative, serve as a placeholder, and help us evaluate our final outcomes. Powerful!
 
 -----
 
-### Example: Flocking
+### Types of *Aleatory* Randomness
 
-[Flocking, swarming, and herding behaviors](https://en.wikipedia.org/wiki/Flocking_(behavior)), sometimes alternately named [*boids* logic](https://en.wikipedia.org/wiki/Boids) from the name of one of the [first programmatic implementations in 1986](https://en.wikipedia.org/wiki/Craig_Reynolds_(computer_graphics)), asks agents to look after their own survival as well as how they interrelate with *other-agents*. Social parameters are given to agents such as *attraction* to others, willingness to *follow leaders*, near and far positions for feelings of *inclusion*, *collision avoidance*, *predator avoidance*, and *feelings of homesickness*. Agents with these parameters are let loose in a constrained field, and their motions begin to emulate the movement of bird flocks or fish schools.
+Set-theory randomness, or the *predictability of the next element in a series*, can be [categorized](https://en.wikipedia.org/wiki/Random_number_generation) as follows. Note that the examples are simply didactic and human-generated, and will not survive any real mathematical scrutiny.
 
-![unity boids](https://d19oqafiwfkr0c.cloudfront.net/content-image/original-5f879b7c-556504f7705c8.gif)
+- Non-Random: Every element in the series is entirely predictable
+	- 1, 2, 3, 4, 5...
+	- 1, 1, 2, 3, 5...
+	- 2, 4, 6, 8, 10...
 
-Boids (creatures in a computational flock, short for "bird-oids") are rarely used as design tools themselves. Rather, their traveled paths and final rest positions become inputs into design processes.
+- [Pseudo-Randomness (Seeded Randomness)](https://en.wikipedia.org/wiki/Pseudorandom_number_generator): Given a series of inputs, an *effectively* unrelated outcome will result in the series for each input. The same input will always yield the same output, though a study of different inputs will never reveal a *consistent* relationship between different inputs and their associated outputs.
+	- Seeds: 4, 1, 6, 4, 3... -> Outputs: 9.213, 3.532, 4.089, 9.213, 5.652 
 
-![boids paths](http://spacecollective.org/userdata/NHh1SOx7/1202318756/Boids_poster.jpg)
-![boids paths 2](https://i.ytimg.com/vi/3X8v_YbYVq0/maxresdefault.jpg)
+- Initial Condition Randomness: A starting state is defined, and then effective randomness ensues — though outcomes are fundamentally constrained by that initial condition. Imagine a bunch of spheres rolling down a rocky mountain — the final resting point of each sphere is random, though it will be related somewhat to where the sphere started. 
+	- Start: 3 -> Outputs: 2, 9, 5
+	- Start: 27 -> Outputs: 72, 17, 63
+	- Start: .06 -> Outputs: .09, .04, .03
 
-This is a lovely tool for [playing with Boids](http://www.harmendeweerd.nl/boids/)!
+- True Randomness (Environmental Randomness) : There is no consistent relationship between any number in the series and any other number in the series. Neither humans nor machines can generate true randomness — though we certainly [have tried](http://www.lavarand.org)!
+	- Life ([Maybe?](https://en.wikipedia.org/wiki/Determinism))
 
----
+Consult this [plain language explainer](http://www.statisticsblog.com/2012/02/a-classification-scheme-for-types-of-randomness/) for more info and a slightly different classification system. An understanding of these taxonomies is especially important for generative design, as an appropriate choice of randomness will often determine how useful any random testing is to a generative design exercise.
 
-### Other Examples
+-----
 
-Also check out agent-based systems like [cellular automata](https://en.wikipedia.org/wiki/Cellular_automaton), [terrarium simulations](https://rileyjshaw.com/terra/), [desire paths](https://en.wikipedia.org/wiki/Shortest_path_problem), [fungal growth](https://www.food4rhino.com/app/physarealm), and [noise systems](https://www.food4rhino.com/app/culebra).
+### Grasshopper Definition
 
-----
+Let's get better at handling lists of data and randomness in Grasshopper by creating some generative art!
 
-### Readings and Tools for Generative Design Approaches
 
-- [Algorithmic Beauty of Plants](http://algorithmicbotany.org/papers/#abop)
-- [Algorithmic Botany (most useful link from above)](http://algorithmicbotany.org/papers/abop/abop-ch1.pdf)
-- [Python Implementation](http://www.4dsolutions.net/ocn/lsystems.html)
-- [L-System Solids](http://blog.rabidgremlin.com/2014/12/09/procedural-content-generation-l-systems/)
-- [Modified Standards for Curve Drawing](http://www.evsc.net/projects/l-garden)
-- [3D Fractals](http://williamchyr.com/2012/01/32-l-systems/)
-- [Tree Generation for Videogames](https://www.youtube.com/watch?v=gHAqJY48p3Y)
-- [L-Systems In OpenGL](https://www.youtube.com/watch?v=AXDl3rlaHUw)
+#### Distance-Based Circles
 
-- [Rabbit, a Grasshopper implementation of L-Systems and Cellular Automata that does not work on the Mac☹️](https://morphocode.com/intro-to-l-systems/)
-- [Nursery, a Grasshopper implementation of Swarming Behaviors that does not work on the Mac😨](https://www.food4rhino.com/app/nursery)
-- [Physarealm, a Grasshopper implementation of Fungal Growth that does not work on the Mac😡](http://www.food4rhino.com/app/physarealm)
+Create a grid of circles and use the distance to a single movable point to determine the circles' radii.
+
+![Circles](circles.png)
+
+[Circles](circles.gh)
+
+![Circles](circles.gif)
+
+
+#### Closest Point Walker
+
+Draw lines to a number of nearest grid points from a single movable point.
+
+![Walker](walker.png)
+
+[Walker](walker.gh)
+
+![Walker](walker.gif)
+
+
+#### Attractor/Repulsor
+
+Distort a grid of points with a single movable point.
+
+![Attractor/Repulsor](attractor+repulsor.png)
+
+[Attractor/Repulsor](attractor+repulsor.gh)
+
+![Attractor/Repulsor](attractor+repulsor.gif)
+
+
+#### After Vera Molnar / Jared Tarbell
+
+Experiment in randomness to produce geometric patterns similar to [Molnár](http://www.veramolnar.com) and [Tarbell](http://www.complexification.net/gallery/).
+
+![randompattern](randompattern.png)
+
+[randompattern](randompattern.gh)
+
+![randompattern](randompatternexample.png)
+	
+-----
+
+### Homework
+
+We will be discussing data-forms next week!
+
+- Read: Download this PDF of [*Thinking Objects* by Tim Parsons](ThinkingObjects.pdf), a contemporary design theorist. [Buy the book](https://www.amazon.com/Thinking-Objects-Contemporary-Approaches-Product/dp/2940373744) if you like it, it's totally worth having on your shelf! These selections discuss different motivations we might bring into a design projects other than traditional user-centrism and financial development. We'll delve into several other sections of this text through the semester, so hold onto the PDF. 
+
+	Please read **sections 1.1-1.3, 2.1-2.5, 2.8, and lastly and most importantly 2.12**. It shouldn't take more than an hour, the chapters and short and there are lots of pictures. Please look up any referenced works that you're not familiar with. Prepare to converse as a class on this text. How does the language, logic, and content of this book compare with other things you've read in other classes?
+
+- Investigate: Browse this [painstakingly curated reference](http://dataphys.org/list/) of *physicalized data*, or 3-dimensional data visualizations. The list is chronological, so head towards the bottom for more contemporary stuff. Find one for each of the following criteria, and prepare to discuss your choices.
+
+	- A physicalization that is compelling to you with respect to the *data* that is physicalized.
+	- A physicalization that is compelling to you with respect to the *form* and *design* of the object itself.
+	- A physicalization that is compelling to you with respect to the *emotional or intellectual impact* of the object and its story if you had it in your home or workplace.
+
+	Some questions about these examples to consider... Are these objects *designed objects*? If not, what are they? What makes some of these objects more *legible* than others? How should we attempt to evaluate if some of these objects are more *successful* than others? Why might a user actually want to engage this type of object? 
+
+- Model: Recreate this water ripple simulator to reinforce the work we did this week. Play with all the sliders when you are done! Is there anywhere we could inject a random node into for more interesting behavior? 
+
+	![ripple](wave.gif)
+
+	![ripple](wave.png)
+
+

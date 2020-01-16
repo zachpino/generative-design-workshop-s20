@@ -1,95 +1,95 @@
-# Headstarts
+# Spooky Physics!
 
-Some individual places to start for everyone...
+Time to work today, but something for the holiday too! 
+
+![pumpkin](pumpkin.png)
 
 ----
 
-### Airflow Simulation
+### Plugins for the Day
 
-Airflow simulation using [Kangaroo]().
+Install both the *Component* and the *User Objects* for Kangaroo.
 
-[Download Definition](stream.gh)
-
-![stream](stream.png)
-
-![stream](stream_gh.png)
+- [Kangaroo v.099](https://www.food4rhino.com/app/kangaroo-physics)
+- [Cytoskeleton, Plankton, and Exoskeleton](https://www.grasshopper3d.com/group/exoskeleton)
 
 -----
 
-### Fabric Pattern Construction
+### Physics!
 
-Developed pattern for soft-materials construction.
+Kangaroo is a Physics Simulator that is able to apply forces to both *rigidbody* and *softbody* meshes. Try out all the different forces, they work basically the same way. Lots of designers use Kangaroo to simulate how physical forces would impact their designs as design-engineers. Others use it for pattern generation, user activity simulation, sustainability modeling, form optimization, and all kinds of other purposes! It's very flexible, with a thriving community and lots of [tutorials](https://www.youtube.com/watch?v=zeRe57uoEJQ). 
 
-[Download Definition](bra_pattern.gh)
-
-![bra_pattern](bra_pattern.png)
-
-![bra_pattern](bra_pattern_gh.png)
+These are just a few examples...
 
 -----
 
-### Audio Sample Surface
+#### Catenary Forms
 
-Audio data as [sampled amplitudes](https://github.com/zachpino/digidev-s18/blob/master/week09/README.md) realized as a revolved form.
+![catenary](catenary.gif)
 
-[Download Definition](audio.gh)
+Draping, hanging, gravity-driven catenoidal forms like Antoni Gaudi's [*La Sagrada Familia*](http://mathstat.slu.edu/escher/index.php/The_Geometry_of_Antoni_Gaudi#Catenary_Arches_and_Catenoids).
 
-![audio](audio.png)
+[Download the definition](catenary.gh)
 
-![audio](audio_gh.png)
-
------
-
-### Pressure-Data-Driven Pen
-
-Randomized 'signatures' converted into poetic quill forms.
-
-[Download Definition](pen.gh)
-
-![pen](pen.png)
-
-![pen](pen_gh.png)
+![catenary](catenary.png)
 
 -----
 
-### GeoJSON Map Data
+#### Inflated Forms
 
-Though Grasshopper can natively handle logitude-latitude couplets, the [Humpback](https://www.food4rhino.com/app/humpback) plugin is required to convert GeoJSON polygons into Grasshopper forms. Follow the installation instructions!
+![infalte](inflate.gif)
 
-You would likely want to grab geojson files from places [like this](https://data.cityofchicago.org/Community-Economic-Development/Boundaries-Zoning-Districts-current-/7cve-jgbp) and simplify them with [Mapshaper](http://mapshaper.org). Befitting its name, Humpback is *slow*, and so requires more streamlined input data.
+Inflated, deflated, impressed-pocket, and floating simulation like the work of [Oskar Zieta](https://zieta.pl).
 
-[Download Definition](maps.gh)
+[Download the definition](inflate.gh)
 
-![maps](maps.png)
-
-![maps](maps_gh.png)
+![infalte](inflate.png)
 
 -----
 
-### Brain Wave Polygonal Lofts via OSC 
+#### Power Law Orbits
 
-Use [Firefly](http://www.fireflyexperiments.com) to make the connection.
+![orbit](orbit.gif)
 
-[Download Definition](dataloft.gh)
+See how the planets move, and plan some rocketry like [Os DELTA Oos](https://www.osandoos.com)!
 
-![maps](dataloft.png)
+[Download the definition](orbit.gh)
 
-![maps](dataloft_gh.png)
-
------
-
-### Styled Prosthetic
-
-Calf forms, created from ellipses, tiled and patterned with various panelling algorithms from [Lunchbox](https://www.food4rhino.com/app/lunchbox) and Pull-to-Surface logics.
-
-[Download Definition](prosthetic.gh)
-
-![maps](prosthetic.png)
-
-![maps](prosthetic_gh.png)
+![orbit](orbit.png)
 
 -----
 
-# Homework
+#### Vortex Twists
 
-Bring in prototypes. How are you going to build your proposals? Don't forget about the other parts of the [briefs](../briefs.md)!
+![vortextwist](vortextwist.gif)
+
+Simulate tornado twisting and other maelstrom/coriolitic effects like climatologists, or fold up your own digital [Kawasaki Rose](https://www.youtube.com/watch?v=MgXXcY43B7s).
+
+[Download the definition](vortextwist.gh)
+
+![vortextwist](vortextwist.png)
+
+-----
+
+#### Wind Modeling
+
+![wind](wind.gif)
+
+Model wind blasts and other irregular, directional phenomena like waves. Or, take real wind data and embed it in objects like [Miska Knapek](http://knapek.org) or [Adrian Segal](https://www.adriensegal.com).
+
+[Download the definition](wind.gh)
+
+![wind](wind.png)
+
+-----
+
+### Homework
+
+Prepare a small presentation on your project proposal for the class. 5-10 slides please.
+
+- Who is your potential audience and how are they the same and different from one another?
+- What is your project's overall goal?
+- What might your project look like for different users? (sketches!)
+- What does your input data look like? Do you have it? If not, how will you collect or simulate it?
+- Any parametric progress to show? Any tools that show promise?
+- What questions are driving your current progress?
