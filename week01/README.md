@@ -1,7 +1,5 @@
 # Week 01 · Course Overview
 
------
-
 ### Slides
 
 [Small Data](small-data.pdf)
