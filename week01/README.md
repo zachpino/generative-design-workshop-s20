@@ -46,7 +46,9 @@ Based on this data, create a set of five visualizations on one side of a postcar
 
 ##### Visualization Practice (This will be ongoing!)
 
-- Take a peak at the Dear Data first week on *Clock* and time visualizations in preparation for next week. Through the week, construct a dataset for your own visualization purposes on how you are spending your time through the week, and produce 5 visualizations on 5"x7" carts. Explore both 2D and 3D visualization opportunities.
+- Take a peak at the Dear Data first week on *Clock* and time visualizations in preparation for next week. Through the week, construct a dataset for your own visualization purposes on how you are spending your time, and produce 5 visualizations on 5"x7" carts. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk.
+
+- Add a legibility key to the backs of any visualizations you completed in class, and bring these in to share as well next week.
 
 ##### Software Installation
 
