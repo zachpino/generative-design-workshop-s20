@@ -42,7 +42,7 @@ Based on this data, create a set of five visualizations on one side of a postcar
 
 ##### Research
 
-- Compose a one to three page PDF on a generative design or data visualization project or series **not** mentioned in the course kick-off slide deck (though feel free to investigate other projects by the referenced designers/visualizers/architects). Attempt to provide the kind of content one might find on a [museum tombstone](https://en.wikipedia.org/wiki/Museum_label), as well as a key or overlay describing how to read the data embedded in the object/visualization.
+- Compose a one to three page PDF on a generative design or data visualization project or series **not** mentioned in the course kick-off slide deck (though feel free to investigate other projects by the referenced designers/visualizers/architects). Attempt to provide the kind of content one might find on a [museum tombstone](https://en.wikipedia.org/wiki/Museum_label), as well as a key or overlay describing how to read the data embedded in the object/visualization. Consult the second page of the [course syllabus](../generative-design-workshop.pdf) for additional course info, as well as for a few web resources where you can start this research.
 
 ##### Visualization Practice (This will be ongoing!)
 
