@@ -20,17 +20,16 @@ A critical early phase in any generative design approach is the creation of a **
 
 When parameters are fully determined, we should then have a skeleton of the product to be. Playing with the parameters will allow a designer to see the full expression of their design — the constellation of all products that might result from their design intent.
 
-![breeding tables](http://www.kramweisshaar.com/media/projects/breeding_tables/KRAM_WEISSHAAR_BREEDINGTABLES_Algorithm_Output_Diversity.jpg)
+![Breeding Tables by Kram-Weisshaar allows domestic objects to develop a chromosome, another analogy for a parametric rig](http://www.kramweisshaar.com/media/projects/breeding_tables/KRAM_WEISSHAAR_BREEDINGTABLES_Algorithm_Output_Diversity.jpg)
 
 This is a powerful mechanism to bring to all design processes — imagine all of the outcomes that might come out of your design intent — the *domain of the design*, before making any specific design choices.
 
-![sigh, zach got it wrong](hasami.jpg)
-![sigh, zach got it wrong](heath.jpg)
+![Sorry Todd! Heath on Left, Hasami on Right](heath-hasami.jpg)
 
 It is easiest to consider physical products when implementing parametric rigs. For example, the simple parameters of a ceramic cup might be (leaving aside the complexity of the handle) total height, radius/diameter at top, radius/diameter at bottom, foot height, and wall thickness. It is often the case that the simple parameters of a product align with what would be defined in a standard engineering drawing.
 
 
-![cup simple parameters](cup.png)
+![simple parameters of a mug/cup](cup.png)
 
 More complex parameters might allow for material selection, overall (non-conic) shape, handle shape and size, lip geometry, styling and surface finish, ethical decisions about the  environmental impact of its manufacture and social condition of its fabricators, intended product lifespan...
 
@@ -57,7 +56,7 @@ Let's take a look at how a table like [De-Sk](https://de-sk.co/buy) could be par
 
 ![Grasshopper Definition](grasshopper.png)
 
-![desks](desks.png)
+![Weird Desks](desks.png)
 
 What other parameters could we imagine implementing? 
 
