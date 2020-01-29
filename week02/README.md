@@ -111,8 +111,15 @@ How would we need to expand this definition to be able to generate [Hay's Revolv
 
 ##### Reading (.5 hours)
 
-- [Read this recent article on generative art](https://www.artnome.com/news/2018/8/8/why-love-generative-art)! Next week, we'll be talking about algorithmic randomness and data-driven form.
+Read through this recent [article on generative art](https://www.artnome.com/news/2018/8/8/why-love-generative-art). Next week, we'll be talking about algorithmic randomness and data-driven aesthetics, so the references and context here are helpful.
+
+##### Listening (1 hour)
+
+Listen to data artist [Adrien Segal](https://datastori.es/106-data-sculptures-with-adrien-segal/) talk about how her work intersects science, design, art, legiblity, and expression.
 
 ##### Visualization Practice (1 hour, spread out over week)
 
 - Take a peak at the Dear Data week seventeen on *Food Preferences* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on how and what you are eating, and produce 5 visualizations on 5"x7" carts. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and bring these in to share next week.
+
+
+#####
