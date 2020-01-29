@@ -107,7 +107,7 @@ To reinforce the Grasshopper tools we covered this week, create a parametric def
 
 How would we need to expand this definition to be able to generate [Hay's Revolver Stool](https://us.hay.com/furniture/seating/stools/revolver-stool/2514862.html?lang=en_US#lang=en_US&start=9) design as well?
 
-	![revolver stools](stools.jpg)
+![revolver stools](stools.jpg)
 
 ##### Reading (.5 hours)
 
