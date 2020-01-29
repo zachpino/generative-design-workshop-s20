@@ -7,7 +7,7 @@ Institute of Design course in generative design approaches and tools, and experi
 -----
 
 - [Week 01 · Course Overview](week01/README.md)
-- Week 02 · Randomness and Dataesthetics
+- [Week 02 · Parametric Rigs and Dataesthetics](week02/README.md)
 - Week 03 · Time Series Data (1D)
 - Week 04 · Grids and Scaffolds (2D)
 - Week 05 · Geographic and Categorical Data (2D)
