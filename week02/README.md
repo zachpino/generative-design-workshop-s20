@@ -53,15 +53,31 @@ Further, any of the above parameter types may be *optional*, and need not always
 
 -----
 
-### Grasshopper Definition
+### Grasshopper Definition · Parametric Mug
+
+Let's model our simple mug example in Grasshopper.
+
+[Download](cup-definition.gh)
+
+![Grasshopper Definition](cup-grasshopper.png)
+
+This visual code is capable of producing 3D models like this:
+
+![grasshopper-cup](cup-screenshot.png)
+
+-----
+
+### Grasshopper Definition · Parametric Table
 
 Let's take a look at how a table like [De-Sk](https://de-sk.co/buy) could be parameterized and recreated in Grasshopper.
 
-[Download](desk-generator.gh)
+[Download](desk-definition.gh)
 
-![Grasshopper Definition](grasshopper.png)
+![Grasshopper Definition](desk-grasshopper.png)
 
-![Weird Desks](desks.png)
+This visual code is much more powerful than our cup example, and can produce a variety of 3D models such as these:
+
+![Weird Desks](desk-screenshot.png)
 
 What other parameters could we imagine implementing in work surface design? 
 
@@ -71,17 +87,32 @@ What other parameters could we imagine implementing in work surface design?
 
 Grasshopper is as powerful as it is impenetrable, and the only way to get good at it is to practice. We will be doing lots of exercises, learning how the tool can enable new design approaches like [evolutionary modeling](http://www.kramweisshaar.com/projects/breeding-tables), [growing design solutions](http://arandalasch.com), and [data-driven form](https://www.adriensegal.com). Please complete all of these homework bits and pieces before next week, and bring all your work to class.
 
-- Unfortunately, there are not a whole lot of good beginner-level tutorials for Grasshopper. Many web searches will yield answers from the POV of mathematicians and grasshopper experts. Asking well-intentioned beginner questions often will earn responses like "just read the documentation", "hey dummie retake physics 101 lol", or "here is a 20,000 line github library and the answer is there, obvi". One resource where you might find a better learning experience is [Formularch](http://formularch.blogspot.com) — please check out a few examples to see some of the exciting stuff that is possible with Grasshopper! Also, browse two of the few interesting generative design and experimental design blogs out there: [Nervous System Blog](https://n-e-r-v-o-u-s.com/blog/) and [Creative Applications](http://www.creativeapplications.net) 
+##### Acclimation (.5 hours)
 
-- Create, on paper, *parametric definitions* for these objects and challenges. Definitely begin this work by image searching to see the existing range of design solutions, and attempt to delineate many specific designable parameters. Afterwards, consider the stretch goals in parentheses.
+Unfortunately, there are not a whole lot of good beginner-level tutorials for Grasshopper. Many web searches will yield answers from the POV of mathematicians and grasshopper experts. Well-intentioned beginner questions will often earn responses like "just read the documentation", "hey dummie retake physics 101 lolz", or "here is a 20,000 line github library and the answer is there, obvi". It's definitely frustrating. One resource where you might find a better learning experience is [Formularch](http://formularch.blogspot.com) — please check out a few examples to see some of the exciting stuff that is possible with Grasshopper! Also, browse two of the few interesting generative design and experimental design blogs out there: [Nervous System Blog](https://n-e-r-v-o-u-s.com/blog/) and [Creative Applications](http://www.creativeapplications.net). 
+
+##### Sketching (1 hour)
+
+Reference the style of the mug technical drawing above and create, on paper, simple *parametric definitions* for these objects and challenges. Definitely begin this work by searching to see the existing range of design solutions, and attempt to delineate many specific designable parameters. Afterwards, consider the stretch goals in parentheses.
 	
 	- An *umbrella* (usable for not only rain but also snow, sun, and wind)
 	- A simple *wallpaper pattern* (accomodating users with various degrees of vision impairment)
 	- A *stool/chair* (supporting people in unusual postures/movements)
 
-- To reinforce the Grasshopper tools we covered this week, *recreate* this parametric rig of a simple cup in Grasshopper. Play with the sliders — where and how does the rig break? To view this image larger, click on it, and then click the 'Download' button.
+##### Grasshopper (1.5 hours)
 
-![grasshopper-cup](grasshopper-cup.png)
-![cup](cup-rig.png)
+To reinforce the Grasshopper tools we covered this week, create a parametric definition for a simple stool in Grasshopper. You will need nodes for *Construct Point*, *Circle CNR*, *Extrude*, *Cap Holes*, *Polygon*, *Discontinuity*, *Line*,  and *Pipe* to create this geometry. Please try this first, but here's a [hint](stool-grasshopper.png) if you're stuck.
+
+![stool screenshot](stool-screenshot.png)
+
+How would we need to expand this definition to be able to generate [Hay's Revolver Stool](https://us.hay.com/furniture/seating/stools/revolver-stool/2514862.html?lang=en_US#lang=en_US&start=9) design as well?
+
+	![revolver stools](stools.jpg)
+
+##### Reading (.5 hours)
 
 - [Read this recent article on generative art](https://www.artnome.com/news/2018/8/8/why-love-generative-art)! Next week, we'll be talking about algorithmic randomness and data-driven form.
+
+##### Visualization Practice (1 hour, spread out over week)
+
+- Take a peak at the Dear Data week seventeen on *Food Preferences* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on how and what you are eating, and produce 5 visualizations on 5"x7" carts. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and bring these in to share next week.
