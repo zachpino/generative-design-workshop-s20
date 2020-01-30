@@ -8,9 +8,6 @@ This week, let's discuss how we as designers can meaningfully *parameterize* a s
 
 - [Tylko Bookshelves](https://tylko.com)
 - [Article on Tylko with Founder Interview](https://www.curbed.com/2015/6/24/9946872/tylko-furniture-app-augmented-reality)
-- [Floyd](https://floydhome.com/products)
-- [De-Sk](https://de-sk.co/buy)
-- [Radiolaria by Nervous System](https://n-e-r-v-o-u-s.com/projects/albums/radiolaria-2/)
 
 -----
 
@@ -38,7 +35,7 @@ It is easiest to consider physical products when implementing parametric definit
 
 More complex parameters might allow for material selection, overall (non-conic) form, handle shape and size, lip geometry, styling and surface finish, ethical decisions about the  environmental impact of its manufacture and social condition of its fabricators, intended product lifespan... And, at some point, this parameter expansion would yield a definition capable of generating bowls, plates, vases, and carafes as well as the original mug.
 
-How might we begin to parameterize something like a subscription service in this same way?
+How might we begin to parameterize something like a subscription video service or telemedicine in this same way?
 
 -----
 
@@ -53,9 +50,23 @@ Further, any of the above parameter types may be *optional*, and need not always
 
 -----
 
-### Grasshopper Definition · Parametric Mug
+### Grasshopper Definition · Parametric Shot Glass
 
-Let's model our simple mug example in Grasshopper.
+In class, we modeled a simple shot glass with four parameters.
+
+[Download](shotglass-definition.gh)
+
+![Grasshopper Definition](shotglass-grasshopper.png)
+
+This visual code is capable of producing 3D models like this:
+
+![grasshopper shotglass](shotglass-screenshot.png)
+
+-----
+
+### Grasshopper Definition · Parametric Mug
+
+Let's model a simple mug example in Grasshopper, which offers the ability to product more complex, curving geometry.
 
 [Download](cup-definition.gh)
 
@@ -67,27 +78,11 @@ This visual code is capable of producing 3D models like this:
 
 -----
 
-### Grasshopper Definition · Parametric Table
-
-Let's take a look at how a table like [De-Sk](https://de-sk.co/buy) could be parameterized and recreated in Grasshopper.
-
-[Download](desk-definition.gh)
-
-![Grasshopper Definition](desk-grasshopper.png)
-
-This visual code is much more powerful than our cup example, and can produce a variety of 3D models such as these:
-
-![Weird Desks](desk-screenshot.png)
-
-What other parameters could we imagine implementing in work surface design? 
-
------
-
 ### Homework
 
 Grasshopper is as powerful as it is impenetrable, and the only way to get good at it is to practice. We will be doing lots of exercises, learning how the tool can enable new design approaches like [evolutionary modeling](http://www.kramweisshaar.com/projects/breeding-tables), [growing design solutions](http://arandalasch.com), and [data-driven form](https://www.adriensegal.com). Please complete all of these homework bits and pieces before next week, and bring all your work to class.
 
-##### Acclimation (.5 hours)
+##### Acclimation to GenDes Resources (.5 hours)
 
 Unfortunately, there are not a whole lot of good beginner-level tutorials for Grasshopper. Many web searches will yield answers from the POV of mathematicians and grasshopper experts. Well-intentioned beginner questions will often earn responses like "just read the documentation", "hey dummie retake physics 101 lolz", or "here is a 20,000 line github library and the answer is there, obvi". It's definitely frustrating. One resource where you might find a better learning experience is [Formularch](http://formularch.blogspot.com) — please check out a few examples to see some of the exciting stuff that is possible with Grasshopper! Also, browse two of the few interesting generative design and experimental design blogs out there: [Nervous System Blog](https://n-e-r-v-o-u-s.com/blog/) and [Creative Applications](http://www.creativeapplications.net). 
 
@@ -97,15 +92,19 @@ Reference the style of the mug technical drawing above and create, on paper, sim
 	
 	- An *umbrella* (usable for not only rain but also snow, sun, and wind)
 	- A simple *wallpaper pattern* (accomodating users with various degrees of vision impairment)
-	- A *stool/chair* (supporting people in unusual postures/movements)
+	- An *office chair* (supporting people in unusual postures/movements)
 
-##### Grasshopper (1.5 hours)
+##### Grasshopper 1 (.5 hours)
 
-To reinforce the Grasshopper tools we covered this week, create a parametric definition for a simple stool in Grasshopper. You will need nodes for *Construct Point*, *Circle CNR*, *Extrude*, *Cap Holes*, *Polygon*, *Discontinuity*, *Line*,  and *Pipe* to create this geometry. Please try this first, but here's a [hint](stool-grasshopper.png) if you're stuck.
+Download and open (double-click the Grasshopper file while Grasshopper is open, or File->Open from within Grasshopper) the [mug grasshopper definition](cup-grasshopper) presented above. We did not cover this in class, but still play with the sliders and try to understand what is happening in the definition. Recall that you can turn the "preview" on and off for different nodes. Come in with any questions next week.
+
+##### Grasshopper 2 (1 hour)
+
+To reinforce the Grasshopper tools we covered this week, please create a parametric definition for a simple stool in Grasshopper. You will need nodes for *Construct Point*, *Circle CNR*, *Extrude*, *Cap Holes*, *Polygon*, *Discontinuity*, *Line*,  and *Pipe* to create this geometry. Please try this first, but here's a [hint](stool-grasshopper.png) for when you're stuck.
 
 ![stool screenshot](stool-screenshot.png)
 
-How would we need to expand this definition to be able to generate [Hay's Revolver Stool](https://us.hay.com/furniture/seating/stools/revolver-stool/2514862.html?lang=en_US#lang=en_US&start=9) design as well?
+Extra Credit: Could you imagine what would we need to expand for our simple definition to be able to generate [Hay's Revolver Stool](https://us.hay.com/furniture/seating/stools/revolver-stool/2514862.html?lang=en_US#lang=en_US&start=9) design as well?
 
 ![revolver stools](stools.jpg)
 
@@ -119,7 +118,4 @@ Listen to data artist [Adrien Segal](https://datastori.es/106-data-sculptures-wi
 
 ##### Visualization Practice (1 hour, spread out over week)
 
-- Take a peak at the Dear Data week seventeen on *Food Preferences* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on how and what you are eating, and produce 5 visualizations on 5"x7" carts. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and bring these in to share next week.
-
-
-#####
+Take a peak at the Dear Data week seventeen on *Food Preferences* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on how and what you are eating, and produce 5 visualizations on 5"x7" carts. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and bring these in to share next week.
