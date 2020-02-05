@@ -93,7 +93,7 @@ Though this famous record cover is [based on real astronomical data](https://www
 
 #### After George Nees
 
-![Cubic Disarray](nees.png)
+![Cubic Disarray](nees2.png)
 
 One of the famous "3N" [pioneers of computer graphics](https://centerprode.com/ojit/ojit0101/coas.ojit.0101.02013g.pdf), the German artist [George Nees](https://en.wikipedia.org/wiki/Georg_Nees) was an early implementor and codifier of computer graphics and drawing machines as viable methods of artistic expression. His innovations in algorithmic thinking directly seeded the aesthetics for many disciplines such as computer animation and immersive environments, and his work in definiting *dataesthetics* was a huge inspiration for [Syd Mead](https://www.nytimes.com/2020/01/03/arts/design/syd-mead-dead.html), who himself is largley responsible for the enduring style of sci-fi imagery.
 
