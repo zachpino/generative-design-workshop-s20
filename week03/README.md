@@ -1,46 +1,56 @@
-# Week 4 · Algorithmic Randomness
+# Week 3 · Randomness and Data Flow
 
-This week, let's discuss how randomness can aid a generative design process, and serve as the foundation for contemporary design opportunities. The focus this week will be on 2D patterns and generative art forms for pedagogical reasons, though the topics covered will serve frequently as both generative tools proper as well as testing and visualization inputs for our parametric rigs.
+This week, let's discuss how randomness can aid a generative design process, and serve as the foundation for contemporary design opportunities. The focus this week will be on 2D patterns and generative art forms for *pedagogical* reasons, though the topics covered will serve frequently as both generative tools proper as well as for testing, data analysis, and aesthetic experimentation purposes.
 
 -----
 
 ### References for the Week
 
-Some generative design works featuring (often procedural) randomness.
+Nearly all generative design works feature some degree of seeded, structured randomness. 
 
 - [Fast Company article on Randomness in Design and Architecture](https://www.fastcompany.com/3052333/the-value-of-randomness-in-art-and-design)
-- [Glithero](http://www.glithero.com/work)
-- [Maarten Baas](http://maartenbaas.com)
+- [Pitchfork Interview with Generative Music/Art Pioneer Brian Eno](https://pitchfork.com/features/interview/10023-a-conversation-with-brian-eno-about-ambient-music/)
 - [Spotlight on Generative Artist Manolo Gamboa Naon](https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy)
 - [Mischer Traxler](http://mischertraxler.com/projects/)
-- [Artsy Generative Art Category](https://www.artsy.net/gene/generative-art)
-- [Kadenze Free Generative Art Certificate in 9 Hours(!?)](https://www.kadenze.com/courses/introduction-to-generative-arts-and-computational-creativity/info)
 - [Simon Heijdens](http://www.simonheijdens.com/indexbig.php)
 - [Snarkitechture](http://www.snarkitecture.com/drift/)
 - [Interactive Generative Music Tool](https://teropa.info/loop/#/inc)
+- [Another Generative Music Tool](https://sonant.generated.space)
 - [Kenny Verbeeck on Randomness as Generative Design Tool](Verbeeck.pdf)
+- [Kadenze Free Generative Art Certificate in 9 Hours(!?)](https://www.kadenze.com/courses/introduction-to-generative-arts-and-computational-creativity/info)
+
+In non-generative design contexts, these same approaches were also especially evident in the [procedural design movement of the mid-aughts](https://www.ecal.ch/en/1181/events/exhibitions/low-tech-factory).
+
+- [Glithero](http://www.glithero.com/work)
+- [Maarten Baas](http://maartenbaas.com)
 
 -----
 
-### Randomness
+### Randomness in Design
 
 ![dice](https://wherethewindsblow.com/wp-content/uploads/2015/07/White-Six-Sided-Dice.jpg)
 
-Computational randomness is a philosophically and technically complicated topic, with much disagreement and confusion amongst experts as well as different academic disciplines.
+Computational randomness is a philosophically and technically complicated topic, with much disagreement and confusion amongst experts as well as amongst different academic disciplines.
 
-To understand randomness for our design purposes, we need to acknowledge that randomness is *inhuman*. We have no ability to produce real randomness, and we can not even prove whether or not *any series of numbers* is random. Likewise, no computational tool we use can be truly random.
+To understand randomness for our design purposes, we need to acknowledge that randomness is *inhuman*. We have no ability to produce real randomness, and we can not even prove whether or not *any series of numbers* is random. Likewise, no computational tool we use can be truly random. In fact, were you able to [generate a method for truly random numbers](https://en.wikipedia.org/wiki/Random_number_generation), you would be one of the greatest inventors of all time — as you would have revolutionized [cryptography](https://www.design-reuse.com/articles/27050/true-randomness-in-cryptography.html), [AI and machine learning](https://ai.stackexchange.com/questions/15590/is-randomness-necessary-for-ai), and [human culture](https://en.wikipedia.org/wiki/History_of_randomness) in general. No biggie. As it stands, we have to rely on slightly [less-than-elegant approximations](https://blog.cloudflare.com/lavarand-in-production-the-nitty-gritty-technical-details/) if we want any semblance of true unpredictability in our design works.
 
-Yet, though we can't generate randomness, the world exhibits randomness *everywhere*. And, as designers, we often need to confront and probe that randomness as a modelable and definable input into our design research process. Users behave randomly in many situations, they are sized and shaped in random combinations, they live in random locales and have unpredictable reactions to stimuli... We often, fundamental to our design discipline, are tasked with probing this randomness and tamping its complexity down into a set of digestable patterns or categories for our clients, our partners, and ourselves. This is our job! 
+![groovy](lavarand.jpg)
+##### Lava Lamp random number generators
 
-Because generative design is fundamentally driven by the productive friction between a *controlling* algorithm and an *uncontrollable* set of inputs, fully engaging randomness is a powerful tool. Random data can be used to model the variability of our user group and their behaviors. More importantly, random values can help test if the boundaries of an algorithm are fully considered, and will often reveal startling combinations that we might not otherwise consider. 
+Yet, though we can't generate randomness, the world exhibits *apparent* randomness everywhere. And, as designers, we often need to confront and probe that randomness as a modelable and definable input into our design research process. Users behave randomly in many situations, they are sized and shaped in random combinations, they live in random locales and have unpredictable reactions to stimuli... We often, fundamental to our design discipline, are tasked with investigating this randomness and tamping its complexity down into a set of digestable patterns or categories for our clients, our partners, and ourselves. This is one of our core competencies — reducing and structuring apparent complexity.
 
-In many ways, a randomness-driven approach may seem fundamentally opposed to contemporarily-elevated *data-driven* approaches, which will be the focus for much of the rest of the course. But, the same tools and logics that allow us to play with randomness also allow us to plug real data directly in, once it is collected and available. So, randomness can be fundamentally generative, serve as a placeholder, and help us evaluate our final outcomes. Powerful!
+Because generative design is fundamentally driven by the productive friction between a *controlling* algorithm and an *uncontrollable* set of inputs, fully understanding randomness is a powerful tool. At a tactical level, [random data](http://mockaroo.com) can be used to model the variability of our users and their behaviors. Similarly, random values can help test if the boundaries of an algorithm are fully considered, and will often [reveal startling combinations](https://en.wikipedia.org/wiki/Genetic_algorithm) that we might not ever otherwise consider. 
+
+![beetles!](beetles.png)
+##### Randomly-evolved beetles [based](https://www.cunicode.com/works/confusing-coleopterists) on 18th century scientific illustrations
+
+In many ways, a randomness-driven approach may seem fundamentally opposed to contemporarily-elevated *data-driven* approaches, which will be the focus for much of the rest of the course. But, the same tools and approaches that allow us to play with randomness also often permit real data once it is collected and available. So, randomness can be fundamentally generative, it can serve as a *hypothetical* placeholder, and it can also help us evaluate the expressiveness of our designed outcomes.
 
 -----
 
 ### Types of *Aleatory* Randomness
 
-Set-theory randomness, or the *predictability of the next element in a series*, can be [categorized](https://en.wikipedia.org/wiki/Random_number_generation) as follows. Note that the examples are simply didactic and human-generated, and will not survive any real mathematical scrutiny.
+Set-theory randomness, or the *predictability of the next element in a series*, can be [categorized](https://en.wikipedia.org/wiki/Random_number_generation) as follows. Note that the examples are simply didactic, and will not survive any real mathematical scrutiny.
 
 - Non-Random: Every element in the series is entirely predictable
 	- 1, 2, 3, 4, 5...
@@ -55,83 +65,59 @@ Set-theory randomness, or the *predictability of the next element in a series*, 
 	- Start: 27 -> Outputs: 72, 17, 63
 	- Start: .06 -> Outputs: .09, .04, .03
 
-- True Randomness (Environmental Randomness) : There is no consistent relationship between any number in the series and any other number in the series. Neither humans nor machines can generate true randomness — though we certainly [have tried](http://www.lavarand.org)!
+- True Randomness (Environmental Randomness): There is no consistent relationship between any number in the series and any other number in the series. Neither humans nor machines can generate true randomness — though we certainly [have tried](http://www.lavarand.org)!
 	- Life ([Maybe?](https://en.wikipedia.org/wiki/Determinism))
 
-Consult this [plain language explainer](http://www.statisticsblog.com/2012/02/a-classification-scheme-for-types-of-randomness/) for more info and a slightly different classification system. An understanding of these taxonomies is especially important for generative design, as an appropriate choice of randomness will often determine how useful any random testing is to a generative design exercise.
+Consult this [plain language explainer](http://www.statisticsblog.com/2012/02/a-classification-scheme-for-types-of-randomness/) for more info and a slightly different classification system. An understanding of these taxonomies is especially important for generative design, as an appropriate choice of randomness will often determine how useful any implementation is to a given generative design goal.
 
 -----
 
-### Grasshopper Definition
+### Grasshopper Definitions
 
-Let's get better at handling lists of data and randomness in Grasshopper by creating some generative art!
+Let's get better at handling lists of data and randomness in Grasshopper by creating some generative art featuring controlled randomness. In particular, focus on the use of *range* and *series* nodes this week, both of which are used to generate streams of numbers. 
 
+#### After Peter Saville 
 
-#### Distance-Based Circles
+![joy division](joydivision.jpg)
 
-Create a grid of circles and use the distance to a single movable point to determine the circles' radii.
+Best known for adorning Joy Division's *excellent* [Unknown Pleasures](https://en.wikipedia.org/wiki/Unknown_Pleasures) (which you should [absolutely listen to](https://open.spotify.com/album/0cbpcdI4UySacPh5RCpDfo) while working in Grasshopper), the graphic artists/designer [Peter Seville](https://en.wikipedia.org/wiki/Peter_Saville_(graphic_designer)) was one of the earliest implementors of generative and data-driven art approaches for mass audiences. He fundamentally defined the aesthetic of [New Wave](https://en.wikipedia.org/wiki/New_wave_music) through his posters, album covers, and motion graphics — and is the direct ancestor of contemporary [vaporwave](https://en.wikipedia.org/wiki/Vaporwave) aesthetics. 
 
-![Circles](circles.png)
+Though this famous record cover is [based on real astronomical data](https://www.rollingstone.com/music/music-news/joy-divisions-unknown-pleasures-cover-the-science-behind-an-image-191126/), we will model our interpretation with controlled randomness in Grasshopper.
 
-[Circles](circles.gh)
+[Download](unknown-pleasures-definition.gh)
 
-![Circles](circles.gif)
+![Grasshopper Definition](unknown-pleasures-grasshopper.png)
 
-
-#### Closest Point Walker
-
-Draw lines to a number of nearest grid points from a single movable point.
-
-![Walker](walker.png)
-
-[Walker](walker.gh)
-
-![Walker](walker.gif)
+![Grasshopper Unknown Pleasures Recreation](unknown-pleasures-screenshot.png)
 
 
-#### Attractor/Repulsor
+#### After George Nees
 
-Distort a grid of points with a single movable point.
+![Cubic Disarray](nees.png)
 
-![Attractor/Repulsor](attractor+repulsor.png)
+One of the famous "3N" [pioneers of computer graphics](https://centerprode.com/ojit/ojit0101/coas.ojit.0101.02013g.pdf), the German artist [George Nees](https://en.wikipedia.org/wiki/Georg_Nees) was an early implementor and codifier of computer graphics and drawing machines as viable methods of artistic expression. His innovations in algorithmic thinking directly seeded the aesthetics for many disciplines such as computer animation and immersive environments, and his work in definiting *dataesthetics* was a huge inspiration for [Syd Mead](https://www.nytimes.com/2020/01/03/arts/design/syd-mead-dead.html), who himself is largley responsible for the enduring style of sci-fi imagery.
 
-[Attractor/Repulsor](attractor+repulsor.gh)
+One of Nees' most famous works is Cubic Disarray (shown above), which we will emulate in Grasshopper.
 
-![Attractor/Repulsor](attractor+repulsor.gif)
+[Download](cubic-disarray-definition.gh)
+
+![Grasshopper Definition](cubic-disarray-grasshopper.png)
+
+![Grasshopper Cubic Disarray Recreation](cubic-disarray-screenshot.png)
 
 
 #### After Vera Molnar / Jared Tarbell
 
-Experiment in randomness to produce geometric patterns similar to [Molnár](http://www.veramolnar.com) and [Tarbell](http://www.complexification.net/gallery/).
+Let's experiment with randomness to produce geometric patterns inspired by the works of [Molnár](http://www.veramolnar.com) and [Tarbell](http://www.complexification.net/gallery/), two extraordinary generative artists who work with controlled randomness towards new definitions of aesthetics.
 
-![randompattern](randompattern.png)
+[Download](random-pattern-definition.gh)
 
-[randompattern](randompattern.gh)
+![Grasshopper Definition](random-pattern-grasshopper.png)
 
-![randompattern](randompatternexample.png)
-	
+![Grasshopper Cubic Disarray Recreation](random-pattern-screenshot.png)
+
 -----
 
 ### Homework
 
-We will be discussing data-forms next week!
-
-- Read: Download this PDF of [*Thinking Objects* by Tim Parsons](ThinkingObjects.pdf), a contemporary design theorist. [Buy the book](https://www.amazon.com/Thinking-Objects-Contemporary-Approaches-Product/dp/2940373744) if you like it, it's totally worth having on your shelf! These selections discuss different motivations we might bring into a design projects other than traditional user-centrism and financial development. We'll delve into several other sections of this text through the semester, so hold onto the PDF. 
-
-	Please read **sections 1.1-1.3, 2.1-2.5, 2.8, and lastly and most importantly 2.12**. It shouldn't take more than an hour, the chapters and short and there are lots of pictures. Please look up any referenced works that you're not familiar with. Prepare to converse as a class on this text. How does the language, logic, and content of this book compare with other things you've read in other classes?
-
-- Investigate: Browse this [painstakingly curated reference](http://dataphys.org/list/) of *physicalized data*, or 3-dimensional data visualizations. The list is chronological, so head towards the bottom for more contemporary stuff. Find one for each of the following criteria, and prepare to discuss your choices.
-
-	- A physicalization that is compelling to you with respect to the *data* that is physicalized.
-	- A physicalization that is compelling to you with respect to the *form* and *design* of the object itself.
-	- A physicalization that is compelling to you with respect to the *emotional or intellectual impact* of the object and its story if you had it in your home or workplace.
-
-	Some questions about these examples to consider... Are these objects *designed objects*? If not, what are they? What makes some of these objects more *legible* than others? How should we attempt to evaluate if some of these objects are more *successful* than others? Why might a user actually want to engage this type of object? 
-
-- Model: Recreate this water ripple simulator to reinforce the work we did this week. Play with all the sliders when you are done! Is there anywhere we could inject a random node into for more interesting behavior? 
-
-	![ripple](wave.gif)
-
-	![ripple](wave.png)
-
-
+To be determined based on class progress.
