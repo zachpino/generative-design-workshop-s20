@@ -119,7 +119,7 @@ Let's experiment with randomness to produce geometric patterns inspired by the w
 
 ### Homework
 
-##### Grasshopper (1 hour)
+##### Grasshopper (1.5 hours)
 
 TBD based on class progress.
 
