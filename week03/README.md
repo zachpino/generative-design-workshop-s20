@@ -9,7 +9,6 @@ This week, let's discuss how randomness can aid a generative design process, and
 Nearly all generative design works feature some degree of seeded, structured randomness. 
 
 - [Fast Company article on Randomness in Design and Architecture](https://www.fastcompany.com/3052333/the-value-of-randomness-in-art-and-design)
-- [Pitchfork Interview with Generative Music/Art Pioneer Brian Eno](https://pitchfork.com/features/interview/10023-a-conversation-with-brian-eno-about-ambient-music/)
 - [Spotlight on Generative Artist Manolo Gamboa Naon](https://www.artnome.com/news/2018/8/8/generative-art-finds-its-prodigy)
 - [Mischer Traxler](http://mischertraxler.com/projects/)
 - [Simon Heijdens](http://www.simonheijdens.com/indexbig.php)
@@ -74,7 +73,7 @@ Consult this [plain language explainer](http://www.statisticsblog.com/2012/02/a-
 
 ### Grasshopper Definitions
 
-Let's get better at handling lists of data and randomness in Grasshopper by creating some generative art featuring controlled randomness. In particular, focus on the use of *range* and *series* nodes this week, both of which are used to generate streams of numbers. 
+Let's get better at handling lists of data and randomness in Grasshopper by creating some generative art featuring controlled randomness. In particular, focus on how *graft* and *flatten* nodes allow us to manipulate the structure of data streams and on how *range* and *series* nodes generate streams of incrementing numbers. 
 
 #### After Peter Saville 
 
@@ -120,4 +119,22 @@ Let's experiment with randomness to produce geometric patterns inspired by the w
 
 ### Homework
 
-To be determined based on class progress.
+##### Grasshopper (1 hour)
+
+TBD based on class progress.
+
+##### Reading (1 hour)
+
+TBD based on class progress.
+
+##### Listening and Reading (1 hour)
+
+Listen to a fifteen minute selection of the [*Reflection* album/song](https://open.spotify.com/track/7MMXFqR5OagEJbZLzkxTL6?si=UfAOdbHqR1-3q8lLa1MN7A) by Brian Eno. 
+
+Then, check-out the related [Pitchfork interview](https://pitchfork.com/features/interview/10023-a-conversation-with-brian-eno-about-ambient-music/) which was produced at the release of *Reflection*. 
+
+Optional: If this is totally your groove, also check out [Bloom](https://apps.apple.com/us/app/bloom/id292792586), the generative iPhone/iPad app developed by Brian Eno and his technical collaborator Peter Chilvers ($3.99). If especially interested, listen to this [recent interview podcast](https://echoes.org/2018/05/17/echoes-podcast-brian-eno-at-70/) with Eno wherein he eloquently discusses music "composing itself" and his lengthy career.
+
+##### Visualization Practice (1 hour, spread out over week)
+
+Take a look at the Dear Data week forty-seven on *Smells and Scents* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on how and what you are *smelling*, and produce 5 visualizations on 5"x7" carts. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and bring these in to share next week.
