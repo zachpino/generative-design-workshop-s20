@@ -105,7 +105,7 @@ You will likely need many copies of the *range*, *series*, *graft tree*, *negati
 
 You will need just one node of *rotate*, *subtraction*, *flip matrix*, *square* (there are two, we want the one that makes a grid and not the "square root" one), *area*, *rotate* (there are three! we want the one that gives you geometry, angle, and plane inputs), *move*, *vector xyz*, *swatch*, and *custom preview*.
 
-![Grasshopper Cubic Disarray Recreation](cubic-disarray-screenshot.png)
+![Grasshopper Cubic Disarray Recreation](cubic-disarray-simple-screenshot.png)
 
 
 ##### Listening and Reading (1 hour)
