@@ -9,15 +9,15 @@ Institute of Design course in generative design approaches and tools, and experi
 - Week 01 · [Course Overview](week01/README.md)
 - Week 02 · [Parametric Definitions](week02/README.md)
 - Week 03 · [Randomness and Data Flow](week03/README.md)
-- Week 04 · Time Series Data (1D)
-- Week 05 · Grids and Scaffolds (2D)
-- Week 06 · Geographic and Categorical Data (2D)
-- Week 07 · Networked and Multidimensional Data (3D+)
+- Week 04 · Grids and Scaffolds 
+- Week 05 · Networked and Multidimensional Data 
+- Week 06 · Algorithmic Patterns
+- Week 07 · Evolutionary Algorithms
 - Spring Break! 
-- Week 08 · Algorithmic Patterns
-- Week 09 · Evolutionary Algorithms
-- Week 10 · Growing Forms I
-- Week 11 · Growing Forms II
-- Week 12 · Simulating Natural Processes I 
-- Week 13 · Simulating Natural Processes II
+- Week 08 · Growing Forms I
+- Week 09 · Growing Forms II
+- Week 10 · Simulating Natural Processes I 
+- Week 11 · Simulating Natural Processes II
+- Week 12 · Worktime
+- Week 13 · Worktime
 - Week 14 · Final Critique
