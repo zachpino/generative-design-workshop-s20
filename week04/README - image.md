@@ -6,6 +6,22 @@ In particular, we'll look at the related [Delaunay Triangulation](https://en.wik
 
 -----
 
+
+
+#### After Vera Molnar / Jared Tarbell
+
+Let's experiment with randomness to produce geometric patterns inspired by the works of [Molnár](http://www.veramolnar.com) and [Tarbell](http://www.complexification.net/gallery/), two extraordinary generative artists who work with controlled randomness towards new definitions of aesthetics.
+
+[Download](random-pattern-definition.gh)
+
+![Grasshopper Definition](random-pattern-grasshopper.png)
+
+![Grasshopper Cubic Disarray Recreation](random-pattern-screenshot.png)
+
+-----
+
+
+
 ### References for the Week
 
 Some examples of pattern algorithm design work.

@@ -89,52 +89,41 @@ Though this famous record cover is [based on real astronomical data](https://www
 
 ![Grasshopper Unknown Pleasures Recreation](unknown-pleasures-screenshot.png)
 
-
-#### After George Nees
-
-![Cubic Disarray](nees2.png)
-
-One of the famous "3N" [pioneers of computer graphics](https://centerprode.com/ojit/ojit0101/coas.ojit.0101.02013g.pdf), the German artist [George Nees](https://en.wikipedia.org/wiki/Georg_Nees) was an early implementor and codifier of computer graphics and drawing machines as viable methods of artistic expression. His innovations in algorithmic thinking directly seeded the aesthetics for many disciplines such as computer animation and immersive environments, and his work in definiting *dataesthetics* was a huge inspiration for [Syd Mead](https://www.nytimes.com/2020/01/03/arts/design/syd-mead-dead.html), who himself is largley responsible for the enduring style of sci-fi imagery.
-
-One of Nees' most famous works is Cubic Disarray (shown above), which we will emulate in Grasshopper.
-
-[Download](cubic-disarray-definition.gh)
-
-![Grasshopper Definition](cubic-disarray-grasshopper.png)
-
-![Grasshopper Cubic Disarray Recreation](cubic-disarray-screenshot.png)
-
-
-#### After Vera Molnar / Jared Tarbell
-
-Let's experiment with randomness to produce geometric patterns inspired by the works of [Molnár](http://www.veramolnar.com) and [Tarbell](http://www.complexification.net/gallery/), two extraordinary generative artists who work with controlled randomness towards new definitions of aesthetics.
-
-[Download](random-pattern-definition.gh)
-
-![Grasshopper Definition](random-pattern-grasshopper.png)
-
-![Grasshopper Cubic Disarray Recreation](random-pattern-screenshot.png)
-
 -----
 
 ### Homework
 
-##### Grasshopper (1.5 hours)
+##### Grasshopper (1.5 hours): After George Nees
 
-TBD based on class progress.
+![Cubic Disarray](nees2.png)
 
-##### Reading (1 hour)
+One of the famous "3N" [pioneers of computer graphics](https://centerprode.com/ojit/ojit0101/coas.ojit.0101.02013g.pdf), the German artist [George Nees](https://en.wikipedia.org/wiki/Georg_Nees) was an early implementor and codifier of computer graphics and drawing machines as viable methods of artistic expression. His innovations in algorithmic thinking directly seeded the aesthetics for many disciplines such as computer animation and immersive environments, and his work in definiting *dataesthetics* was a huge inspiration for [Syd Mead](https://www.nytimes.com/2020/01/03/arts/design/syd-mead-dead.html), who himself is largely responsible for the enduring style of sci-fi imagery featured in films such as *Blade Runner*, *Tron*, and *Aliens*.
 
-TBD based on class progress.
+One of Nees' most famous works is *Cubic Disarray* (shown above), which you are asked to emulate in Grasshopper. Here is [one possible approach](cubic-disarray-simple-grasshopper.png) of many, though try it on your own first! The work features a grid of squares which, as they approach the bottom of the composition, become more and more rotated and perturbed from their original gridded spot.
+
+You will likely need many copies of the *range*, *series*, *graft tree*, *negative*, *random*, *reverse list*, and *construct domain* nodes.
+
+You will need just one node of *rotate*, *subtraction*, *flip matrix*, *square* (there are two, we want the one that makes a grid and not the "square root" one), *area*, *rotate* (there are three! we want the one that gives you geometry, angle, and plane inputs), *move*, *vector xyz*, *swatch*, and *custom preview*.
+
+![Grasshopper Cubic Disarray Recreation](cubic-disarray-screenshot.png)
+
 
 ##### Listening and Reading (1 hour)
 
-Listen to a fifteen minute selection of the [*Reflection* album/song](https://open.spotify.com/track/7MMXFqR5OagEJbZLzkxTL6?si=UfAOdbHqR1-3q8lLa1MN7A) by Brian Eno. 
+Listen to a fifteen minute selection of the [*Reflection* album/song/app experience](https://open.spotify.com/track/7MMXFqR5OagEJbZLzkxTL6?si=UfAOdbHqR1-3q8lLa1MN7A) by Brian Eno. 
+
+![reflection](reflection.jpg)
 
 Then, check-out the related [Pitchfork interview](https://pitchfork.com/features/interview/10023-a-conversation-with-brian-eno-about-ambient-music/) which was produced at the release of *Reflection*. 
 
-Optional: If this is totally your groove, also check out [Bloom](https://apps.apple.com/us/app/bloom/id292792586), the generative iPhone/iPad app developed by Brian Eno and his technical collaborator Peter Chilvers ($3.99). If especially interested, listen to this [recent interview podcast](https://echoes.org/2018/05/17/echoes-podcast-brian-eno-at-70/) with Eno wherein he eloquently discusses music "composing itself" and his lengthy career.
+Optional: If these jams are your groove, also check out [Bloom](https://apps.apple.com/us/app/bloom/id292792586), the generative iPhone/iPad app developed by Brian Eno and his technical collaborator Peter Chilvers ($3.99). If especially interested, listen to this [recent interview podcast](https://echoes.org/2018/05/17/echoes-podcast-brian-eno-at-70/) with Eno wherein he eloquently discusses music "composing itself" and his lengthy career which intersected so many impactful musicians.
+
 
 ##### Visualization Practice (1 hour, spread out over week)
 
 Take a look at the Dear Data week forty-seven on *Smells and Scents* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on how and what you are *smelling*, and produce 5 visualizations on 5"x7" carts. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and bring these in to share next week.
+
+
+##### Catching Up
+
+Please submit homework from the last two weeks into the appropriate folders in the class Google Drive.
