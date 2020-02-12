@@ -27,6 +27,10 @@ This week, we will take a look at how generative designers can use the regularit
 
 ### Scaffolds — Grids, Sampling, and Paneling
 
+![seed-catheral](seed-cathedral.jpg)
+
+##### Thomas Heatherwick's [UK Pavilion/Seed Cathedral in Shanghai](http://www.heatherwick.com/project/uk-pavilion/) 
+
 In the same way as last week's lessons asked you to draw your attention to the *range* node through a conversation about the exciting and quasi-mystical *random* node, this week will mask the importance of the *remap* node in the excitement of regular and irregular grid scaffolds and *closest point* sets.
 
 Many methods exist to organize a *field of points* into structured sets. Many generative design works make use of such ordering and sequencing structures to place data entitites into legible positions, sample the differential impact of simulated physical forces on an area or volume, and otherwise provide the raw materials for later manipulation and deformation. 
