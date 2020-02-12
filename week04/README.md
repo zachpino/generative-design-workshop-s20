@@ -103,7 +103,7 @@ Let's experiment with randomness to produce geometric patterns inspired by the w
 
 ![Grasshopper Definition](random-pattern-grasshopper.png)
 
-![Grasshopper Walkthrough](random-pattern-screenshot.gif)
+![Grasshopper Walkthrough](random-pattern-screenshot.png)
 
 -----
 
@@ -122,9 +122,7 @@ We will soon be exploring combinatorial design and more data-oriented generative
 
 ##### Listening and Watching II (1 hour)
 
-Moving laterally a bit, but relating to our dive into generative music last week, let us investigate works in *generative literature* and *poetry*.
-
-First, visit [curated.ai](http://curatedai.com) and read through some of the poems hosted there. Please do not visit the "about" page until later.
+Moving laterally a bit, but relating to our dive into generative music last week, let us investigate works in *generative literature* and *poetry*. **First**, visit [curated.ai](http://curatedai.com) and read through some of the poems hosted there. Please do not visit the "about" page until later.
 
 Then, read through this recent New Yorker article on generative literature: [What Happens When Machines Learn To Write Poetry](https://www.newyorker.com/culture/annals-of-inquiry/the-mechanical-muse). Following that, read this short introduction to *curated.ai* at Popular Science [Artificial Intelligences Are Writing Poetry For A New Online Literary Magazine](https://www.popsci.com/ai-poetry-literary-magazine/). 
 
