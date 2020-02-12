@@ -1,173 +1,141 @@
-# Week 6 · Anthropometric Patterns
+# Week 4 · Grids as Data Scaffolds
 
-We'll examine this week how contemporary designers are implementing algorithmic processes to address complex design problems.
-
-In particular, we'll look at the related [Delaunay Triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation) and [Voronoi Tesselation](https://en.wikipedia.org/wiki/Voronoi_diagram) — simple mathematical models for complex natural phenomena. We'll also use [Catmull-Clark Subdivision](https://en.wikipedia.org/wiki/Catmull–Clark_subdivision_surface) algorithm to smooth data-drive, anatomical forms.
+This week, we will take a look at how generative designers can use the regularity and structures of grids and related data scaffolds to seed their design work.
 
 -----
 
+### References for the Week
 
+- [Red Blob Games on Grids](http://www-cs-students.stanford.edu/~amitp/game-programming/grids/)
+- [Red Blob Games on Hex Grids](https://www.redblobgames.com/grids/hexagons/)
+- [Quasicrystals](https://en.wikipedia.org/wiki/Quasicrystal)
+- [Penrose Tiling](https://en.wikipedia.org/wiki/Penrose_tiling)
+- [Geometric Honeycomb](https://en.wikipedia.org/wiki/Honeycomb_(geometry))
+- [Beta-Skeletons](https://en.wikipedia.org/wiki/Beta_skeleton)
+- [Islamic Patterns](https://patterninislamicart.com/drawings-diagrams-analyses)
+- [Convex Hulls](https://en.wikipedia.org/wiki/Convex_hull)
+- [*Rule of Six*](http://arandalasch.com/works/rules-of-six/) by Aranda Lasch
+- [Algorithmic Patterns for Façade Design](apfd.pdf) by Inês Caetano
+- [Paneling methods on complex surfaces](http://www.gasathj.com/tiki-read_article.php?articleId=31) by Matteo Codignola & Vito Sirago
+- [Process(ing): Generative Irregular Grid](https://medium.com/@mishaheesakkers/process-ing-generative-irregular-grid-8f0d712dfaa4) by Misha Heesakkers
+- [Sand Glyphs](https://inconvergent.net/generative/sand-glyphs/) by Inconvergent (Anders Hoff)
+- [Seed Cathedral](http://www.heatherwick.com/project/uk-pavilion/) by Thomas Heatherwick
+- [Geometricism](http://geometricism.com) by David Wade
+- [Esther Stocker](https://www.sightunseen.com/2010/02/esther-stocker-artist/)
 
-#### After Vera Molnar / Jared Tarbell
+-----
 
-Let's experiment with randomness to produce geometric patterns inspired by the works of [Molnár](http://www.veramolnar.com) and [Tarbell](http://www.complexification.net/gallery/), two extraordinary generative artists who work with controlled randomness towards new definitions of aesthetics.
+### Scaffolds — Grids, Sampling, and Paneling
+
+In the same way as last week's lessons asked you to draw your attention to the *range* node through a conversation about the exciting and quasi-mystical *random* node, this week will mask the importance of the *remap* node in the excitement of regular and irregular grid scaffolds and *closest point* sets.
+
+Many methods exist to organize a *field of points* into structured sets. Many generative design works make use of such ordering and sequencing structures to place data entitites into legible positions, sample the differential impact of simulated physical forces on an area or volume, and otherwise provide the raw materials for later manipulation and deformation. 
+
+#### 2D (into ND) Grids
+
+Grid structures allow for simple connections amongst a set of members *by grouping according to dimensional and axial relationships* and *proximity*. We often think of the *rows* and *columns* of grids as natively mapped to principle axes *x* and *y*, though these two-dimensional *square* grid structures can be transformed [without any data change](https://en.wikipedia.org/wiki/Graph_theory) into *radial*, *triangular*, *hexagonal*, *diamond*, or *staggered (brick)* schemata.
+
+##### Patterns through Random Projection
+
+Create a regular grid, and then randomly move each point upwards. Find closest points to each point, and draw a connecting line. As the upwards movement increases, so to does the disorder of the patterns that emerge. [Projection into perpendicular dimensions is weird!](https://en.wikipedia.org/wiki/Flatland) This example makes use of the super useful *convex hull* node, which expects a set of points and returns the outer boundary polygon.
+
+[Download](projection-pattern-definition.gh)
+
+![Grasshopper Definition](projection-pattern-grasshopper.png)
+
+![Grasshopper Walkthrough](projection-pattern-screenshot.gif)
+
+##### Closest Points Walker
+
+Draw lines *from* a single movable point *to* a number of nearest grid points, to simulate a virtual 'spider' traversing the grid. Also, color nodes in grid based on distance to spider.
+
+[Download](walker-definition.gh)
+
+![Grasshopper Definition](walker-grasshopper.png)
+
+![Grasshopper Walkthrough](walker-screenshot.gif)
+
+##### Distance-Based Circles
+
+Create a grid of circles, and use the distance from a single movable point to determine the circles' radii.
+
+[Download](circles-definition.gh)
+
+![Grasshopper Definition](circles-grasshopper.png)
+
+![Grasshopper Walkthrough](circles-screenshot.gif)
+
+##### Attractor/Repulsor
+
+Distort the organization of a grid of points with a single, movable point.
+
+[Download](attractor+repulsor-definition.gh)
+
+![Grasshopper Definition](attractor+repulsor-grasshopper.png)
+
+![Grasshopper Walkthrough](attractor+repulsor-screenshot.gif)
+
+##### Deformable Mesh
+
+Use a movable point to manipulate the geometry of a 3D mesh surface.
+
+[Download](deformable-mesh-definition.gh)
+
+![Grasshopper Definition](deformable-mesh-grasshopper.png)
+
+![Grasshopper Walkthrough](deformable-mesh-screenshot.png)
+
+##### Image Sampler
+
+Extract brightness data from an image and create 3D [heightmaps](https://en.wikipedia.org/wiki/Heightmap).
+
+[Download](image-sampler-definition.gh)
+
+![Grasshopper Definition](image-sampler-grasshopper.png)
+
+![Grasshopper Walkthrough](image-sampler-screenshot.png)
+
+##### After Molnár and Tarbell
+
+Let's experiment with randomness to produce geometric patterns inspired by the works of [Molnár](http://www.veramolnar.com) and [Tarbell](http://www.complexification.net/gallery/), two extraordinary generative artists who work with controlled randomness and grids towards new aesthetic definitions. Take a regular grid, place polygons at every node, and distort every aspect of the resulting composition including polygon vertex count, rotation, placement, overall distortion, stroke color, fill color, stroke thickness...
 
 [Download](random-pattern-definition.gh)
 
 ![Grasshopper Definition](random-pattern-grasshopper.png)
 
-![Grasshopper Cubic Disarray Recreation](random-pattern-screenshot.png)
-
------
-
-
-
-### References for the Week
-
-Some examples of pattern algorithm design work.
-
-- [Jerusalem Table](https://www.core77.com/projects/39363/Jerusalem-Tables)
-- [Voronoi at Thingiverse](https://www.thingiverse.com/search?q=voronoi)
-- [Nervous System](https://n-e-r-v-o-u-s.com/projects/)
-- [Marc Newson Voronoi Shelf](http://marc-newson.com/voronoi-shelf/)
-- [Go Wheel Chair](http://layerdesign.com/projects/go/)
-- [Bespoke 3D Orthopedics Brace](https://www.youtube.com/watch?v=OGRkNexY3N8)
-- [Interactive Subdivision](https://www.khanacademy.org/partner-content/pixar/modeling-character/modeling-subdivision/p/interactive-subdivision-in-3d)
-- [Pixar in a Box](https://www.khanacademy.org/partner-content/pixar)
-
-- [Unyq](http://unyq.com/en-us/us/)
-- [Osteoid Ultrasonic Cast](https://competition.adesignaward.com/design.php?ID=34151)
-- [Cortex Cast](http://www.evilldesign.com/cortex)
-- [Thermal Comfort Casts](https://3dprint.com/192877/3d-printed-cast-thermal-comfort/)
-- [Hand and Wrist Fracture Cast](http://www.machiningnews.com/2017/06/real-world-test-of-3d-printed-cast-for-hand-fracture/)
-
-- [How to Hand Draw Delaunay and Voronoi](http://765.blogspot.com/2009/09/how-to-draw-voronoi-diagram.html)
-- [Simple Interactive Voronoi Editor](http://www.sygreer.com/projects/voronoi/)
-- [Interactive Javascript Translation](http://paperjs.org/examples/voronoi/)
-- [World Capitals Voronoi](https://www.jasondavies.com/maps/voronoi/capitals/)
-- [In D3 Data Viz Library](https://github.com/d3/d3-delaunay)
-- [Anna Nowak on Application of Voronoi diagrams in contemporary architecture and town planning](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-5259df1a-e1f7-442f-a68c-10c0c2b35c96/c/chmot62_06.pdf)
-
-- [All the Maths](http://cgl.uni-jena.de/pub/Workshops/WebHome/cgl12new.pdf)
-- [Easier to Understand All the Maths](https://meemoo.org/blog/2014-07-14-noflo-geometry)
-
------
-
-### Triangulation, Tesselation, Subdivision
-
-
-#### Delaunay Triangulation
-
-![del](https://i.pinimg.com/originals/76/c1/a2/76c1a2a0222ff50861797b6152db8aa2.jpg)
-
-Developed in the 1930s by Russian geometer [Boris Delaunay](https://en.wikipedia.org/wiki/Boris_Delaunay), the [Delaunay triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation) is essential to nearly all computer graphics. Whenever you hear or talk about a 'mesh', that's a Delaunay Triangulation! Videogames, visual effects for cinema, medical scanning, arcGIS geographic data — everything! It is also in heavy use by structural engineers, and unintentionally undergirds nearly all of the truss geometries that define bridges, attics, and other triangular structures as well as communication network routing. More recently, as autonomous vehicles begin to explore unmapped areas where sensors may fail, Delaunay Triangulation logic is used to [allow intelligent agents to navigate dangerous boundaries](https://en.wikipedia.org/wiki/Constrained_Delaunay_triangulation). 
-
-In 3D space, the triangulation creates a *network topography* of triangular cells, based on known points to support, that would use the minimal amount of connective material to maintain in opposition to a singular force vector.
-
-- Sprinkle random points on a 2D plane
-- Draw all possible circles defined by any of the 3 points
-- If those circles contain *any* of the sprinkled points, that circle should be discarded
-- If a circle passes the test, then draw the [circumscribed triangle](https://en.wikipedia.org/wiki/Circumscribed_circle) as an edge
-
-![delaunay supports](http://codingcity.org/wp-content/uploads/2015/07/renderingplaza2.jpg)
-
-
-#### Voronoi Tesselation
-
-![voronoi](http://datagenetics.com/blog/may12017/anim2.gif)
-
-![del vor](http://meemoo.org/images/delaunay_voronoi_dual.gif)
-
-The geometric [*dual*](https://en.wikipedia.org/wiki/Dual_polyhedron) of the Delaunay Triangulation, [Voronoi Tesselation](https://en.wikipedia.org/wiki/Voronoi_diagram) invented by another amazing Russian mathematician — [Georgy Voronoi](https://en.wikipedia.org/wiki/Georgy_Voronoy) — similarly tiles a plane with shapes — though not not usually triangles. The unusual cells that come out of the Voronoi Tesselation model fairly accurately a multitude of natural formal phenomena as well as behaviors. Bone microstructure, sponge anatomy, soil clumping, termite and bee architecture, neuron network arrangement.... the list is almost endless. This is because the Voronoi Tesselation models an *efficient* set of cells. All of the space within a single Voronoi cell is *closer* to the centroid of a Delaunay triangle, and as a result, Voronoi logic approximates how any agent might make a decision about which of a set of possible choices should be chosen based purely on efficiently traversing or covering a plane or volume. It is increasingly being used by public policymakers to [place trainstops, design road networks](http://datagenetics.com/blog/may12017/index.html), and [predict crime](https://www.tandfonline.com/doi/abs/10.1080/00330124.2017.1288578?scroll=top&needAccess=true&journalCode=rtpg20).
-
-- Generate a Delaunay Triangulation
-- Find the area centroid of each triangle
-- Find the midpoint of each edge, and draw a line perpendicular to the edge
-- Intersect all these lines and cut them with one another
-- Draw the remnant irregular polygons
-
-![bone](https://afinemesh.files.wordpress.com/2014/04/printed-voronoi.jpg)
-
-#### Catmull Clark Subdivision
-
-Catmull Clark Subdivision is amazing! We'll talk about it in class, it's very difficult to describe in words.
-
-But, play with Pixar in a Box's amazing [interactive tool](https://www.khanacademy.org/partner-content/pixar/modeling-character/modeling-subdivision/p/interactive-subdivision-in-3d)) to get a sense of it.
-
------
-
-### Food 4 Rhino
-
-![grass,right?](rhino.gif)=
-
-[Food4Rhino](http://www.food4rhino.com) is a central repository for plugins and add-on software for Rhino 3D, as well as for Grasshopper. Plugins for plugins! 
-
-Create a free account on the website and search around. Anything exciting? Unfortunately, not everything will work on Macs and it's impossible to know unless you see an Apple logo under the *Download* button. But, even if *there is not an Apple logo*, it still might work!
-
-To install a Grasshopper plugin, open Grasshopper, and navigate to File -> Special Folders -> Components Folder.
-
-This will open a Finder/Explorer window, into which you can move the downloaded folder. The best practice is usually to drag the entire folder over, not the individual .gha or .ghuser files. You can find Grasshopper plugins all over the internet, not just at Food4Rhino. If you are running Windows, right click on any .exe, .ghuser, and .gha files and click on *Properties*. Make sure to click *Unblock* if it is an option.
-
-For Grasshopper to load newly installed plugins, we just need to restart Grasshopper. Either quit and restart Rhino, or alternatively, in *Rhino* type `Grasshopper unload plugin` and then relaunch Grasshopper.
-
-For this and future exercises, let's install a few specific and essential plugins.
-
-- For better Mesh cleanup: [Mesh Edit Tools *1.9* from Oct 1, 2016](https://www.food4rhino.com/app/meshedit)
-- For better Mesh smoothing: [Weaverbird for Mac](http://www.giuliopiacentino.com/get-wb-no-admin/) or [Weaverbird for Windows](http://www.giuliopiacentino.com/get-wb/)
-
------
-
-### Grasshopper Definition
-
-
-#### Image Sampler
-
-Extract brightness data from an image and create a heightmap.
-
-![imagesampler](imagesampler.png)
-
-[imagesampler](imagesampler.gh)
-
-![imagesampler](imagesampler_gh.png)
-
------
-
-#### 'Simple' Delaunay Triangulation
-
-From a field of random points, create Delaunay triangulation
-
-![delaunay](delaunay.png)
-
-[delaunay](delaunay.gh)
-
-![delaunay](delaunay_gh.png)
-
------
-
-#### Data-Driven Voronoi Cast
-
-Create a voronoi tesselation in 3D space around a data-driven, anatomical form. Allow for variable cell openness based on attractor curve.
-
-![voronoi_cast.png](voronoi_cast.png)
-
-[voronoi_cast](voronoi_cast.gh)
-
-![voronoi_cast_gh.png](voronoi_cast_gh.png)
-
------
-
-#### Data-Driven Delaunay Cast
-
-Create a Delaunay triangulation in 3D space around a data-driven, anatomical form.
-
-![delaunay_cast.png](delaunay_cast.png)
-
-[delaunay_cast](delaunay_cast.gh)
-
-![delaunay_cast_gh.png](delaunay_cast_gh.png)
+![Grasshopper Walkthrough](random-pattern-screenshot.gif)
 
 -----
 
 ### Homework
 
-Week off!
+##### Grasshopper (1.5 hours)
+
+TBD based on how far we get today! The likley homework will be to reconstruct all of the examples on this page that we did not cover.
+
+##### Listening and Watching I (.5 hours)
+
+Read a short case-study by Sidewalk Lab describing their neighborhood design tool: [*A first step toward the future of neighborhood design*](https://www.sidewalklabs.com/blog/a-first-step-toward-the-future-of-neighborhood-design/) as well as this [short interview](https://www.youtube.com/watch?v=-SoqN4GBpTM) with Chicago-native architect Jeanne Gang. If interested, you can read more about *Solar Carve* on [Studio Gang's website](https://studiogang.com/project/40-tenth-ave). All these pieces discuss how generative design tools allow creators to embed a non-human intelligence about ambient phenomena into their designed outcomes.
+
+We will soon be exploring combinatorial design and more data-oriented generative approaches, so hopefully these teasers will be inspirational despite their location in urban planning and architecture rather than traditional design.
+
+
+##### Listening and Watching II (1 hour)
+
+Moving laterally a bit, but relating to our dive into generative music last week, let us investigate works in *generative literature* and *poetry*.
+
+First, visit [curated.ai](http://curatedai.com) and read through some of the poems hosted there. Please do not visit the "about" page until later.
+
+Then, read through this recent New Yorker article on generative literature: [What Happens When Machines Learn To Write Poetry](https://www.newyorker.com/culture/annals-of-inquiry/the-mechanical-muse). Following that, read this short introduction to *curated.ai* at Popular Science [Artificial Intelligences Are Writing Poetry For A New Online Literary Magazine](https://www.popsci.com/ai-poetry-literary-magazine/). 
+
+I hope we can have a robust argument about whether this is amazing, or terrible, next week. :confused:
+
+
+##### Visualization Practice (1 hour, spread out over week)
+
+Take a look at the Dear Data week forty-six on *Books We Own* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on a set of related content items that you own (not necessarily books -- consider real and digital possessions such as videogames, movies, collectibles, tableware...), and produce 3 visualizations on 5"x7" carts. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and bring these in to share next week.
+
+
+##### Catching Up
+
+Please continue to submit homework from the last several weeks, if you have not already, into the appropriate folders in the class Google Drive.
