@@ -75,7 +75,7 @@ Distort the organization of a grid of points with a single, movable point.
 
 [Download](attractor+repulsor-definition.gh)
 
-![Grasshopper Definition](attractor+repulsor-grasshopper.png)
+![Grasshopper Definition](attractor+repulsor-grasshopper-update.png)
 
 ![Grasshopper Walkthrough](attractor+repulsor-screenshot.gif)
 
@@ -95,12 +95,14 @@ Use a movable point to manipulate the geometry of a 3D mesh surface.
 
 ##### Grasshopper (1.5 hours)
 
-Please complete the *Patterns through Random Projection* and *Attractor/Repulsor* examples above. Feel free to start by downloading the examples, though there will certainly be better learning potential if you start from scratch and try to build the parts that seem familiar first.
+Please recreate the *Distance-Based Circles* example above. It is very similar to the *Deformable Mesh* variant we completed in class, and you might be able to build it already with the skills you have! 
+
+Then, consider the *Attractor/Repulsor* and *Patterns through Random Projection* examples above. Feel free to start by downloading the examples, though there will certainly be better learning outcomes if you *start from scratch* and try to build the parts that seem familiar first before adding the new methods necessary to make these examples function as animated above (vector and domain construction, respectively).
 
 
 ##### Listening and Watching I (.5 hours)
 
-Read a short case-study by Sidewalk Lab describing their neighborhood design tool: [*A first step toward the future of neighborhood design*](https://www.sidewalklabs.com/blog/a-first-step-toward-the-future-of-neighborhood-design/) as well as this [short interview](https://www.youtube.com/watch?v=-SoqN4GBpTM) with Chicago-native architect Jeanne Gang. If interested, you can read more about *Solar Carve* on [Studio Gang's website](https://studiogang.com/project/40-tenth-ave). All these pieces discuss how generative design tools allow creators to embed a non-human intelligence about ambient phenomena into their designed outcomes.
+Read a short case-study by Sidewalk Lab describing their neighborhood design tool: [*A first step toward the future of neighborhood design*](https://www.sidewalklabs.com/blog/a-first-step-toward-the-future-of-neighborhood-design/) as well as this [short interview](https://www.youtube.com/watch?v=-SoqN4GBpTM) with Chicago-native architect Jeanne Gang. If interested, you can read more about *Solar Carve* on [Studio Gang's website](https://studiogang.com/project/40-tenth-ave). All these pieces discuss how generative design tools allow creators to embed a non-human intelligence about environmental phenomena into their designed outcomes.
 
 We will soon be exploring combinatorial design and more data-oriented generative approaches, so hopefully these teasers will be inspirational despite their location in urban planning and architecture rather than traditional design.
 
