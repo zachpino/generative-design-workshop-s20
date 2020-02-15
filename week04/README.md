@@ -95,7 +95,7 @@ Use a movable point to manipulate the geometry of a 3D mesh surface.
 
 ##### Grasshopper (1.5 hours)
 
-Please complete the *Attractor/Repulsor* and *Patterns through Random Projection* examples above.
+Please complete the *Patterns through Random Projection* and *Attractor/Repulsor* examples above. Feel free to start by downloading the examples, though there will certainly be better learning potential if you start from scratch and try to build the parts that seem familiar first.
 
 
 ##### Listening and Watching I (.5 hours)
