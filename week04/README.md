@@ -45,7 +45,7 @@ Create a regular grid, and then randomly move each point upwards. Find closest p
 
 [Download](projection-pattern-definition.gh)
 
-![Grasshopper Definition](projection-pattern-grasshopper.png)
+![Grasshopper Definition](projection-pattern-grasshopper-update.png)
 
 ![Grasshopper Walkthrough](projection-pattern-screenshot.gif)
 
@@ -65,7 +65,7 @@ Create a grid of circles, and use the distance from a single movable point to de
 
 [Download](circles-definition.gh)
 
-![Grasshopper Definition](circles-grasshopper.png)
+![Grasshopper Definition](circles-grasshopper-update.png)
 
 ![Grasshopper Walkthrough](circles-screenshot.gif)
 
