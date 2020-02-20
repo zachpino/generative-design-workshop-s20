@@ -111,74 +111,87 @@ We often talk about [data as the raw materials](https://designingforanalytics.co
 
 ### Sculpting with Data
 
-Let's manipulate outside data in Grasshopper and connect our forms to meaningful information.
+Let's manipulate outside data in Grasshopper and connect our parametric forms to meaningful information.
 
 #### Data Plotting
 
-Different ways to plot 3d points based on information (here random numbers) and convert those points into a variety of 3d forms.
+Take a look at many different ways to convert random 3D points into a variety of 3d forms.
 
 ![dataplot](dataplot.png)
-
-[dataplot](dataplot.gh)
 
 ![dataplot](dataplot_gh.png)
 
 -----
 
-#### Data Samples
+#### Geographic Data Sample
 
-Sculpt real data into form in Grasshopper using a datasets on the [geographic position of cities](largeCities.txt) and 3D motion from the [SFU Mocap Database](http://mocap.cs.sfu.ca).
+Sculpt real data into form in Grasshopper using this [dataset on the geographic position of capital cities](capitalCities.txt). This Grasshopper file produces a map and globe similar in intent to this [interactive page](https://www.jasondavies.com/maps/voronoi/capitals/) attempting to reveal the mismatch between geopolitical governing structures and geography. 
 
-![datasamples](datasamples.png)
+[Download](voronoi-geographic-definition.gh)
 
-[datasamples](datasamples.gh)
+![Grasshopper Definition](voronoi-geographic-grasshopper.png)
 
------
-
-#### Nefertiti
-
-![nef](nef.png)
-
-Take a look at this [fantastically controversial endeavor](http://nefertitihack.alloversky.com) by German artists Nora Al-Badri and Jan Nikolai Nelles to [digitally repatriate](https://ncph.org/history-at-work/repatriation-and-decolonization/) a famous bust of Queen Nefertiti excavated from Egypt and now located in the [Neues Museum in Berlin](https://www.smb.museum/en/museums-institutions/neues-museum/collections-research/about-the-collection.html). Even the [controversy is controversial](https://hyperallergic.com/281739/could-the-nefertiti-scan-be-a-hoax-and-does-that-matter/).
-
-Perhaps we might combine it with some data on the impact of tourism on [Egypt](https://data.worldbank.org/indicator/ST.INT.ARVL?locations=EG&name_desc=false)?
-
-Download a [simplified model](nefertiti-95reduced.obj).
-
-```
-International tourist arrivals to Egypt 1995-2017
-2871000	
-3528000	
-3656000	
-3213000	
-4490000	
-5116000	
-4357000	
-4906000	
-5746000	
-7795000	
-8244000	
-8646000	
-10610000
-12296000
-11914000
-14051000
-9497000	
-11196000
-9174000	
-9628300	
-9139000	
-5258000	
-8157000			
-```
+![Grasshopper Screenshot](voronoi-geographic-screenshot.png)
 
 -----
 
-#### Data Pots
+#### Motion Data Sample
+
+Sculpt real data into form in Grasshopper using a dataset on 3D motion from the [SFU Mocap Database](http://mocap.cs.sfu.ca). This example is similar to the work of several [futurist artists](https://en.wikipedia.org/wiki/Futurism) that are often called [*dynamisms*](https://en.wikipedia.org/wiki/Dynamism_of_a_Dog_on_a_Leash) and based on the 20th century emergence of [chronophotographic developments](https://en.wikipedia.org/wiki/Chronophotography).
+
+[Download](motion-definition.gh)
+
+![Grasshopper Definition](motion-grasshopper.png)
+
+![Grasshopper Screenshot](motion-screenshot.gif)
+
+This example uses a *ghpython* node and a short script to load files directly downloaded from the [SFU Mocap database](http://mocap.cs.sfu.ca). 
+
+```python
+"""
+Provides a scripting component.
+    Inputs:
+        x: The x script variable
+        y: The y script variable
+    Output:
+        a: The a output variable
+"""
+
+__author__ = "zap"
+
+import rhinoscriptsyntax as rs
+
+#ask Rhino to open a file
+filename = rs.OpenFileName("Open Point File")
+
+#open file for 'r'eading
+file = open(filename, "r")
+
+#read all of the lines of the file
+contents = file.readlines()
+
+#close the file
+file.close()
+
+#output all data
+a = contents    
+```
+
+Opening and closing the script will allow you to choose a downloaded file to load. Double-click on the *ghpython* node and paste the below code into the pop-up window. When you close the window and "save", another window will pop-up asking you for a file from the database.
+
+![load](load.gif)
+
+-----
+
+#### Data Forms - Gardening Pots
 
 Let's create a set of discursive data objects, drawing attention to several countries' respective deforestation activities and policies.
 
-![pots rendered](pots_rendered.png)
+[Download](data-pots-definition.gh)
+
+![Grasshopper Definition](data-pots-grasshopper.png)
+
+![Grasshopper Screenshot](data-pots-screenshot.png)
 
 Data forms that carry a family similarity to traditional object archetypes are often more effective than the 'data-blobs' (like the examples created above) that are expected of traditional data visualization. By embedding data in everyday objects, we can easily make data more approachable, legible, and confrontational to audiences. Here, we create a set of gardening pots, which demonstrate in 3-dimensions the history of the forested area of 5 large countries: Brazil, China, India, Russia, and the United States. The inside volume of the pot will be shaped by the history of the various countries' forested percentage, and the outside volume will make clear the proportional size of the country and its most recent (2015) forest amount. The smaller the remaining forest, the less room will be available for planting, and the easier the pot will be to topple and shatter — embodying the fragility of the remaining ecosystems. All data is from the [World Bank](https://data.worldbank.org/indicator/AG.LND.FRST.ZS?end=2015&locations=CN-RU-US-BR-IN&start=1990). 
 
@@ -204,8 +217,6 @@ Data forms that carry a family similarity to traditional object archetypes are o
 "USA",33.0,33.1,33.1,33.0,33.7,33.0
 ```
 
-![pots](pots.png)
-
 Also browse through these other complementary datasets. Could we find a way to embed some of these other datapoints in our data form?
 
 - [Global Deforestation Rates by Country](https://rainforests.mongabay.com/deforestation_country.html)
@@ -222,7 +233,11 @@ Also browse through these other complementary datasets. Could we find a way to e
 
 ##### Grasshopper (1.5 hours)
 
-TBD based on class progress.
+Recreate the "Data Forms - Gardening Pots" and "Geographic Data Sample" examples above. Also, download and play with "Motion Data Sample" and load other datasets into it. It's fun! 
+
+Though you can download the examples, please do recreate them. Grasshopper will only get easier if you patch the nodes yourself!
+
+![patch](patching.gif)
 
 ##### Listening and Watching I (1 hour)
 
