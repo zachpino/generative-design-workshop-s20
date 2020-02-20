@@ -117,9 +117,11 @@ Let's manipulate outside data in Grasshopper and connect our parametric forms to
 
 Take a look at many different ways to convert random 3D points into a variety of 3d forms.
 
-![dataplot](dataplot.png)
+[Download](dataplot-definition.gh)
 
-![dataplot](dataplot_gh.png)
+![Grasshopper Definition](dataplot-grasshopper.png)
+
+![Grasshopper Screenshot](dataplot-screenshot.png)
 
 -----
 
