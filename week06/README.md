@@ -78,6 +78,8 @@ International tourist arrivals to Egypt 1995-2017
 8157000			
 ```
 
+-----
+
 #### Delaunay Triangulation
 
 ![del](https://i.pinimg.com/originals/76/c1/a2/76c1a2a0222ff50861797b6152db8aa2.jpg)
@@ -95,6 +97,8 @@ To produce a Delaunay Mesh...
 
 ![delaunay supports](delSample.jpg)
 
+-----
+
 #### Voronoi Tesselation
 
 ![voronoi](http://datagenetics.com/blog/may12017/anim2.gif)
@@ -109,6 +113,8 @@ The geometric [*dual*](https://en.wikipedia.org/wiki/Dual_polyhedron) of the Del
 - Draw the remnant, irregular polygons
 
 ![bone](https://afinemesh.files.wordpress.com/2014/04/printed-voronoi.jpg)
+
+-----
 
 #### Catmull Clark Subdivision
 
