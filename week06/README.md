@@ -93,7 +93,7 @@ To produce a Delaunay Mesh...
 - If those circles contain *any* of the sprinkled points, that circle should be discarded
 - If a circle passes the test, then draw the [circumscribed triangle](https://en.wikipedia.org/wiki/Circumscribed_circle) as an edge
 
-![delaunay supports](http://codingcity.org/wp-content/uploads/2015/07/renderingplaza2.jpg)
+![delaunay supports](delSample.jpg)
 
 #### Voronoi Tesselation
 
@@ -193,6 +193,7 @@ Create a voronoi tesselation in 3D space around a data-driven, anatomical form. 
 
 ![Grasshopper Screenshot](voronoi-cast-screenshot.png)
 
+
 -----
 
 
@@ -213,10 +214,6 @@ Other avant-garde storytellers are already *collaborating directly* with experim
 ##### Visualization Practice (1 hour, spread out over week)
 
 Take a look at the Dear Data week thirty-six on *Indecision* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on moments when you are stuck in indecision and option-paralysis, and produce 3 visualizations on 5"x7" cards. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and document them in the Google Drive.
-
-##### Data Research (1 hour, spread out over week)
-
-Take a look through the many data sources linked above and bookmark some personally interesting, unexpected, and meaningful datasets. What might the individual version of some of these global datasets look like? Might some of these datasets find their way into design work in your other courses?
 
 ##### Submit Work
 
