@@ -41,45 +41,6 @@ Some examples of pattern algorithm design work.
 
 ### Triangulation, Tesselation, Subdivision
 
-#### Learning about Meshes : Nefertiti
-
-![nef](nef.png)
-
-Take a look at this [fantastically controversial endeavor](http://nefertitihack.alloversky.com) by German artists Nora Al-Badri and Jan Nikolai Nelles to [digitally repatriate](https://ncph.org/history-at-work/repatriation-and-decolonization/) a famous bust of Queen Nefertiti excavated from Egypt and now located in the [Neues Museum in Berlin](https://www.smb.museum/en/museums-institutions/neues-museum/collections-research/about-the-collection.html). Even the [controversy is controversial](https://hyperallergic.com/281739/could-the-nefertiti-scan-be-a-hoax-and-does-that-matter/).
-
-Perhaps we might combine it with some data on the impact of tourism on [Egypt](https://data.worldbank.org/indicator/ST.INT.ARVL?locations=EG&name_desc=false)?
-
-Download a [simplified model](nefertiti-95reduced.obj).
-
-```
-International tourist arrivals to Egypt 1995-2017
-2871000	
-3528000	
-3656000	
-3213000	
-4490000	
-5116000	
-4357000	
-4906000	
-5746000	
-7795000	
-8244000	
-8646000	
-10610000
-12296000
-11914000
-14051000
-9497000	
-11196000
-9174000	
-9628300	
-9139000	
-5258000	
-8157000			
-```
-
------
-
 #### Delaunay Triangulation
 
 ![del](https://i.pinimg.com/originals/76/c1/a2/76c1a2a0222ff50861797b6152db8aa2.jpg)
@@ -164,6 +125,22 @@ For this and future exercises, let's install a few essential plugins.
 
 
 ### Grasshopper Algorithmic Forms
+
+#### Learning about Meshes : Nefertiti and Mesh Deformation
+
+![nef](nef.png)
+
+Take a look at this [fantastically controversial endeavor](http://nefertitihack.alloversky.com) by German artists Nora Al-Badri and Jan Nikolai Nelles to [digitally repatriate](https://ncph.org/history-at-work/repatriation-and-decolonization/) a famous bust of Queen Nefertiti excavated from Egypt and now located in the [Neues Museum in Berlin](https://www.smb.museum/en/museums-institutions/neues-museum/collections-research/about-the-collection.html). Even the [controversy is controversial](https://hyperallergic.com/281739/could-the-nefertiti-scan-be-a-hoax-and-does-that-matter/).
+
+Let's take a look at how a mesh is constructed, and learn a bit about how they can be algorithmically manipulated.
+
+[Download](deform-definition.gh)
+
+![Grasshopper Definition](deform-grasshopper.png)
+
+![Grasshopper Screenshot](deform-screenshot.png)
+
+-----
 
 #### 'Simple' Delaunay Triangulation
 
