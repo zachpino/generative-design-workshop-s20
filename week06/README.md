@@ -10,28 +10,25 @@ In particular, we'll look at the related [Delaunay Triangulation](https://en.wik
 
 Some examples of pattern algorithm design work.
 
-- [Jerusalem Table](https://www.core77.com/projects/39363/Jerusalem-Tables)
 - [Voronoi at Thingiverse](https://www.thingiverse.com/search?q=voronoi)
+- [Jerusalem Table](https://www.core77.com/projects/39363/Jerusalem-Tables)
 - [Nervous System](https://n-e-r-v-o-u-s.com/projects/)
 - [Marc Newson Voronoi Shelf](http://marc-newson.com/voronoi-shelf/)
 - [Go Wheel Chair](http://layerdesign.com/projects/go/)
 - [Bespoke 3D Orthopedics Brace](https://www.youtube.com/watch?v=OGRkNexY3N8)
 - [Interactive Subdivision](https://www.khanacademy.org/partner-content/pixar/modeling-character/modeling-subdivision/p/interactive-subdivision-in-3d)
-- [Pixar in a Box](https://www.khanacademy.org/partner-content/pixar)
-
 - [Unyq](http://unyq.com/en-us/us/)
 - [Osteoid Ultrasonic Cast](https://competition.adesignaward.com/design.php?ID=34151)
 - [Cortex Cast](http://www.evilldesign.com/cortex)
 - [Thermal Comfort Casts](https://3dprint.com/192877/3d-printed-cast-thermal-comfort/)
 - [Hand and Wrist Fracture Cast](http://www.machiningnews.com/2017/06/real-world-test-of-3d-printed-cast-for-hand-fracture/)
-
 - [How to Hand Draw Delaunay and Voronoi](http://765.blogspot.com/2009/09/how-to-draw-voronoi-diagram.html)
 - [Simple Interactive Voronoi Editor](http://www.sygreer.com/projects/voronoi/)
 - [Interactive Javascript Translation](http://paperjs.org/examples/voronoi/)
+- [Pixar in a Box](https://www.khanacademy.org/partner-content/pixar)
 - [World Capitals Voronoi](https://www.jasondavies.com/maps/voronoi/capitals/)
 - [In D3 Data Viz Library](https://github.com/d3/d3-delaunay)
 - [Anna Nowak on Application of Voronoi diagrams in contemporary architecture and town planning](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-5259df1a-e1f7-442f-a68c-10c0c2b35c96/c/chmot62_06.pdf)
-
 - [All the Maths](http://cgl.uni-jena.de/pub/Workshops/WebHome/cgl12new.pdf)
 - [Easier to Understand All the Maths](https://meemoo.org/blog/2014-07-14-noflo-geometry)
 
@@ -90,7 +87,7 @@ The Catmull-Clark subdivision is a simple, iterative process.
 - Find the average coordinates of the original vertex, the face center vertex, and the split edge vertex
 - Move the original vertex to this new, average coordinate and rebuild the mesh
 
-The resulting forms are more *continuous* that the original mesh, with any harsh edges smoothed out. The one flaw is that the new mesh is inherently *heavier*, it has significantly more face and vertices. The characteristic aesthetic of Pixar films, which has directly inspired most other 3D animation companies, is [fundamentally due to the Catmull-Clark algorithm](https://graphics.pixar.com/library/Geri/paper.pdf).
+The resulting forms are more *continuous* that the original mesh, with any harsh edges smoothed out. The one flaw is that the new mesh is inherently *heavier*: it has significantly more face and vertices. The characteristic aesthetic of Pixar films, which has directly inspired most other 3D animation companies, is [fundamentally due to the Catmull-Clark algorithm](https://graphics.pixar.com/library/Geri/paper.pdf).
 
 ![sulley](subD.jpg)
 
@@ -130,7 +127,7 @@ For this and future exercises, let's install a few essential plugins.
 
 ![nef](nef.png)
 
-Take a look at this [fantastically controversial endeavor](http://nefertitihack.alloversky.com) by German artists Nora Al-Badri and Jan Nikolai Nelles to [digitally repatriate](https://ncph.org/history-at-work/repatriation-and-decolonization/) a famous bust of Queen Nefertiti excavated from Egypt and now located in the [Neues Museum in Berlin](https://www.smb.museum/en/museums-institutions/neues-museum/collections-research/about-the-collection.html). Even the [controversy is controversial](https://hyperallergic.com/281739/could-the-nefertiti-scan-be-a-hoax-and-does-that-matter/).
+Take a look at this [fantastically controversial endeavor](http://nefertitihack.alloversky.com) by German artists Nora Al-Badri and Jan Nikolai Nelles to [digitally repatriate](https://ncph.org/history-at-work/repatriation-and-decolonization/) a famous bust of Queen Nefertiti excavated from Egypt and now located in the [Neues Museum in Berlin](https://www.smb.museum/en/museums-institutions/neues-museum/collections-research/about-the-collection.html). Even the [controversy is controversial](https://hyperallergic.com/281739/could-the-nefertiti-scan-be-a-hoax-and-does-that-matter/). 
 
 Let's take a look at how a mesh is constructed, and learn a bit about how they can be algorithmically manipulated.
 
@@ -139,6 +136,8 @@ Let's take a look at how a mesh is constructed, and learn a bit about how they c
 ![Grasshopper Definition](deform-grasshopper.png)
 
 ![Grasshopper Screenshot](deform-screenshot.png)
+
+[Others are continuing](https://www.myminifactory.com/scantheworld/) this initiative for other museum artefacts!
 
 -----
 
@@ -198,19 +197,39 @@ Create a voronoi tesselation in 3D space around a data-driven, anatomical form. 
 
 ##### Grasshopper (1.5 hours)
 
-TBD after class
+TBD after class, probably some recreating, extending, and manipulating some of the examples above! 
 
-##### Listening and Watching I (1 hour)
+##### Listening and Watching (1 hour)
 
-Read this [short description on this history, opportunities, and limitations of computational narrative](https://medium.com/@mark_riedl/computational-narrative-intelligence-past-present-and-future-99e58cf25ffa) written by [Mark Reidl](https://metamind.io), the director of Salesforce's AI division. 
+Continuing our exploration into other algorithmic spaces, read through a few articles on *algorithmic fashion* and the coming nightmare distopia of... Everyone wearing the same thing? Everyone wearing different things? It's hard to know, so let's read a few short articles and poke through some resources and inspiration. 
 
-In so many ways, [contemporary stories are predictable and formulaic](https://theweek.com/articles/797822/disney-ideas), which makes them ideal candidates for generative processes. Disney, like many narrative content producers, is [investing heavily](https://la.disneyresearch.com/?s=computational+narrative) in the opportunities for dynamism, repeatability, predictability, and customization offered by generative narrative processes. In particular, Disney seems to be pushing into [story co-creation with their audiences](https://s3-us-west-1.amazonaws.com/disneyresearch/wp-content/uploads/20170725080728/Computational-Narrative-Paper.pdf) through computational narrative tools.
+Please read...
 
-Other avant-garde storytellers are already *collaborating directly* with experimental, computationally-created narratives. Please watch the 10 minute [*Sunspring*](https://www.youtube.com/watch?v=LY7x2Ihqjmc) from 2016 starring Thomas Middleditch, and written by a generative algorithm named *Benjamin/Jetson*. If interested, read [Ars Technica's interview](https://arstechnica.com/gaming/2016/06/an-ai-wrote-this-movie-and-its-strangely-moving/) with the short's directory Oscar Sharp.
+- Richard Yao on the [Inherent Tension Driving the Future of Fashion](https://medium.com/ipg-media-lab/the-inherent-tension-driving-the-future-of-fashion-b9481d8daee3)
+
+- Tony Peng from [Synced](https://syncedreview.com) on [AI Fashion Design](https://syncedreview.com/2019/04/04/is-the-fashion-world-ready-for-ai-designed-dresses/)
+
+- Kyle Chayka from [Racked](https://www.vox.com/racked-on-vox) wrote a piece on [Algorithmic Style](https://www.vox.com/2018/4/17/17219166/fashion-style-algorithm-amazon-echo-look) and expanded it into a larger (optional to read) discussion on [monoculture](https://www.vox.com/the-goods/2019/12/17/21024439/monoculture-algorithm-netflix-spotify). 
+
+Scroll through...
+
+- Stichfix's ["Algorithm Tour"](https://algorithms-tour.stitchfix.com) and the rest of their technology blog [Multithreaded](https://multithreaded.stitchfix.com).
+
+- Zalando's [Algorithmic About Page](https://corporate.zalando.com/en/newsroom/en/stories/fashion-savvy-algorithm), one of Europe's largest fashion distributors, and a heavy investor into AI fashion and algorithmic outfit curation.
+
+Watch...
+
+- Take a look at [Synflux](https://synflux.io), a "speculative fashion laboratory" that is already [using Grasshopper to design garments](https://vimeo.com/user91500638). Also of note: [Dezeen covering their work](https://www.dezeen.com/2019/03/27/algorithmic-couture-digital-fashion-customisation/).
+
+If you would like to read a slightly more extractive take, check out McKinsey's report on [How technology can drive the next wave of mass customization](https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/bto/pdf/mobt32_02-09_masscustom_r4.ashx).
+
+To recover from the McKinsey, if you want more of a social lens...
+
+- Ahmet Öğüt on [From Self-Design to Algorithmic-Design](https://www.e-flux.com/journal/98/256669/from-self-design-to-algorithmic-design/)
 
 ##### Visualization Practice (1 hour, spread out over week)
 
-Take a look at the Dear Data week thirty-six on *Indecision* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on moments when you are stuck in indecision and option-paralysis, and produce 3 visualizations on 5"x7" cards. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and document them in the Google Drive.
+Take a look at the Dear Data week sixteen on *Closets* in preparation for next week. Through the week, construct a dataset for your own visualization purposes on what is in your closet or dresser/wardrobe in your apartment or home, and produce 3 visualizations on 5"x7" cards. Explore both 2D and 3D visualization opportunities, and prepare to share these with your peers. Crayons, color pencils, and play-doh are available in the faculty corridor on Zach's desk. Add a legibility key to the backs of all visualizations, and document them in the Google Drive.
 
 ##### Submit Work
 
