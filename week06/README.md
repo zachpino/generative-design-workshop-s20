@@ -142,6 +142,20 @@ Let's take a look at how a mesh is constructed, and learn a bit about how they c
 
 -----
 
+#### Voronoi Food Regions in Chicago
+
+Based on [these neighborhood bounds](https://data.cityofchicago.org/Facilities-Geographic-Boundaries/Boundaries-Neighborhoods/bbvz-uum9) and these [grocery store locations](https://data.cityofchicago.org/Community-Economic-Development/Grocery-Stores-2013/53t8-wyrc), let's use the Voronoi algorithm to try to predict which grocery store any given resident might visit.
+
+Download the pre-processed [neighborhood boundaries](neighborhoodDiscontinuities.txt) and [grocery store](groceryStores.csv) coordinates.
+
+[Download](grocery-definition.gh)
+
+![Grasshopper Definition](grocery-grasshopper.png)
+
+![Grasshopper Screenshot](grocery-screenshot.png)
+
+-----
+
 #### 'Simple' Delaunay Triangulation
 
 From a field of random points, create a Delaunay triangulation.
