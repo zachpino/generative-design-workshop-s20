@@ -134,7 +134,7 @@ Given [this slightly cleaned-up dataset](corona.csv) on Coronavirus spread (orig
 
 Continuing our exploration into other algorithmic spaces, read through a few articles on *algorithmic fashion* and the coming nightmare dystopia of... Everyone wearing the same thing? Everyone wearing different things? It's hard to know, so let's read a few short articles and poke through some resources and inspiration. 
 
-Please read...
+Please read through some short articles...
 
 - Richard Yao on the [Inherent Tension Driving the Future of Fashion](https://medium.com/ipg-media-lab/the-inherent-tension-driving-the-future-of-fashion-b9481d8daee3)
 
@@ -146,15 +146,11 @@ Scroll through...
 
 - Stichfix's ["Algorithm Tour"](https://algorithms-tour.stitchfix.com) and the rest of their technology blog [Multithreaded](https://multithreaded.stitchfix.com).
 
-- Zalando's [Algorithmic About Page](https://corporate.zalando.com/en/newsroom/en/stories/fashion-savvy-algorithm), one of Europe's largest fashion distributors, and a heavy investor into AI fashion and algorithmic outfit curation.
-
-Watch...
-
-- Take a look at [Synflux](https://synflux.io), a "speculative fashion laboratory" that is already [using Grasshopper to design garments](https://vimeo.com/user91500638). Also of note: [Dezeen covering their work](https://www.dezeen.com/2019/03/27/algorithmic-couture-digital-fashion-customisation/).
-
 Listen...
 
 - The *AI Podcast* [interview with Stitch Fix's Chief Algorithms Officer Brad Klingenberg](https://www.stitcher.com/podcast/ai-podcast/the-ai-podcast/e/62476881)
+
+-----
 
 If you would like to read a slightly more extractive take on some of these topics, check out McKinsey's report on [How technology can drive the next wave of mass customization](https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/bto/pdf/mobt32_02-09_masscustom_r4.ashx).
 
