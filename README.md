@@ -11,13 +11,13 @@ Institute of Design course in generative design approaches and tools, and experi
 - Week 03 · [Randomness and Data Flow](week03/README.md)
 - Week 04 · [Grids as Data Scaffolds](week04/README.md)
 - Week 05 · [Data Forms](week05/README.md)
-- Week 06 · Algorithmic Patterns
-- Week 07 · Evolutionary Algorithms
+- Week 06 · [Algorithmic Processes](week06/README.md)
+- Week 07 · Simulating Natural Processes
 - Spring Break! 
-- Week 08 · Growing Forms I
-- Week 09 · Growing Forms II
-- Week 10 · Simulating Natural Processes I 
-- Week 11 · Simulating Natural Processes II
+- Week 08 · Evolutionary Algorithms
+- Week 09 · Growing Forms   
+- Week 10 · Worktime
+- Week 11 · Worktime
 - Week 12 · Worktime
-- Week 13 · Worktime
+- Week 13 · Wrapping-Up Conversations 
 - Week 14 · Final Critique
