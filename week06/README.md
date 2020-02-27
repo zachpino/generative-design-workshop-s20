@@ -150,9 +150,9 @@ Listen...
 
 - The *AI Podcast* [interview with Stitch Fix's Chief Algorithms Officer Brad Klingenberg](https://www.stitcher.com/podcast/ai-podcast/the-ai-podcast/e/62476881)
 
------
+Some more optional stuff -- if you would like to read a slightly more extractive take on some of these topics, check out...
 
-If you would like to read a slightly more extractive take on some of these topics, check out McKinsey's report on [How technology can drive the next wave of mass customization](https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/bto/pdf/mobt32_02-09_masscustom_r4.ashx).
+- McKinsey's report on [How technology can drive the next wave of mass customization](https://www.mckinsey.com/~/media/mckinsey/dotcom/client_service/bto/pdf/mobt32_02-09_masscustom_r4.ashx).
 
 To recover from the McKinsey, if you want more of a social lens...
 
