@@ -161,7 +161,7 @@ To recover from the McKinsey, if you want more of a social lens...
 
 #### Listening and Watching II (10 minutes)
 
-Remember our discussion about all music having already been composed? Some [recent, controversial generative music efforts](https://www.musictech.net/news/programmers-generate-every-possible-melody-in-midi-to-prevent-lawsuits/) attempt to supercede some of the mismatches between existing international copyright laws and algorithmic creativity. Any thoughts on this? Could we be aiming for the design equivalent?
+Remember our discussion about all music having already been composed? Some [recent, controversial, satirical generative music efforts](https://www.musictech.net/news/programmers-generate-every-possible-melody-in-midi-to-prevent-lawsuits/) attempt to supercede some of the mismatches between existing international copyright laws and algorithmic creativity. Any thoughts on this? Could we be aiming for the design equivalent?
 
 ##### Visualization Practice (1 hour, spread out over week)
 
