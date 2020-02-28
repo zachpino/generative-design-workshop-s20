@@ -125,7 +125,7 @@ Finish the *Voronoi Food Regions in Chicago* example we started, and complete th
 
 ##### Grasshopper II (1 hour)
 
-Given [this slightly cleaned-up dataset](corona.csv) on Coronavirus spread (original dataset on [Kaggle](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)), could you make an image similar to this one?
+Given [this slightly cleaned-up dataset](corona.csv) on Coronavirus spread (original dataset on [Kaggle](https://www.kaggle.com/sudalairajkumar/novel-corona-virus-2019-dataset)), could you make a map of the Coronoavirus' geographic penetration similar to this one?
 
 ![corona](corona.png)
 
