@@ -2,7 +2,7 @@
 
 We'll examine this week how contemporary designers are implementing iterative algorithmic processes to address complex design problems.
 
-In particular, we'll look at the related [Delaunay Triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation) and [Voronoi Tesselation](https://en.wikipedia.org/wiki/Voronoi_diagram) — simple mathematical models for complex natural phenomena. We'll also use [Catmull-Clark Subdivision](https://en.wikipedia.org/wiki/Catmull–Clark_subdivision_surface) algorithm to smooth data-drive, anatomical forms.
+In particular, we'll look at the related [Delaunay Triangulation](https://en.wikipedia.org/wiki/Delaunay_triangulation) and [Voronoi Tesselation](https://en.wikipedia.org/wiki/Voronoi_diagram) — simple mathematical models for complex natural phenomena.
 
 -----
 
@@ -25,7 +25,6 @@ Some examples of pattern algorithm design work.
 - [How to Hand Draw Delaunay and Voronoi](http://765.blogspot.com/2009/09/how-to-draw-voronoi-diagram.html)
 - [Simple Interactive Voronoi Editor](http://www.sygreer.com/projects/voronoi/)
 - [Interactive Javascript Translation](http://paperjs.org/examples/voronoi/)
-- [Pixar in a Box](https://www.khanacademy.org/partner-content/pixar)
 - [World Capitals Voronoi](https://www.jasondavies.com/maps/voronoi/capitals/)
 - [In D3 Data Viz Library](https://github.com/d3/d3-delaunay)
 - [Anna Nowak on Application of Voronoi diagrams in contemporary architecture and town planning](https://yadda.icm.edu.pl/baztech/element/bwmeta1.element.baztech-5259df1a-e1f7-442f-a68c-10c0c2b35c96/c/chmot62_06.pdf)
@@ -130,7 +129,9 @@ Given [this slightly cleaned-up dataset](corona.csv) on Coronavirus spread (orig
 
 ![corona](corona.png)
 
-##### Listening and Watching (1 hour)
+Note that this is a [terrible map](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/), but perhaps there is more to be gained from exaggerating expression than by maximizing legibility?
+
+##### Listening and Watching I (1 hour)
 
 Continuing our exploration into other algorithmic spaces, read through a few articles on *algorithmic fashion* and the coming nightmare dystopia of... Everyone wearing the same thing? Everyone wearing different things? It's hard to know, so let's read a few short articles and poke through some resources and inspiration. 
 
@@ -157,6 +158,10 @@ Some more optional stuff -- if you would like to read a slightly more extractive
 To recover from the McKinsey, if you want more of a social lens...
 
 - Ahmet Öğüt on [From Self-Design to Algorithmic-Design](https://www.e-flux.com/journal/98/256669/from-self-design-to-algorithmic-design/)
+
+#### Listening and Watching II (10 minutes)
+
+Remember our discussion about all music having already been composed? Some [recent, controversial generative music efforts](https://www.musictech.net/news/programmers-generate-every-possible-melody-in-midi-to-prevent-lawsuits/) attempt to supercede some of the mismatches between existing international copyright laws and algorithmic creativity. Any thoughts on this? Could we be aiming for the design equivalent?
 
 ##### Visualization Practice (1 hour, spread out over week)
 
