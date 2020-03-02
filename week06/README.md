@@ -21,7 +21,7 @@ Some examples of pattern algorithm design work.
 - [Osteoid Ultrasonic Cast](https://competition.adesignaward.com/design.php?ID=34151)
 - [Cortex Cast](http://www.evilldesign.com/cortex)
 - [Thermal Comfort Casts](https://3dprint.com/192877/3d-printed-cast-thermal-comfort/)
-- [Hand and Wrist Fracture Cast](http://www.machiningnews.com/2017/06/real-world-test-of-3d-printed-cast-for-hand-fracture/)
+- [XKELET Hand and Wrist Fracture Cast](https://www.xkelet.com/en/)
 - [How to Hand Draw Delaunay and Voronoi](http://765.blogspot.com/2009/09/how-to-draw-voronoi-diagram.html)
 - [Simple Interactive Voronoi Editor](http://www.sygreer.com/projects/voronoi/)
 - [Interactive Javascript Translation](http://paperjs.org/examples/voronoi/)
