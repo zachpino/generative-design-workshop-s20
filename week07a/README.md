@@ -1,28 +1,18 @@
-# Week 7 · Meshes
+# Week 7 Part A · Meshes
 
 Let us spend some time analyzing how 3D meshes are put together, as some of the most exciting approaches in generative design are built on hacking these fundamental 3D representational structures. 
 
-
 -----
 
-
-### References for the Week
-
-#### Information on Meshes
-
-#### Mesh Sources
+### Mesh Sources
 
 - [Google Poly](poly.google.com)
 - [Turbo Squid]()
 - [GrabCAD]()
 
-
 -----
 
-
-### Meshes
-
-#### Vertices -> Edges -> Faces -> Meshes
+### Vertices -> Edges -> Faces -> Meshes
 
 ![mrdiv](mrdiv.gif) 
 
@@ -64,8 +54,9 @@ The file itself defines a singular 3D mesh, which looks like this:
 
 ![simple](simple.png)
 
+-----
 
-#### Learning about Meshes : Nefertiti Hack
+### Learning about Meshes : Nefertiti Hack
 
 ![nef](nef.png)
 
@@ -77,11 +68,11 @@ BTW: [Others are continuing](https://www.myminifactory.com/scantheworld/) this i
 
 -----
 
-#### Catmull Clark Subdivision
+### Catmull Clark Subdivision
 
 ![catmull clark](cc.png)
 
-[Catmull Clark Subdivision](https://en.wikipedia.org/wiki/Catmull–Clark_subdivision_surface) is amazing! This algorithm, developed by Pixar engineer-turned-President [Edwin Catmull](https://en.wikipedia.org/wiki/Edwin_Catmull) and author of [Creativity, Inc.](https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration-ebook/dp/B00FUZQYBO) and his friend and colleague [Jim Clark](https://en.wikipedia.org/wiki/James_H._Clark), the founder of Netscape and inventor of several critical 3D rendering technologies for animation, cinema, and video games.
+Continuing from our work last week, meshes work very naturally with algorithmic processes. For example, [Catmull Clark Subdivision](https://en.wikipedia.org/wiki/Catmull–Clark_subdivision_surface) is amazing! This algorithm, developed by Pixar engineer-turned-President [Edwin Catmull](https://en.wikipedia.org/wiki/Edwin_Catmull) and author of [Creativity, Inc.](https://www.amazon.com/Creativity-Inc-Overcoming-Unseen-Inspiration-ebook/dp/B00FUZQYBO) and his friend and colleague [Jim Clark](https://en.wikipedia.org/wiki/James_H._Clark), the founder of Netscape and inventor of several critical 3D rendering technologies for animation, cinema, and video games.
 
 The Catmull-Clark subdivision is a simple, iterative process.
 
@@ -100,64 +91,10 @@ Play with Pixar in a Box's amazing [interactive tool](https://www.khanacademy.or
 
 ### Grasshopper Mesh Manipulation
 
-Let's take a look at how the Nefertiti mesh is constructed as an exemplar of the mesh data structure, and learn a bit about how the simple structure can be algorithmically manipulated.
+Let's take a look at how the Nefertiti mesh is constructed as an exemplar of mesh data, and learn a bit about how the simple structure can be algorithmically manipulated.
 
 [Download](deform-definition.gh)
 
 ![Grasshopper Definition](deform-grasshopper.png)
 
 ![Grasshopper Screenshot](deform-screenshot.png)
-
------
-
-### Homework
-
-##### Grasshopper (1 hour)
-
-
-##### Listening and Watching I (1 hour)
-
-
-##### Visualization Practice (1 hour, spread out over week)
-
-
-##### Submit Work
-
-Please submit homework into the appropriate folders in the class Google Drive.
-
-
-
-
-
-
-
-
-
-
-
-
-SUBSTRATE???
-
-
-### Food 4 Rhino Downloads
-
-![grass,right?](rhino.gif)
-
-[Food4Rhino](http://www.food4rhino.com) is a central repository for plugins and add-on software for Rhino 3D, as well as for Grasshopper. Plugins for plugins! 
-
-Create a free account on the website and search around. Anything exciting? Unfortunately, not everything will work on Macs and it's impossible to know unless you see an Apple logo under the *Download* button. But, even if *there is not an Apple logo*, it still might work!
-
-To install a Grasshopper plugin, open Grasshopper, and navigate to File -> Special Folders -> Components Folder.
-
-This will open a Finder/Explorer window, into which you can move the downloaded files. Sometimes, you'll get a single file, and other times, you'll get whole folders. In that latter case, the best practice is usually to drag the entire downloaded folder over. You can find Grasshopper plugins all over the internet, not just at Food4Rhino. If you are running Windows, right click on any .exe, .ghuser, and .gha files and click on *Properties*. Make sure to click *Unblock* if it is an option.
-
-For Grasshopper to load newly installed plugins, we need to restart Rhino and Grasshopper. 
-
-For this and future exercises, let's install a few essential plugins.
-
-- For better Mesh cleanup: [Mesh Edit Tools *2*](https://www.food4rhino.com/app/meshedit)
-
-- For powerful geometric manipulation: [Lunchbox *2017.8.1 ZIP*](https://www.food4rhino.com/app/lunchbox#)
-
------
-
