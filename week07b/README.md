@@ -148,7 +148,7 @@ TBD after class
 
 ##### Preparing for Briefs - References and Proposals for In-Class Review
 
-As we approach our mid-semester break, we will soon be moving into having class time dedicated to individual projects and outcome-oriented tutorials. Yet to be covered is [physics simulation with Kangaroo](https://vimeo.com/user798992), and [recursive growth algorithms](https://inconvergent.net/generative/) -- which will be introduced in the first two weeks of B-Session.
+As we approach our mid-semester break, we will soon be moving into having class time dedicated to individual projects and outcome-oriented tutorials. Yet to be covered is [physics simulation with Kangaroo](https://vimeo.com/user798992), [recursive growth algorithms](https://inconvergent.net/generative/), and various digital fabrication options -- which will be introduced in the first three weeks of B-Session.
 
 After these lessons, aside from some scattered triage tutorials, classtime during B-Session will be available to you as worktime for research, modeling, and preparing files for printing or fabrication. Some additional online tutorials will be recommended weekly, but generative design competencies are best developed through struggling with the tools toward desired outcomes.
 
