@@ -14,6 +14,7 @@ Also, very importantly, play with [genetic cars](http://rednuht.org/genetic_cars
 
 Some examples of evolutionarily modeled forms and solutions.
 
+- [Evolving Floorplans](http://www.joelsimon.net/evo_floorplans.html)
 - [Evolving Design by Danil Nagy](https://medium.com/generative-design/evolving-design-b0941a17b759)
 - [Engine Block, Chair, Medical Implants](https://www.wired.com/2015/09/bizarre-bony-looking-future-algorithmic-design/)
 - [Aesthetics of Simple 3D Form](https://agatakycia.com/2011/12/28/aesthetics-and-creativity-in-evolutionary-design/)
@@ -78,9 +79,10 @@ Let's play god a bit?
 
 Ask Galapagos to rotate and place weirdly shaped pieces into a boundary without overlapping. Great for laser cutting, playing [tangrams](https://en.wikipedia.org/wiki/Tangram), or [pepakura](https://tamasoft.co.jp/pepakura-en/) crafting! 
 
-![nesting](nesting.png)
 
-[nesting](nesting.gh)
+[Download](nesting.gh)
+
+![nesting](nesting.png)
 
 ![nesting](nesting_gh.png)
 
@@ -90,9 +92,9 @@ Ask Galapagos to rotate and place weirdly shaped pieces into a boundary without 
 
 Minimize cast shadow but maximize volume. Take a look at Studio Gang's in construction [Solar Carve Tower](http://www.archdaily.com/806233/new-images-of-studio-gangs-solar-carve-tower-revealed-as-project-gets-underway) to see these techniques applied.
 
-![solar_carve](solar_carve.png)
+[Download](solar_carve.gh)
 
-[solar_carve](solar_carve.gh)
+![solar_carve](solar_carve.png)
 
 ![solar_carve](solar_carve_gh.png)
 
@@ -102,9 +104,9 @@ Minimize cast shadow but maximize volume. Take a look at Studio Gang's in constr
 
 Route a subway through a city to adequately serve population centers.
 
-![subway](subway.png)
+[Download](subway.gh)
 
-[subway](subway.gh)
+![subway](subway.png)
 
 ![subway](subway_gh.png)
 
