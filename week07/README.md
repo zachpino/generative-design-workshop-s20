@@ -1,4 +1,4 @@
-# Week 7 Part A · Meshes
+# Week 7 · Mesh Construction
 
 Let us spend some time analyzing how 3D meshes are put together, as some of the most exciting approaches in generative design are built on hacking these fundamental 3D representational structures. 
 
@@ -6,9 +6,10 @@ Let us spend some time analyzing how 3D meshes are put together, as some of the 
 
 ### Mesh Sources
 
-- [Google Poly](poly.google.com)
-- [Turbo Squid]()
-- [GrabCAD]()
+- [Google Poly](https://poly.google.com/)
+- [Turbo Squid](https://www.myminifactory.com/scantheworld/)
+- [GrabCAD](https://grabcad.com/)
+- [MeshMixer](http://www.meshmixer.com/)
 
 -----
 
@@ -91,10 +92,52 @@ Play with Pixar in a Box's amazing [interactive tool](https://www.khanacademy.or
 
 ### Grasshopper Mesh Manipulation
 
-Let's take a look at how the Nefertiti mesh is constructed as an exemplar of mesh data, and learn a bit about how the simple structure can be algorithmically manipulated.
+Let's take a look at how the Nefertiti mesh is constructed as an exemplar of mesh data, and learn a bit about how its simple mesh data structure can be algorithmically manipulated to represent the effects of attraction, repulsion, and other physical forces. Take a look at [Rayfire 3D](https://www.youtube.com/watch?v=dzOhI-H3pSk), a generative design tool for cinematic effects production, that implements similar mesh manipulation methods.
 
 [Download](deform-definition.gh)
 
 ![Grasshopper Definition](deform-grasshopper.png)
 
 ![Grasshopper Screenshot](deform-screenshot.png)
+
+-----
+
+### Homework
+
+#### Food 4 Rhino Research
+
+![grass,right?](rhino.gif)
+
+[Food4Rhino](http://www.food4rhino.com) is a central repository for plugins and add-on software for Rhino 3D, as well as for Grasshopper. Plugins for plugins! 
+
+Create a free account on the website and search around. Anything exciting? Unfortunately, not everything will work on Macs and it's impossible to know unless you see an Apple logo under the *Download* button. But, even if *there is not an Apple logo*, it still might work!
+
+To install a Grasshopper plugin, open Grasshopper, and navigate to File -> Special Folders -> Components Folder.
+
+This will open a Finder/Explorer window, into which you can move the downloaded files. Sometimes, you'll get a single file, and other times, you'll get whole folders. In that latter case, the best practice is usually to drag the entire downloaded folder over. You can find Grasshopper plugins all over the internet, not just at Food4Rhino. If you are running Windows, right click on any .exe, .ghuser, and .gha files and click on *Properties*. Make sure to click *Unblock* if it is an option.
+
+For Grasshopper to load newly installed plugins, we need to restart Rhino and Grasshopper. 
+
+For future exercises, please install a few essential plugins.
+
+- For better Mesh cleanup: [Mesh Edit Tools *2*](https://www.food4rhino.com/app/meshedit)
+
+- For powerful geometric manipulation: [Lunchbox *2017.8.1 ZIP*](https://www.food4rhino.com/app/lunchbox#)
+
+Research the site, and see what might be out there! 
+
+##### Grasshopper (1 hour)
+
+TBD after class!
+
+##### Preparing for Briefs - References and Proposals for In-Class Review
+
+As we approach our mid-semester break, we will soon be moving into having class time dedicated to individual projects and outcome-oriented tutorials. Yet to be covered is [evolving designs](https://medium.com/generative-design/evolving-design-b0941a17b759), [physics simulation with Kangaroo](https://vimeo.com/user798992), [recursive growth algorithms](https://inconvergent.net/generative/), and various digital fabrication options -- which will be introduced in the first few weeks of B-Session.
+
+After these lessons, aside from some scattered triage tutorials, classtime during B-Session will be available to you as worktime for research, modeling, and preparing files for printing or fabrication. Some additional online tutorials will be recommended weekly, but generative design competencies are best developed through the struggle with the tools toward passionately desired outcomes.
+
+So, let's define some outcomes in our [formal brief](../briefs.md)! 
+
+##### Submit Work
+
+Please submit any old homework into the appropriate folders in the class Google Drive.
