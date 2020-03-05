@@ -2,15 +2,18 @@
 
 ### *Small Data* Final Briefs
 
-### Description
+![ffd](ffd.png)
+##### [Iohanna Nicenboim's](https://iohanna.com/) *Form Follows Data*
+
+### Project Description
 
 The combination of the [quantified self movement](http://feltron.com/), [interactive generative design tools](https://www.shapediver.com/), and [digital fabrication](https://www.shapeways.com/) as a [service for fulfillment and delivery](https://www.shapeways.com/business/whitelabel-shipping-solutions) is creating opportunity for contemporary designers to create *personal products* with *personal data*. We have looked at [several](https://iohanna.com/Form-Follows-Data) [examples](http://www.stefanieposavec.com/airtransformed) of [these](https://www.pentagram.com/work/giorgia-lupi-other-stories/story) [often](http://paulheinicker.com/goodnightsms/) [weird](http://meshu.io/) [pieces](http://mischertraxler.com/) of [physicalized](https://www.adriensegal.com/) [data](https://madmuseum.org/sonic-arcade-audiowear), which all explore the collection of possible relationships between an individual, their social group, their space, their past behaviors, and their participation and responsiblity in larger social, experiential, and environmental outcomes. These objects have the potential to reveal startling patterns in our own behavior, and support a newly empowered sculpting of the self -- facilitated by informed data-gathering and -visualization.
 
-This relationship between collected data and our own behavioral psychology is the nexus to be explored in this project.
+This relationship between collected data and our own behavioral psychology is the nexus to be explored in this project, through the production of unique, personal generatively designed objects.
 
-How can physicalized data become a seed for behavior change? A  reward for maintaining positive behaviors? A block against regressing into formerly damaging behaviors? A stark reminder of our past and future weaknesses and strengths? A provocation for new action?
+How can physicalized data become a seed for behavior change? A reward for maintaining positive behaviors? A block against regressing into formerly damaging behaviors? A stark reminder of our past and future weaknesses and strengths? A provocation for new action?
 
-With the linked works above and *Dear Data* as inspiration, envision how an *individual-person-scale* dataset could be embedded in a singular or set of *hand-scale* objects such as jewelry, fashion accessories, desktop objects, or specialty equipment for various activities. Consider how the dataset can effectively (and potentially poetically) relate to the physicalized data. Then, use Grasshopper and digital fabrication technologies to produce these objects in the world through Grasshopper.
+With the linked works above and *Dear Data* as inspiration, envision how an *individual-person-scale* dataset could be embedded in a singular or set of *hand-scale* objects such as jewelry, fashion accessories, desktop objects, or specialty equipment for various activities. Consider how the dataset can effectively (and potentially poetically) relate to the physicalized data. Then, use Grasshopper and digital fabrication technologies to bring these objects in the world through Grasshopper and other generative design tools.
 
 
 ### Deliverables
@@ -51,5 +54,3 @@ With the linked works above and *Dear Data* as inspiration, envision how an *ind
 ### Alternative Options
 
 If any of the other tools, approaches, or algorithmic topic areas discussed during the arc of class is of more personal interest than the brief described above, please write a proposal of comparable specificity to this one, and send to Zach before B-Session begins to discuss.
-
-
