@@ -116,7 +116,7 @@ To install a Grasshopper plugin, open Grasshopper, and navigate to File -> Speci
 
 This will open a Finder/Explorer window, into which you can move the downloaded files. Sometimes, you'll get a single file, and other times, you'll get whole folders. In that latter case, the best practice is usually to drag the entire downloaded folder over. You can find Grasshopper plugins all over the internet, not just at Food4Rhino. If you are running Windows, right click on any .exe, .ghuser, and .gha files and click on *Properties*. Make sure to click *Unblock* if it is an option.
 
-For Grasshopper to load newly installed plugins, we need to restart Rhino and Grasshopper. 
+For Grasshopper to load newly installed plugins, we need to **restart** Rhino and Grasshopper. 
 
 For future exercises, please install a few essential plugins.
 
