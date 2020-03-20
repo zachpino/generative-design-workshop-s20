@@ -126,10 +126,6 @@ For future exercises, please install a few essential plugins.
 
 Research the site, and see what might be out there! 
 
-##### Grasshopper (1 hour)
-
-TBD after class!
-
 ##### Preparing for Briefs - References and Proposals for In-Class Review
 
 As we approach our mid-semester break, we will soon be moving into having class time dedicated to individual projects and outcome-oriented tutorials. Yet to be covered is [evolving designs](https://medium.com/generative-design/evolving-design-b0941a17b759), [physics simulation with Kangaroo](https://vimeo.com/user798992), [recursive growth algorithms](https://inconvergent.net/generative/), and various digital fabrication options -- which will be introduced in the first few weeks of B-Session.
