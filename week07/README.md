@@ -102,6 +102,24 @@ Let's take a look at how the Nefertiti mesh is constructed as an exemplar of mes
 
 -----
 
+### Grasshopper Data Forms
+
+Is the Nefertiti mesh, as a crystallization of many of the issues resulting from historic and contemporary colonialism, carry potential messaging value for generative designers?
+
+As we [lack data](https://en.wikipedia.org/wiki/Repatriation_(cultural_heritage)) on global repatriation, perhaps we can move to an adjacent and related space: [tourism to Egypt](https://data.worldbank.org/indicator/ST.INT.ARVL?locations=EG) and its [impact on local populations, the environment, and the very historic artefacts that often drive tourism](https://en.wikipedia.org/wiki/Impacts_of_tourism).
+
+Intended as a more visceral communicator of the [complex](https://en.wikipedia.org/wiki/Terrorism_and_tourism_in_Egypt) and [problematic relationship](https://foreignpolicy.com/2018/10/19/the-tourism-curse/) between many countries and their tourism industries, each model below shows the number of tourists entering Egypt from abroad -- 'blindfolding' Queen Nefertiti in the middle model with data and 'squeezing' her in the right model. Are any of these models effective and provocative communicators despite their lack of traditional data visualization legibility, or do they simply appear to be weird [glitch art](https://en.wikipedia.org/wiki/Glitch_art)? 
+
+[Download](tourism-definition.gh)
+
+![Grasshopper Definition](tourism-grasshopper.png)
+
+![Grasshopper Screenshot](tourism-front.png)
+
+![Grasshopper Screenshot](tourism-persp.png)
+
+-----
+
 ### Homework
 
 #### Food 4 Rhino Research
