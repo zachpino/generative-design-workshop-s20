@@ -15,7 +15,7 @@ Institute of Design course in generative design approaches and tools, and experi
 - Week 07 · [Mesh Construction](week07/README.md)
 - [Final Briefs](briefs.md)
 - Spring Break! 
-- Week 08 · Evolutionary Algorithms
+- Week 08 · [Evolutionary Forms and Genetic Algorithms](week08/README.md)
 - Week 09 · Growing Forms + Simulation
 - Week 10 · Worktime
 - Week 11 · Worktime

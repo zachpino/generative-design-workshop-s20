@@ -18,29 +18,29 @@ With the linked works above and *Dear Data* as inspiration, envision how an *ind
 
 ### Deliverables
 
-- Three versions of your design, featuring data representing three different entities -- fabricated by hand or machine. For example, if I am designing a necklace featuring data on where a person travels, I could ask three different people for data and make a necklace for each of them. Or, alternatively, I could ask one person for data spanning three years, and make a necklace for each year.
+- Three versions of your design, featuring data representing three different entities — fabricated by hand or machine. For example, if I am designing a necklace featuring data on where a person travels to prompt an audience towards more diverse experiences , I could ask three different people for data and make a necklace for each of them. Or, alternatively, I could ask one person for data spanning three years, and make a necklace for each year. (EDIT: At least one fabricated, two can be rendered or illustrated)
 
 - Annotated dataset used in object. Ideally all input data for this project is real, but if that is impossible, random or sample data can be used for up to two of the variations.
 
-- Annotated Grasshopper and Rhino file(s) of all models
+- Annotated Grasshopper and Rhino file(s) of all fabricated models.
 
 - 250-500 word description of your project, the design and fabrication choices you made, and how you imagine its existence might prompt, accelerate, or maintain behavior change. 
 
-- Illustrated key to reading your objects, designed for a 5"x7" post card, styled in combination with your objects
+- Illustrated key to reading your objects, designed for a 5"x7" post card, styled in combination with your objects.
 
 
 ### Key Dates
 
-- March 25 - Digital Fabrication Discussion
+- March 25 - Continuing Grasshopper Demos, Digital Fabrication Discussion
 - April 1, 8 , 15 - Worktime and Targeted Demos
 - April 22 - Submit for Fabrication with [Shapeways](https://support.shapeways.com/hc/en-us/articles/360008366133-How-long-will-it-take-to-print-my-models-)
-- April 29 - Worktime for Brief Collaterals, Late Deadline for In-House Fabrication
+- April 29 - Worktime for Brief Collaterals
 - May 6 - Last Day of Class - Discussion and Critique
 
 
 ### Recommendations
 
-- *Solving a problem* is rarely a useful framing for design in 2020, especially with experimental tools such as these. The tools are too new for us to know how they can most effectively be applied, and we are not yet looking at the world with the necessary sensitivity to even identify which problems can be remediated by these new methods. Much more productively, we could imagine *what new opportunities are exposed* given the existence of new tools and approaches, and how the world might change after our design intervention. It's a small nuance, but perhaps a helpful one? 
+- *Solving a problem* is rarely a useful framing for design in 2020, especially with experimental tools such as these. The tools are too new for us to know how they can most effectively be applied, and we are not yet looking at the world with the necessary sensitivity to even identify which problems can be addressed with these new methods. Much more productively, we could imagine *what new opportunities are exposed* given the existence of new tools and approaches, and how the world might change after our design intervention. It's a small nuance, but perhaps a helpful one? If we can help even [one person's life be made slightly more examined](https://en.wikipedia.org/wiki/The_unexamined_life_is_not_worth_living), we have done a great service!
 
 - Think carefully about whether your project will *whisper* or *shout* its data both in its form, and in its legibility. There is advantage in an object blending in, and an opposite advantage in standing-out as an obvious data visualization.
 
@@ -51,6 +51,25 @@ With the linked works above and *Dear Data* as inspiration, envision how an *ind
 - Be weird. Do weird stuff. Make weird things. 
 
 
-### Alternative Options
+### Alternative Options: Your Choice
 
 If any of the other tools, approaches, or algorithmic topic areas discussed during the arc of class is of more personal interest than the brief described above, please write a proposal of comparable specificity to this one, and send to Zach before B-Session begins to discuss.
+
+### Alternative Options: COVID-19 and SARS-CoV-2
+
+The brief above can be articulated towards addressing contemporary urgencies. New behaviors are necessary for [every single human right now](https://www.politico.com/news/magazine/2020/03/19/coronavirus-effect-economy-life-society-analysis-covid-135579), and perhaps data physicalizations can begin to support these social transformations. 
+
+If, however, you would like to drive your generative design project towards some of the many ongoing projects related to visualizing, simulating, educating on, or directly combatting the virus through the tools and approaches we have been covering, please feel free to do so as your final project. Here are some links to get started, though there are thousands of other projects and approaches launching now, and this list will be immediately obsolete.
+
+- [Coronavirus Projects](https://github.com/soroushchehresa/awesome-coronavirus)
+- [Mapping Coronavirus Responsibly](https://www.esri.com/arcgis-blog/products/product/mapping/mapping-coronavirus-responsibly/)
+- [Policy Simulation](https://covidactnow.org/state/IL)
+- [Data Literacy through Coronavirus](https://www.nytimes.com/2020/02/27/learning/dangerous-numbers-teaching-about-data-and-statistics-using-the-coronavirus-outbreak.html?te=1&nl=the-learning%20network&emc=edit_ln_20200228&campaign_id=55&instance_id=16338&segment_id=21710&user_id=940e40924ef077065d92bd3f2f889f90&regi_id=5326076020200228)
+- [Coronavirus Physical Structure Communication](https://www.nytimes.com/2020/02/27/learning/dangerous-numbers-teaching-about-data-and-statistics-using-the-coronavirus-outbreak.html?te=1&nl=the-learning%20network&emc=edit_ln_20200228&campaign_id=55&instance_id=16338&segment_id=21710&user_id=940e40924ef077065d92bd3f2f889f90&regi_id=5326076020200228)
+- [Next Strain Coronavirus Mutation Prediction](https://github.com/nextstrain/ncov)
+- [Design to Combat COVID-19 Slack](https://www.designtocombatcovid19.com/team)
+- [Design Class $1000 Challenge](https://www.godesignclass.com/courses/covid19?utm_medium=website&utm_source=archdaily.com)
+- [PRUSA Printers Challenge](https://blog.prusaprinters.org/designer-contest-everyday-necessities-for-life-during-a-pandemic-with-three-3d-printers-to-be-won/)
+- [Coronavirus Protein Folding](https://foldingathome.org/2020/03/15/coronavirus-what-were-doing-and-how-you-can-help-in-simple-terms/)
+- [Open Source Ventilators](https://github.com/jcl5m1/ventilator)
+- [Digital Fabrication for Ventilators](https://emcrit.org/pulmcrit/split-ventilators/)
