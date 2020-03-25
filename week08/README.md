@@ -155,7 +155,9 @@ Route a train line through a city to adequately serve population centers. This i
 
 ##### Grasshopper (1 hour)
 
-Depends how our first online class gets! Likely to be something fun with Galapagos...
+Recreate the *Railway Routing* Grasshopper example on your machines and play with Galapagos. Adjust the weights of the sliders to see different outcomes, and perhaps try to create your own additional rewards and penalties. 
+
+Also, if interested, play with the *Solar Carve* example above as well.
 
 ##### Final Project Development
 
