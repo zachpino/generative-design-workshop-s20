@@ -326,13 +326,11 @@ There are a few pre-built Grasshopper plugins for implement Generative Algorihtm
 TBD based on class progress. Likely playing around with the Cellular Automata and L-System scripts above, as well as researching other generative algorithms.
 
 #### Final Project Development
-Continue to develop your ideas for our [class final briefs](../briefs.md). We should, by next week, have a pretty clear sense of a project direction, how we will source data, and what Grasshopper will need to do for us. Also, ensure you begin/continue to consider fabrication options and material considerations.
-
-Please come next week prepared to discuss your [initial ideas for our class brief](../briefs.md) through a set of 2D or 3D sketches, using whatever art and design tools you have available. Let Zach know if you need tools!
+Continue to develop your ideas for our [class final briefs](../briefs.md). We should, by next week, have a pretty clear sense of a project direction, how we will source data, and what Grasshopper will need to do for us. Also, ensure you begin/continue to consider fabrication options and materiality.
 
 #### Visualization Logging
 
-Contine to bookmark any interesting Coronavirus visualizations to share next week.
+Continue to bookmark any interesting Coronavirus visualizations to share next week.
 
 #### Submit Work
 
