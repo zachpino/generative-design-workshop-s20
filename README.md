@@ -16,8 +16,8 @@ Institute of Design course in generative design approaches and tools, and experi
 - [Final Briefs](briefs.md)
 - Spring Break! 
 - Week 08 · [Evolutionary Forms and Genetic Algorithms](week08/README.md)
-- Week 09 · Growing Forms + Simulation
-- Week 10 · Worktime
+- Week 09 · [Generative Algorithms and Grammars](week09/README.md)
+- Week 10 · Simulation
 - Week 11 · Worktime
 - Week 12 · Worktime
 - Week 13 · Wrapping-Up Conversations 

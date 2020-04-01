@@ -1,8 +1,3 @@
-### Lindenmayer System in Grasshopper
-
-[Download the definition](lsys.gh)
-
-```python
 import rhinoscriptsyntax as rs
 import random as rv
 import math
@@ -67,4 +62,3 @@ for t in range(len(instruction)) :
 points = pList
 
 axiom = instruction
-```

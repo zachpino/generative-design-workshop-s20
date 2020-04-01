@@ -14,7 +14,7 @@
 
 -----
 
-#### Intro 
+### Intro 
 
 Let'e examine how naive [iterative 'AI' modeled on evolutionary genetic descent](https://en.wikipedia.org/wiki/Evolutionary_algorithm) can be integrated into the design process. Evolutionary modeling allows us to [biomimetically](https://en.wikipedia.org/wiki/Biomimetics) integrate the incredible methods that life itself has used over millenia to optimize itself to a tremendous diversity of environmental systems. Just like real world natural environments, generative designers can model a complex system as a set of rewards and punishments, and push various effectively random lifeforms (our designs!) through the system to see how each fares. Successful lifeforms pass their genes on, and struggling organisms and their genetics go extinct over time. [Mutation](https://en.wikipedia.org/wiki/Cancer) keeps things interesting and ensures lifeforms do not [*over-specify*](https://en.wikipedia.org/wiki/Adaptation) and become so *specific* that any environmental change would [lead to their demise without intervention](https://qz.com/1308730/modern-pandas-should-have-died-out-years-ago/), and the process repeats until a [*local optimum*](https://en.wikipedia.org/wiki/Local_optimum) is discovered. 
 
@@ -73,7 +73,7 @@ Some examples of evolutionarily modeled forms and solutions.
 -----
 
 
-#### Evolutionary Algorithms
+### Evolutionary Algorithms
 
 ![cladogram](https://biologydictionary.net/wp-content/uploads/2017/01/Cladogram-vertebrata.jpg)
 
@@ -153,13 +153,13 @@ Route a train line through a city to adequately serve population centers. This i
 
 ### Homework
 
-##### Grasshopper (1 hour)
+#### Grasshopper (1 hour)
 
 Recreate the *Railway Routing* Grasshopper example on your machines and play with Galapagos. Adjust the weights of the sliders to see different outcomes, and perhaps try to create your own additional rewards and penalties. 
 
 Also, if interested, play with the *Solar Carve* example above as well.
 
-##### Final Project Development
+#### Final Project Development
 
 Please come next week prepared to discuss your [initial ideas for our class brief](../briefs.md) through a set of 2D or 3D sketches, using whatever art and design tools you have available. Let Zach know if you need tools!
 
@@ -173,6 +173,6 @@ Super excited to see all the ideas! If you need some inspiration, hit the [best 
 
 Create a bookmark folder and log all of the visualizations of Coronavirus that you encounter through the week, ideally from many different sources, so that we can chat next week about which are effective and legible, which teach, which mislead, and which provoke action and emotion. 
 
-##### Submit Work
+#### Submit Work
 
 Please submit homework into the appropriate folders in the class Google Drive for this week - especially your ideas for the brief.
