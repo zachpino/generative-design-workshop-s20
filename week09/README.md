@@ -303,7 +303,7 @@ There are a few pre-built Grasshopper plugins for implement Generative Algorihtm
 ![ghlsys.png](ghlsys.png)
 
 - Download [Grasshopper Definition](LSys-2D-definition.gh)
-- Read [GHPython Script](LSys-2D-definition.py)
+- Read [GHPython Script](LSys-2D.py)
 
 
 -----
