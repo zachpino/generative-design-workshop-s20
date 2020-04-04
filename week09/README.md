@@ -6,14 +6,7 @@
 - Follow-Up on Genetic Algorithms and Train Line Evolver HW
 - Short Break
 - Coronavirus + Data Visualization/Literacy
-- Generative Algorithms and Grammars Intro
-- Short Break
-- Break-Out Sketch Reviews
-- Short Break
-- Plugin Install
-- Q+A Review
 - Next Steps
-
 
 -----
 
@@ -88,7 +81,7 @@ Generative design is a very new model for architecture and design, having only e
 Some interactive examples first...
 
 - [BitStorm Game of Life](https://bitstorm.org/gameoflife/)
-- [Teb's Models](https://academic.oup.com/gji/article/144/3/609/614264) and [Medium Post](https://medium.com/tebs-lab/simple-rules-emergent-beauty-and-life-artificial-and-otherwise-208642d6d81c)
+- [Teb's GoL Models](https://tebs-game-of-life.com) and [Medium Post](https://medium.com/tebs-lab/simple-rules-emergent-beauty-and-life-artificial-and-otherwise-208642d6d81c)
 
 To implement a cellular automata model, imagine a 2D matrix with rows and columns. Every cell is an agent — an automaton — in the matrix and can be either *dead* (0, often shown as white) or *alive* (1, often shown as black), though they begin as *dead*. A 4x4 matrix might be instanced as follows:
 
@@ -277,11 +270,13 @@ Boids (creatures in a computational flock, short for "bird-oids") are rarely use
 
 This is a lovely tool for [playing with Boids](http://www.harmendeweerd.nl/boids/)!
 
+Also, watch these [amazing movies of starlings](https://vimeo.com/370007362)! 
+
 ---
 
 ### Other Examples
 
-There are tons morewe could talk about! Also check out agent-based systems like [terrarium simulations](https://rileyjshaw.com/terra/), [Langton's Ant](https://en.wikipedia.org/wiki/Langton%27s_ant), [the substrate algorithm](http://www.complexification.net/gallery/machines/substrate/), [desire paths](https://en.wikipedia.org/wiki/Shortest_path_problem), [fungal growth](https://www.food4rhino.com/app/physarealm), [crystal growth](https://en.wikipedia.org/wiki/Crystal_growth), and [non-uniform noise systems](https://www.food4rhino.com/app/culebra).
+There are many other examples we could look at. Check out agent-based systems like [terrarium simulations](https://rileyjshaw.com/terra/), [Langton's Ant](https://en.wikipedia.org/wiki/Langton%27s_ant), [the substrate algorithm](http://www.complexification.net/gallery/machines/substrate/), [desire paths](https://en.wikipedia.org/wiki/Shortest_path_problem), [fungal growth](https://www.food4rhino.com/app/physarealm), [crystal growth](https://en.wikipedia.org/wiki/Crystal_growth), and [non-uniform noise systems](https://www.food4rhino.com/app/culebra).
 
 ----
 
@@ -326,7 +321,14 @@ There are a few pre-built Grasshopper plugins for implement Generative Algorihtm
 TBD based on class progress. Likely playing around with the Cellular Automata and L-System scripts above, as well as researching other generative algorithms.
 
 #### Final Project Development
+
 Continue to develop your ideas for our [class final briefs](../briefs.md). We should, by next week, have a pretty clear sense of a project direction, how we will source data, and what Grasshopper will need to do for us. Also, ensure you begin/continue to consider fabrication options and materiality.
+
+
+#### Final Project Check-In
+
+Schedule a meeting with Zach if possible on the [Google Drive Signup Sheet](
+https://docs.google.com/spreadsheets/d/1KSS5kn2TOji8ZrUGg1YaTZRwv2_L1K50eXTyUk0UKNA/edit#gid=0). Also, make an effort to spend 20-30 minutes with one or many of your classmates, and discuss your projects over whatever virtual channel you prefer.
 
 #### Visualization Logging
 
@@ -335,12 +337,3 @@ Continue to bookmark any interesting Coronavirus visualizations to share next we
 #### Submit Work
 
 Please submit homework into the appropriate folders in the class Google Drive for this week - especially your ideas for the brief.
-
-#### Quick Downloads
-
-Install into the folder revealed by Grasshopper's File->Special Folders->Components.
-
-- [Shortest Walk GH](https://www.food4rhino.com/app/shortest-walk-gh)
-- [Lunchbox 2017.8.1 ZIP](https://www.food4rhino.com/app/lunchbox)
-
-Check out [Food4Rhino](https://www.food4rhino.com) for other cool plugins!
