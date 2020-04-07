@@ -49,6 +49,7 @@ Generative approaches offer so much potential to the contemporary data-driven de
 
 Generative design is a very new model for architecture and design, having only emerged in the late 1980s and just now finding computational resources of adequate power to realize meaningful outcomes. There are, however, a few notable existing experiments that point to a future of *grown*, adaptive objects and structures.
 
+- [Inconvergent Examples](https://inconvergent.net/generative/)
 - [Michael Hansmeyer](http://www.michael-hansmeyer.com/projects/l-systems.html?screenSize=1&color=1#7)
 - [Aranda \ Lasch](http://arandalasch.com)
 - [Nervous System](https://n-e-r-v-o-u-s.com)
@@ -270,7 +271,7 @@ Boids (creatures in a computational flock, short for "bird-oids") are rarely use
 
 This is a lovely tool for [playing with Boids](http://www.harmendeweerd.nl/boids/)!
 
-Also, watch these [amazing movies of starlings](https://vimeo.com/370007362)! 
+Also, watch these [lovely movies of starling murmurations](https://vimeo.com/370007362)! 
 
 ---
 
@@ -318,12 +319,11 @@ There are a few pre-built Grasshopper plugins for implement Generative Algorihtm
 
 #### Grasshopper (1 hour)
 
-TBD based on class progress. Likely playing around with the Cellular Automata and L-System scripts above, as well as researching other generative algorithms.
+Play around with some of the examples, interactive visualizations, and demos above! Remember to double-click on any GHPython node to see the code inside.
 
 #### Final Project Development
 
 Continue to develop your ideas for our [class final briefs](../briefs.md). We should, by next week, have a pretty clear sense of a project direction, how we will source data, and what Grasshopper will need to do for us. Also, ensure you begin/continue to consider fabrication options and materiality.
-
 
 #### Final Project Check-In
 
