@@ -228,6 +228,11 @@ Simple breathing mask model, deformed with data.
 
 A couple different methods to build textured terrains based on data.
 
+[Download Definition](terrains-definition.gh)
+
+![mask](mask-screenshot.png)
+
+![mask](mask-grasshopper.png)
 
 -----
 
