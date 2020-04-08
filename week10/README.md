@@ -240,3 +240,5 @@ A couple different methods to build textured terrains based on data.
 ### Homework
 
 Do projects!
+
+Check back after class, there might be more.
