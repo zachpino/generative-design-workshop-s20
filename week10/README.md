@@ -189,7 +189,7 @@ Data mapped to controllable arc, joined to other splines, and projected into exp
 
 ### Stacked Area Plots
 
-Show partitative data across a single shared dimension.
+Show partitive data across a single shared dimension.
 
 [Download Definition](stacked-area-definition.gh)
 
