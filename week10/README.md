@@ -230,9 +230,9 @@ A couple different methods to build textured terrains based on data.
 
 [Download Definition](terrains-definition.gh)
 
-![mask](mask-screenshot.png)
+![mask](terrains-screenshot.png)
 
-![mask](mask-grasshopper.png)
+![mask](terrains-grasshopper.png)
 
 -----
 
