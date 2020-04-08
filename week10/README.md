@@ -22,7 +22,7 @@ Please only work in class for around 2 hours, and please use the remaining time 
 
 ### Follow Up
 
-- Train line evolver continues to improve based on your questions and feedback! Download the [Grasshopper file](train-definition-v2.gh), which uses data pulled from [Simplemaps](https://simplemaps.com/data/us-cities) to locate 50 high population US cities. Should we have a contest to see who can write the best algorithm for serving these cities?
+- Train line evolver continues to improve based on your questions and feedback! Zach is working on a base definition to share (check back soon), which uses data pulled from [Simplemaps](https://simplemaps.com/data/us-cities) to locate 50 high population US cities. Should we have a contest to see who can write the best algorithm for serving these cities?
 
 - Take a peek at the purposefully titled [*For a Ruthless Criticism of Everything Existing: Rebellion Against the Quantitative-Qualitative Divide*](Patel-QuantQual.pdf) by Neal Patel of Google's analytics and data team for some provocative language on how the comforting quantitative-qualitative divide may or may not exist.
 
