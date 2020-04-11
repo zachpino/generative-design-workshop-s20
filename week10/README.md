@@ -241,4 +241,4 @@ A couple different methods to build textured terrains based on data.
 
 Do projects!
 
-Check back after class, there might be more.
+If interested on the continuing conversations about data, uncertainty, and scientific communication, the most recent episode entitled *How Does This End* of [*The Weeds* podcast](https://www.vox.com/the-weeds) with Ezra Klein and Matthew Yglesias is a wonderful talk on the implications of the COVID-19 recovery on American society's civil liberties, data literacy, and quality of life.
