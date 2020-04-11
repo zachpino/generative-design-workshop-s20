@@ -236,6 +236,18 @@ A couple different methods to build textured terrains based on data.
 
 -----
 
+### Data-Driven Pleating
+
+Fold up virtual paper/fabric with data, and generate an unfolded pattern for fabrication. Also check out an alternative, physics-oriented method for [computational origami via Kangaroo2](https://www.youtube.com/watch?v=Fqob5Whr968).
+
+[Download Definition](pleat-definition.gh)
+
+![mask](pleat-screenshot.png)
+
+![mask](pleat-grasshopper.png)
+
+-----
+
 
 ### Homework
 
