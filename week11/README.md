@@ -18,6 +18,8 @@
 
 Please only work in class for around 2 hours, and please use the remaining time to attend the [online talk tonight](https://www.eventbrite.com/e/webinar-latham-fellow-adrien-segal-form-follows-data-tickets-100522832498) (4/15/2020) with [Adrien Segal](https://www.adriensegal.com/about) from 6pm to 7pm (with questions continuing afterwards). Ask questions, she's amazing! 
 
+Any thoughts on [Knut Synstad's](http://knutsynstad.com) talk last week?
+
 ---
 
 ### Some sad news...
