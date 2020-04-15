@@ -20,39 +20,6 @@ Please only work in class for around 2 hours, and please use the remaining time 
 
 ---
 
-### Generative Relaxation
-
-A lot of the simpler approaches we looked at several weeks ago, focusing on randomness and pattern, have been put to use in many applications that strive to combine sound, image, and ritual into new sorts of interactive, meditatitve, digital experiences. Perhaps, in these times of crisis, uncertainty, and anxiety, these new generative experiences could provide some small comfort and distraction.
-
-- [Endel.io](https://endel.io)
-- [Silk](http://weavesilk.com)
-- [Non · Sensory](http://sensorymeditation.com)
-- [Whorl](https://wwwhorl.com)
-- [Land Waves](https://apps.apple.com/hu/app/land-waves/id985925319)
-- [We Mantra](https://apps.apple.com/bm/app/we-mantra-experience/id858433234)
-- [Longplayer](https://longplayer.org)
-- [Mubert](https://mubert.com/channels/)
-- [Brian Eno's Stuff](http://www.generativemusic.com)
-
----
-
-### Baking and Rendering
-
-We'll discuss how we can produce pseudo-photorealistic renderings of Grasshopper objects via Rhino's built-in [biased](https://www.cgvizstudio.com/biased-vs-unbiased-rendering-engine/) rendering engine. This [tutorial](https://www.youtube.com/watch?v=CZxzM8Cq7Ak) covers the same [*material*](https://giphy.com/gifs/terrible-pun-Qem49y6xGw57W). Some projects might need some alterations to manage data-driven coloring, often incorporating [Lunchbox's](https://www.food4rhino.com/app/lunchbox) *Object Bake* node.
-
-Other renderers worth checking out...
-
-- [V-Ray for Grasshopper](https://www.chaosgroup.com/blog/jan-kokol-v-ray-for-grasshopper)
-- [Keyshot](https://www.keyshot.com)
-- [Octane](https://home.otoy.com/render/octane-render/showcase/)
-- [Pixar's Renderman](https://renderman.pixar.com)
-- [Houdini](https://www.sidefx.com)
-- [Maxwell Render](https://maxwellrender.com)
-- [Ray-Trace Rendering in Upcoming XBOX Series X and PS5](https://www.youtube.com/watch?v=Mr8vmuNEekg)
-- [Ray-Traced Minecraft](https://www.polygon.com/2019/4/21/18510039/minecraft-ray-tracing-mod-tech-demonstration-video-pc-digital-foundry)
-
----
-
 ### Some sad news...
 
 ![xkcd tribute](https://imgs.xkcd.com/comics/rip_john_conway.gif)
@@ -71,6 +38,39 @@ Finland has [proceeded to advocate]([http://demoscene-the-art-of-coding.net/2020
 ) for the [Demoscene](https://en.wikipedia.org/wiki/Demoscene) as the first example of an *intangible human culture* to be included on the UNESCO world heritage list. This is a big deal for [script kiddies](https://en.wikipedia.org/wiki/Script_kiddie) like Zach who participated in the Demoscene and other early internet cultures, and the many others who participated in this movement and later seeded generative design aesthetics and approaches.
 
 ----
+
+### Generative Relaxation
+
+A lot of the simpler approaches we looked at several weeks ago, focusing on randomness and pattern, have been put to use in many applications that strive to combine sound, image, and ritual into new sorts of interactive, meditatitve, digital experiences. Perhaps, in these times of crisis, uncertainty, and anxiety, these new generative experiences could provide some small comfort and distraction.
+
+- [Endel.io](https://endel.io)
+- [Silk](http://weavesilk.com)
+- [Non · Sensory](http://sensorymeditation.com)
+- [Whorl](https://wwwhorl.com)
+- [Land Waves](https://apps.apple.com/hu/app/land-waves/id985925319)
+- [We Mantra](https://apps.apple.com/bm/app/we-mantra-experience/id858433234)
+- [Longplayer](https://longplayer.org)
+- [Mubert](https://mubert.com/channels/)
+- [Brian Eno's Stuff](http://www.generativemusic.com)
+
+-----
+
+### Baking and Rendering
+
+We'll discuss how we can produce pseudo-photorealistic renderings of Grasshopper objects via Rhino's built-in [biased](https://www.cgvizstudio.com/biased-vs-unbiased-rendering-engine/) rendering engine. This [tutorial](https://www.youtube.com/watch?v=CZxzM8Cq7Ak) covers the same [*material*](https://giphy.com/gifs/terrible-pun-Qem49y6xGw57W). Some projects might need some alterations to manage data-driven coloring, often incorporating [Lunchbox's](https://www.food4rhino.com/app/lunchbox) *Object Bake* node.
+
+Other renderers worth checking out...
+
+- [V-Ray for Grasshopper](https://www.chaosgroup.com/blog/jan-kokol-v-ray-for-grasshopper)
+- [Keyshot](https://www.keyshot.com)
+- [Octane](https://home.otoy.com/render/octane-render/showcase/)
+- [Pixar's Renderman](https://renderman.pixar.com)
+- [Houdini](https://www.sidefx.com)
+- [Maxwell Render](https://maxwellrender.com)
+- [Ray-Trace Rendering in Upcoming XBOX Series X and PS5](https://www.youtube.com/watch?v=Mr8vmuNEekg)
+- [Ray-Traced Minecraft](https://www.polygon.com/2019/4/21/18510039/minecraft-ray-tracing-mod-tech-demonstration-video-pc-digital-foundry)
+
+---
 
 ### Grasshopper Examples
 
