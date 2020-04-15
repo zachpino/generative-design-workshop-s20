@@ -25,12 +25,11 @@ A lot of the simpler approaches we looked at several weeks ago, focusing on rand
 - [Silk](http://weavesilk.com)
 - [Non · Sensory](http://sensorymeditation.com)
 - [Whorl](https://wwwhorl.com)
-- Fabrika
-- Land Waves
-- We Mantra
-- Longplayer
-- Brian Eno's Stuff
+- [Land Waves](https://apps.apple.com/hu/app/land-waves/id985925319)
+- [We Mantra](https://apps.apple.com/bm/app/we-mantra-experience/id858433234)
+- [Longplayer](https://longplayer.org)
 - [Mubert](https://mubert.com/channels/)
+- [Brian Eno's Stuff](http://www.generativemusic.com)
 
 ---
 
@@ -58,7 +57,7 @@ Other renderers worth checking out...
 [John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) — [brilliant mathematican, computer programmer, and philosopher](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) — passed away from COVID-19-related symptoms. His work was fundamental to so much of contemporay generative design practice, and his [eloquence and charisma](https://www.theguardian.com/science/2015/jul/23/john-horton-conway-the-most-charismatic-mathematician-in-the-world) as an educator welcomed so many non-computer-scientists into emergent disciplines. He will forever be a hero and inspiration.
 
 - [XKCD Tribute](https://xkcd.com/2293/)
-- [Numberphile Podcast] on his life and accomplishments
+- [Numberphile Podcast](https://www.numberphile.com/podcast/john-conway-tribute) on his life and accomplishments
 - [Numberphile Interviews with Numberphile](https://www.youtube.com/watch?v=E8kUJL04ELA&list=PLt5AfwLFPxWIL8XA1npoNAHseS-j1y-7V)
 
 -----
@@ -130,7 +129,7 @@ Manipulate a pattern based on a distorting curve.
 
 [Download Definition](pattern-attractor-definition.gh)
 
-![pattern-attractor](pattern-attractor-screenshot.png)
+![pattern-attractor](pattern-attractor-screenshot1.png)
 
 ![pattern-attractor](pattern-attractor-grasshopper.png)
 
