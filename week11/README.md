@@ -24,7 +24,7 @@ Please only work in class for around 2 hours, and please use the remaining time 
 
 ![xkcd tribute](https://imgs.xkcd.com/comics/rip_john_conway.gif)
 
-[John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) — [brilliant mathematican, computer programmer, and philosopher](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) — passed away from COVID-19-related symptoms. His work was fundamental to so much of contemporay generative design practice, and his [eloquence and charisma](https://www.theguardian.com/science/2015/jul/23/john-horton-conway-the-most-charismatic-mathematician-in-the-world) as an educator welcomed so many non-computer-scientists into emergent disciplines. He will forever be a hero and inspiration.
+[John Conway](https://en.wikipedia.org/wiki/John_Horton_Conway) — [brilliant mathematican, computer programmer, and philosopher](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) — passed away from COVID-19-related symptoms. His work was fundamental to so much of contemporay generative design practice, and his [eloquence and charisma](https://www.theguardian.com/science/2015/jul/23/john-horton-conway-the-most-charismatic-mathematician-in-the-world) as an educator welcomed so many non-computer-scientists into emergent disciplines. He remains a hero and inspiration.
 
 - [XKCD Tribute](https://xkcd.com/2293/)
 - [Numberphile Podcast](https://www.numberphile.com/podcast/john-conway-tribute) on his life and accomplishments
