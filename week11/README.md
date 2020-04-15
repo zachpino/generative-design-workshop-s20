@@ -6,7 +6,10 @@
 - Coronavirus Visualization Check-in
 - John Conway Tribute
 - Relaxation through Generative Tools
+- Break
+- Baking and Rendering
 - Example Files
+- Break
 - Small Group Sharing and Worktime
 
 -----
