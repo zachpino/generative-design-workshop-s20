@@ -37,7 +37,7 @@ Any thoughts on [Knut Synstad's](http://knutsynstad.com) talk last week?
 ### Some good news... 
 
 Finland has [proceeded to advocate]([http://demoscene-the-art-of-coding.net/2020/04/15/breakthrough-finland-accepts-demoscene-on-their-national-list-of-intangible-cultural-heritage-of-humanity/]
-) for the [Demoscene](https://en.wikipedia.org/wiki/Demoscene) as the first example of an *intangible human culture* to be included on the UNESCO world heritage list. This is a big deal for [script kiddies](https://en.wikipedia.org/wiki/Script_kiddie) like Zach who participated in the Demoscene and other early internet cultures, and the many others who participated in this movement and later seeded generative design aesthetics and approaches.
+) for the [Demoscene](https://en.wikipedia.org/wiki/Demoscene) as the first example of an *intangible human culture* to be included on the UNESCO world heritage list. This is a big deal for [script kiddies](https://en.wikipedia.org/wiki/Script_kiddie) like Zach who joined in the Demoscene and other early internet cultures, and the many others who participated in this movement and seeded generative design aesthetics and approaches.
 
 ----
 
