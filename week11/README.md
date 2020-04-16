@@ -1,4 +1,4 @@
-# Week 11 · More Examples
+# Week 11 · More Examples and Rendering
 
 ### Agenda
 
