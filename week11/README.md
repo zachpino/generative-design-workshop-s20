@@ -178,4 +178,4 @@ Create a mating blocks puzzle based on a singular datapoint.
 
 ### Homework
 
-Do projects! Meet with Zach! Maybe more to come, not sure just yet. But, y'all know what to do.
+Do projects! Meet with Zach! Play with examples!
