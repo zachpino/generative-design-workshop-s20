@@ -18,7 +18,7 @@ Institute of Design course in generative design approaches and tools, and experi
 - Week 08 · [Evolutionary Forms and Genetic Algorithms](week08/README.md)
 - Week 09 · [Generative Algorithms and Grammars](week09/README.md)
 - Week 10 · [Examples](week10/README.md)
-- Week 11 · [More Examples](week11/README.md)
+- Week 11 · [More Examples and Rendering](week11/README.md)
 - Week 12 · Physical Simulation
 - Week 13 · Wrapping-Up Conversations 
 - Week 14 · Final Critique
