@@ -52,7 +52,7 @@ Find below additional head-starts, and also reference [last week's set](../week1
 
 ### Climate Data Helix
 
-Helical spiderplot using data from [AQICN](https://aqicn.org/data-platform/covid19).
+Helical spiderplot using data from [AQICN](https://aqicn.org/data-platform/covid19). This file relies on the [jswan](https://www.food4rhino.com/app/jswan) plugin.
 
 [Download Definition](climate-data-helix-definition.gh)
 
@@ -116,7 +116,7 @@ Create a minesweeper board, and blow it up with data!
 
 ### Patent Topography
 
-Create geographic topography based on US intellectual property data. Be aware that this file takes around almost 20 seconds to generate meshes.
+Create geographic topography based on US intellectual property data. Be aware that this file takes around 20 seconds to generate meshes.
 
 [Download Definition](patent-topography-definition.gh)
 
@@ -132,7 +132,7 @@ Create geographic topography based on US intellectual property data. Be aware th
 
 ### Sakura Papercuts
 
-Generate papercut templates, lasercut profiles, and 3d-twisted models for rendering — all based on chronological data. 
+Generate papercut templates, lasercut profiles, and 3d-twisted models for rendering — all based on chronological data. Needs [Human](https://www.food4rhino.com/app/human) and [Lunchbox](https://www.food4rhino.com/app/lunchbox#).
 
 [Download Definition](sakura-bend-cut-definition.gh)
 
@@ -159,7 +159,9 @@ Distort strings on a frame with audio samples.
 
 ### Story Attractor
 
-Take letters from a text and scramble their location on a page, as well as their sequence. Consider doing the same thing with [sampled amplitudes](https://github.com/zachpino/digidev-s18/blob/master/week09/README.md) from an audio file?
+Take letters from a text and scramble their location on a page, as well as their sequence. [Human](https://www.food4rhino.com/app/human) provides a drop-in replacement for text objects — with better control over typography — but is not implemented here. 
+
+Consider doing the same thing with [sampled amplitudes](https://github.com/zachpino/digidev-s18/blob/master/week09/README.md) from an audio file?
 
 [Download Definition](story-attractor-definition.gh)
 
@@ -171,7 +173,7 @@ Take letters from a text and scramble their location on a page, as well as their
 
 ### Textured Block Puzzle
 
-Create individual nesting blocks from a series of different data points, and texture them individually.
+Create individual nesting blocks from a series of different data points, and texture them individually. Requires Weaverbird.
 
 [Download Definition](textured-block-puzzle-definition.gh)
 
