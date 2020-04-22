@@ -55,6 +55,7 @@ Find below additional head-starts, and also reference [last week's set](../week1
 Helical spiderplot using data from [AQICN](https://aqicn.org/data-platform/covid19).
 
 [Download Definition](climate-data-helix-definition.gh)
+
 [Download Referenced Data](waqi-covid19-airqualitydata-2020.csv)
 
 ![climate-data-helix](climate-data-helix-screenshot.png)
@@ -85,6 +86,8 @@ Plot data along helix, and enclose the form with a [minimal surface](https://en.
 
 ![data-helix-mesh](data-helix-mesh-grasshopper.png)
 
+![data-helix-mesh](data-helix-mesh-render.png)
+
 -----
 
 ### Creating Molds
@@ -113,9 +116,10 @@ Create a minesweeper board, and blow it up with data!
 
 ### Patent Topography
 
-Create geographic topography based on US intellectual property data.
+Create geographic topography based on US intellectual property data. Be aware that this file takes around almost 20 seconds to generate meshes.
 
 [Download Definition](patent-topography-definition.gh)
+
 [Download Referenced Data](data.csv)
 
 ![patent-topography](patent-topography-screenshot.png)
