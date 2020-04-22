@@ -105,7 +105,7 @@ Create a minesweeper board, and blow it up with data!
 
 [Download Definition](minesweeper-definition.gh)
 
-![pattern-attractor](minesweeper-screenshot1.png)
+![pattern-attractor](minesweeper-screenshot.png)
 
 ![pattern-attractor](minesweeper-grasshopper.png)
 
