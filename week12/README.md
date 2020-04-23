@@ -206,7 +206,7 @@ Create individual nesting blocks from a series of different data points, and tex
 
 ----
 
-### AG and GH -- I owe you an example here soon!
+### AG -- I owe you an example here soon!
 
 -----
 
