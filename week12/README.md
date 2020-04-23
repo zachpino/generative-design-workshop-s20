@@ -76,6 +76,18 @@ Slice up topographies into lamination curves for fabrication.
 
 -----
 
+### Data Clothespins
+
+Clothespin models adapted to carry data-driven textures.
+
+[Download Definition](data-clip-definition.gh)
+
+![data-clip](data-clip-screenshot.png)
+
+![data-clip](data-clip-grasshopper.png)
+
+-----
+
 ### Enclosed Data Helices
 
 Plot data along helix, and enclose the form with a [minimal surface](https://en.wikipedia.org/wiki/Minimal_surface). Additional steps with Weaverbird perforate the mesh irregularly.
@@ -156,7 +168,6 @@ Distort strings on a frame with audio samples.
 
 -----
 
-
 ### Story Attractor
 
 Take letters from a text and scramble their location on a page, as well as their sequence. [Human](https://www.food4rhino.com/app/human) provides a drop-in replacement for text objects — with better control over typography — but is not implemented here. 
@@ -168,6 +179,18 @@ Consider doing the same thing with [sampled amplitudes](https://github.com/zachp
 ![story-attractor](story-attractor-screenshot.png)
 
 ![story-attractor](story-attractor-grasshopper.png)
+
+-----
+
+### Image Utilities
+
+Convert an image into smooth 3D forms, as well as a grid of scattered particle.
+
+[Download Definition](image-utilities-definition.gh)
+
+![image-utilities](image-utilities-screenshot.png)
+
+![image-utilities](image-utilities-grasshopper.png)
 
 -----
 
