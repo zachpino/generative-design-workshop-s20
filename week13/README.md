@@ -37,7 +37,7 @@ We need to get some orders in by **Friday, May 1, end of day**. Please prepare G
 
 Please please please consult the limitations of the materials that you plan to use. For example, many 3D printed materials cannot be physicalized into very thin forms, which you'll need to address in Grasshopper before submitting files for fabrication. Similarly, laser-cut papers might scorch if cut lines get too close together.
 
-Alternatively, let Zach know of any [crafting/fabrication supply requests](https://www.dickblick.com) for hand-making.
+Alternatively, let Zach know of any [crafting/fabrication supply requests](https://www.amazon.com) for hand-making.
 
 ---
 
