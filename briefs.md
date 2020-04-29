@@ -26,7 +26,7 @@ With the linked works above and *Dear Data* as inspiration, envision how an *ind
 
 - 250-500 word description of your project, the design and fabrication choices you made, and how you imagine its existence might prompt, accelerate, or maintain behavior change. 
 
-- Illustrated key to reading your objects, designed for a 5"x7" post card, styled in combination with your objects.
+- Illustrated key to reading your objects, designed for a 5"x7" post card, double-sided (one side featuring renders or photos), styled in combination with your objects.
 
 
 ### Key Dates

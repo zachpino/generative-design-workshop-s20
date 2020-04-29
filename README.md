@@ -20,5 +20,5 @@ Institute of Design course in generative design approaches and tools, and experi
 - Week 10 · [Examples](week10/README.md)
 - Week 11 · [More Examples and Rendering](week11/README.md)
 - Week 12 · [Even More Examples](week12/README.md)
-- Week 13 · Physical Simulation
+- Week 13 · [Final Logistics](week13/README.md)
 - Week 14 · Wrapping-Up Conversations and Critique

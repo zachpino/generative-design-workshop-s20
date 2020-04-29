@@ -132,8 +132,6 @@ Create geographic topography based on US intellectual property data. Be aware th
 
 [Download Definition](patent-topography-definition.gh)
 
-[Download Referenced Data](data.csv)
-
 ![patent-topography](patent-topography-screenshot.png)
 
 ![patent-topography](patent-topography-grasshopper.png)
@@ -203,10 +201,6 @@ Create individual nesting blocks from a series of different data points, and tex
 ![textured-block-puzzle](textured-block-puzzle-screenshot.png)
 
 ![textured-block-puzzle](textured-block-puzzle-grasshopper.png)
-
-----
-
-### AG -- I owe you an example here soon!
 
 -----
 
