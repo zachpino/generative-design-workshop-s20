@@ -47,7 +47,7 @@ New tools, approaches, and applications for Generative Design emerge every day, 
 
 ### This GitHub Repository
 
-This resource will be 
+This resource will still be available so long as Zach has a Github account! Please return to it in the future. But, let's talk about how you can archive it.
 
 -----
 
@@ -64,33 +64,70 @@ This resource will be
 
 Let's browse through some of the work of our class members. Let Zach know if you would prefer to have these works removed after today, or linked to your name/website.
 
-##### Sonotoype I
+-----
+
+#### Sonotoype I
 
 ![Sonotype](ar_f.jpg)
 ![Sonotype](ar_b.jpg)
 
 -----
 
-##### Patent Topographies
+#### Patent Topographies
 
 ![Patent Topographies](cw_f.jpg)
 ![Patent Topographies](cw_b.jpg)
 
 
-##### Patent Animation
+#### Patent Animation
 
-![Patent Animations](cw2_f.jpg)
+![Patent Animations](cw2_f.gif)
 ![Patent Animations](cw2_b.jpg)
 
 -----
 
-##### Friendship Bracelets
+#### Friendship Bracelets
 
 ![Friendship Bracelets](hh_f.jpg) 
 ![Friendship Bracelets](hh_b.jpg) 
 
 -----
 
+#### Footprint
+
+![Footprint](jg.jpg) 
+
+-----
+
+#### Time Well Spent?
+
+![Friendship Bracelets](jr_f.jpg) 
+![Friendship Bracelets](jr_b.jpg) 
+
+-----
+
+#### In Our Feelings
+
+![Feelings](js_f.jpg)
+![Feelings](js_b1.jpg)
+![Feelings](js_b2.jpg)
+![Feelings](js_b3.jpg)
+![Feelings](js_b4.jpg)
+
+-----
+
+##### Family Sakura
+
+![Family Sakura](ki_f.jpg)
+![Family Sakura](ki_b.jpg)
+
+##### Kyota Sakura
+
+![Kyota Sakura](ki_f2.jpg)
+![Kyota Sakura](ki_b2.jpg)
+
+
+-----
 ### Next Steps in Generative Design
 
 - [Parametric House](https://parametrichouse.com)
