@@ -40,21 +40,20 @@ New tools, approaches, and applications for Generative Design emerge every day, 
 - [Information is Beautiful](https://informationisbeautiful.net)
 - [XKCD](https://xkcd.com)
 - [Design Coding](http://www.designcoding.net)
-- [Storytelling with Data])(http://www.storytellingwithdata.com/blog)
+- [Storytelling with Data](http://www.storytellingwithdata.com/blog)
 - [Autodesk's Generative Design Blog](https://blogs.autodesk.com/generative-design/)
+
+Here are some additional resources, which aim to empower new generative designers but can sometimes intimidate. Hopefully, they are more approachable now that you all have engaged generative approaches over the last 14 weeks.
+
+- [Parametric House](https://parametrichouse.com)
+- [Lynda Generative Design Course](https://www.lynda.com/Dynamo-Studio-tutorials/Generative-Design-Foundations/5030972-2.html)
+- [Lynda's Grasshopper Course](https://www.lynda.com/Grasshopper-tutorials/Up-Running-Grasshopper/174491-2.html)
 
 -----
 
 ### This GitHub Repository
 
 This resource will still be available so long as Zach has a Github account! Please return to it in the future. But, let's talk about how you can archive it.
-
------
-
-### Thoughts and Questions
-
-- 
-- Tool vs approach
 
 -----
 
@@ -116,20 +115,67 @@ Let's browse through some of the work of our class members. Let Zach know if you
 
 -----
 
-##### Family Sakura
+#### Family Sakura
 
 ![Family Sakura](ki_f.jpg)
 ![Family Sakura](ki_b.jpg)
 
-##### Kyota Sakura
+#### Kyota Sakura
 
 ![Kyota Sakura](ki_f2.jpg)
 ![Kyota Sakura](ki_b2.jpg)
 
+-----
+
+#### Wasted Food Clips
+
+![waste](ky_f.jpg)
+![waste](ky_b.jpg)
 
 -----
-### Next Steps in Generative Design
 
-- [Parametric House](https://parametrichouse.com)
-- [Lynda Generative Design Course](https://www.lynda.com/Dynamo-Studio-tutorials/Generative-Design-Foundations/5030972-2.html)
-- [Lynda's Grasshopper Course](https://www.lynda.com/Grasshopper-tutorials/Up-Running-Grasshopper/174491-2.html)
+#### Minesweeper Brought to You By Women
+
+![minesweeper](mk_f.jpg)
+![minesweeper](mk_b.jpg)
+
+![minesweeper](mk_f2.jpg)
+![minesweeper](mk_b2.jpg)
+
+-----
+
+#### COVID-19 Memories
+
+![mem](sk_f.jpg)
+![mem](sk_f1.jpg)
+![mem](sk_f2.jpg)
+![mem](sk_f3.jpg)
+![mem](sk_b.jpg)
+
+-----
+
+#### Generative Masks
+
+![mask](zc_f.png)
+![mask](zc_f1.png)
+![mask](zc_f2.png)
+![mask](zc_f3.jpg)
+![mask](zc_b.png)
+
+-----
+
+### Mend
+
+![mend](0.jpeg)
+![mend](1.jpeg)
+![mend](2.jpeg)
+![mend](3.jpeg)
+![mend](4.jpeg)
+![mend](5.jpeg)
+![mend](6.jpeg)
+![mend](7.jpeg)
+![mend](8.jpeg)
+
+----
+
+Thanks for 
