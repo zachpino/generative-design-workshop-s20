@@ -49,7 +49,7 @@ Here are some additional resources, which aim to empower new generative designer
 
 - [Parametric House](https://parametrichouse.com)
 - [Lynda Generative Design Course](https://www.lynda.com/Dynamo-Studio-tutorials/Generative-Design-Foundations/5030972-2.html)
-- [Lynda's Grasshopper Course](https://www.lynda.com/Grasshopper-tutorials/Up-Running-Grasshopper/174491-2.html)
+- [Lynda Grasshopper Course](https://www.lynda.com/Grasshopper-tutorials/Up-Running-Grasshopper/174491-2.html)
 
 Let Zach and other ID faculty know what sorts of classes might make sense in this domain. It is always an experiment, and I would love to know what we could do to better support your ongoing interest in this space.
 
@@ -124,7 +124,7 @@ Let's browse through some of the work of our class members. Let Zach know if you
 ![Family Sakura](ki_f.jpg)
 ![Family Sakura](ki_b.jpg)
 
-#### Kyota Sakura
+#### Kyoto Sakura
 
 ![Kyota Sakura](ki_f2.jpg)
 ![Kyota Sakura](ki_b2.jpg)
@@ -181,4 +181,30 @@ Let's browse through some of the work of our class members. Let Zach know if you
 
 ----
 
-Thanks for scrolling to the bottom! 
+### Instill
+
+![instill](gh_f.jpeg)
+![instill](gh_b.jpeg)
+
+----
+
+### Unwind
+
+![Unwind](jn_f.jpeg)
+![Unwind](jn_b.jpeg)
+![Unwind](jn_b2.jpeg)
+![Unwind](jn_b3.jpeg)
+
+-----
+
+### Generative Personalized Nutrition Gummies
+
+![gpng](yk_f.jpeg)
+![gpng](yk_b1.jpeg)
+![gpng](yk_b2.jpeg)
+![gpng](yk_b3.jpeg)
+![gpng](yk_b4.jpeg)
+
+-----
+
+Thanks for scrolling to the bottom! You all have been an extraordinary class to work with — slashing through technical, procedural, and conceptual challenges with ease. Thank you for all of your time, effort, goodwill, versatility, courage in the face of weird stuff, and — most of all — your patience and energy in such difficult times. It has been an honor to collaborate with you all through the last 14 weeks, and I hope to continue working with you all in some format going forward. Thank you. :robot:
