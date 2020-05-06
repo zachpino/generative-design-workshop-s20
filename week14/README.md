@@ -61,6 +61,21 @@ This resource will still be available so long as Zach has a Github account! Plea
 
 -----
 
+### Orienting Spectra to Continue Thinking About...
+
+In no particular order... and let's add more! 
+
+- Authored <-> Designed <-> Generated 
+- Tool <-> Approach <-> Outcome
+- General Purpose <-> Hyper-Specificity
+- Small Data <-> Big Data <-> Mystical Data
+- Dataesthetics <-> Form+Function
+- Naive Practitioner <-> Expert
+- Proposed Options <-> Designed Solution/Intervention
+- Confidence <-> Certainty
+
+-----
+
 ### Final Projects! 
 
 (This list will be updated with photos of objects and more projects as they wrap-up...) 
@@ -207,4 +222,6 @@ Let's browse through some of the work of our class members. Let Zach know if you
 
 -----
 
-Thanks for scrolling to the bottom! You all have been an extraordinary class to work with — slashing through technical, procedural, and conceptual challenges with ease. Thank you for all of your time, effort, goodwill, versatility, courage in the face of weird stuff, and — most of all — your patience and energy in such difficult times. It has been an honor to collaborate with you all through the last 14 weeks, and I hope to continue working with you all in some format going forward. Thank you. :robot:
+Thanks for scrolling to the bottom! You all have been an extraordinary class to work with — slashing through technical, procedural, and conceptual challenges with ease. Thank you for all of your time, effort, goodwill, ambition, versatility, courage in the face of weird stuff, and — most of all — your patience and energy in such difficult times. It has been an honor to collaborate with you all through the last 14 weeks, and I hope to continue working with you all in some format going forward. 
+
+Thank you. :robot:
