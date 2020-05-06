@@ -4,7 +4,9 @@
 
 - Check-In (Orders Incoming -> Delivery Strategy)
 - All Asset Delivery
-- Course Evaluation
+- Course Evaluations
+- Ongoing Resources
+- Project Review
 
 -----
 
@@ -48,6 +50,8 @@ Here are some additional resources, which aim to empower new generative designer
 - [Parametric House](https://parametrichouse.com)
 - [Lynda Generative Design Course](https://www.lynda.com/Dynamo-Studio-tutorials/Generative-Design-Foundations/5030972-2.html)
 - [Lynda's Grasshopper Course](https://www.lynda.com/Grasshopper-tutorials/Up-Running-Grasshopper/174491-2.html)
+
+Let Zach and other ID faculty know what sorts of classes might make sense in this domain. It is always an experiment, and I would love to know what we could do to better support your ongoing interest in this space.
 
 -----
 
