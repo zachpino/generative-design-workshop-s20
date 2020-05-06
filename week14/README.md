@@ -170,12 +170,11 @@ Let's browse through some of the work of our class members. Let Zach know if you
 
 ### Mend
 
-![mend](0.jpeg)
-![mend](1.jpeg)
-![mend](2.jpeg)
-![mend](3.jpeg)
 ![mend](4.jpeg)
 ![mend](5.jpeg)
+![mend](0.jpeg)
+![mend](2.jpeg)
+![mend](3.jpeg)
 ![mend](6.jpeg)
 ![mend](7.jpeg)
 ![mend](8.jpeg)
