@@ -181,4 +181,4 @@ Let's browse through some of the work of our class members. Let Zach know if you
 
 ----
 
-Thanks for 
+Thanks for scrolling to the bottom! 
