@@ -68,7 +68,7 @@ In no particular order... and let's add more!
 - Authored <-> Designed <-> Generated 
 - Tool <-> Approach <-> Outcome
 - General Purpose <-> Hyper-Specificity
-- Small Data <-> Big Data <-> Mystical Data
+- Small Data <-> Big Data <-> Predictive Data
 - Dataesthetics <-> Form+Function
 - Naive Practitioner <-> Expert
 - Proposed Options <-> Designed Solution/Intervention
