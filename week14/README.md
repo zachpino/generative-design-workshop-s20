@@ -84,7 +84,7 @@ Let's browse through some of the work of our class members. Let Zach know if you
 
 -----
 
-#### Sonotoype I
+#### Sonotoype 
 
 ![Sonotype](ar_f.jpg)
 ![Sonotype](ar_b.jpg)
