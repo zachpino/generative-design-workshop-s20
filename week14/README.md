@@ -18,7 +18,7 @@ It's the end. We looked at a bunch of weird stuff. Time to decompress, chat, sha
 
 ###  Deliver Everything for Grading by 5/12/20
 
-For [pass/fail] grading, all final deliverable assets need to be submitted by **Tuesday, May 12, at noon**. Please upload all assets [here](https://drive.google.com/drive/folders/1w9fDwCYbV7QRsFCEHLPs5zE2aNf9kdxT). Work submitted in the other folders is already considered, so don't feel like you need to upload assets again. Make sure you've covered all the [requested deliverables](https://github.com/zachpino/generative-design-workshop-s20/blob/master/briefs.md), and double-check to make sure that you have submitted homework through the semester as well.
+For grading, all final deliverable assets need to be submitted by **Tuesday, May 12, at noon**. Please upload all assets [here](https://drive.google.com/drive/folders/1w9fDwCYbV7QRsFCEHLPs5zE2aNf9kdxT). Work submitted in the other folders is already considered, so don't feel like you need to upload assets again. Make sure you've covered all the [requested deliverables](https://github.com/zachpino/generative-design-workshop-s20/blob/master/briefs.md), and double-check to make sure that you have submitted homework through the semester as well.
 
 -----
 
